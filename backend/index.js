@@ -1,6 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import pg from "pg";
+import env from "dotenv";
 
 // Initialize Express App
 
@@ -11,14 +12,23 @@ const port = 5000;
 
 app.use(bodyParser.json());
 
-// Postgres Database
+// Env Config
 
-// ENCRYPT THESE DATA LATER
+env.config();
+
+// Connect to Postgres Database
+
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
-  database: "",
+  database: process.env.DATABASE_NAME,
+  password: process.env.DATABASE_ACCESS,
+  port: 5432,
 });
+
+db.connect();
+
+// HTTP REQUESTS
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
