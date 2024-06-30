@@ -6,7 +6,7 @@ import env from "dotenv";
 // Initialize Express App
 
 const app = express();
-const port = 5000;
+const port = 8000;
 
 // Express Middlewares
 
@@ -28,10 +28,26 @@ const db = new pg.Client({
 
 db.connect();
 
+let courses = [];
+
+db.query("SELECT * FROM courses", (err, res) => {
+  if (err) {
+    console.error("Error exectuing query", err.stack);
+  } else {
+    courses = res.rows;
+  }
+});
+
 // HTTP REQUESTS
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
+app.get("/courses", (req, res) => {
+  res.json(courses);
+});
+
+app.get("/courses/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  const searchedCourse = courses.find((course) => course.id === id);
+  res.json(searchedCourse);
 });
 
 app.listen(port, () => {
