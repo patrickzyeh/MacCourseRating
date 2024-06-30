@@ -47,7 +47,13 @@ app.get("/courses", (req, res) => {
 app.get("/courses/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const searchedCourse = courses.find((course) => course.id === id);
-  res.json(searchedCourse);
+
+  if (searchedCourse == null) {
+    console.log("CANNOT GET ID");
+    res.send("CANNOT GET ID");
+  } else {
+    res.json(searchedCourse);
+  }
 });
 
 app.listen(port, () => {
