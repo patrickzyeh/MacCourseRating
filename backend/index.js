@@ -1,21 +1,43 @@
 import express from "express";
 import bodyParser from "body-parser";
-import courseRouter from "./routers/courses.js";
+import env from "dotenv";
+import courseRouter from "./routes/courses.js";
+import session from "express-session";
+import passport from "passport";
+import authRouter from "./routes/auth.js";
 
 // Initialize Express App
 
 const app = express();
 const port = 8000;
 
-// Express Middlewares
+// Env Config
+
+env.config();
+
+// Body Parser Middleware
 
 app.use(bodyParser.json());
 
-// HTTP REQUESTS
+// Session Middleware
 
-// API
+app.use(
+  session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: true,
+  })
+);
+
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(passport.authenticate("session"));
+
+// API Middlewares
 
 app.use("/api/courses", courseRouter);
+
+app.use("/", authRouter);
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
