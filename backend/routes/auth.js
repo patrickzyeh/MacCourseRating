@@ -22,7 +22,39 @@ const db = new pg.Client({
 
 db.connect();
 
-// OAUTH Setup
+// Express Router
+
+const router = express.Router();
+
+// Google Auth Page
+
+router.get(
+  "/auth/google",
+  passport.authenticate("google", {
+    scope: ["profile", "email"],
+  })
+);
+
+// Redirect to app
+
+router.get(
+  "/oauth2/redirect/google",
+  passport.authenticate("google", {
+    successReturnToOrRedirect: "http://localhost:3000/",
+    failureRedirect: "http://localhost:3000/",
+  })
+);
+
+// Log user out
+
+router.get("/logout", (req, res) => {
+  req.logout((err) => {
+    if (err) console.log(err);
+    res.redirect("http://localhost:3000/");
+  });
+});
+
+// OAUTH
 
 passport.use(
   "google",
@@ -30,7 +62,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://localhost:3000/oauth2/redirect/google",
+      callbackURL: "/oauth2/redirect/google",
       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
     },
     async (accessToken, refreshToken, profile, cb) => {
@@ -39,16 +71,13 @@ passport.use(
         const result = await db.query("SELECT * FROM users WHERE email = $1", [
           profile.email,
         ]);
-        // Insert User Email Into SQL Database if User is New
         if (result.rows.length === 0) {
           const newUser = await db.query(
             "INSERT INTO users (email) VALUES ($1)",
             [profile.email]
           );
           cb(null, newUser.rows[0]);
-        }
-        // Already Existing User
-        else {
+        } else {
           cb(null, result.rows[0]);
         }
       } catch (err) {
@@ -60,56 +89,12 @@ passport.use(
 
 // Serialize
 
-passport.serializeUser(function (user, cb) {
-  process.nextTick(function () {
-    cb(null, { id: user.id, username: user.username, name: user.name });
-  });
+passport.serializeUser((user, cb) => {
+  cb(null, user);
 });
 
-passport.deserializeUser(function (user, cb) {
-  process.nextTick(function () {
-    return cb(null, user);
-  });
-});
-
-// Express Router
-
-const router = express.Router();
-
-// GET request to redirect to authentication page
-
-router.get("/login", function (req, res, next) {
-  res.render(""); // HERE WE WILL HAVE THE SIGN IN BUTTON IN FRONTEND THAT REDIRECTS TO AUTH PAGE
-});
-
-// GET request to authentication page
-
-router.get(
-  "/login/federated/google",
-  passport.authenticate("google", {
-    scope: ["profile", "email"],
-  })
-);
-
-// GET request to redirect to app
-
-router.get(
-  "/oauth2/redirect/google", // REDIRECT TO APP WHEN FRONTEND IS CODED
-  passport.authenticate("google", {
-    successReturnToOrRedirect: "/",
-    failureRedirect: "/login",
-  })
-);
-
-// POST request to log user out
-
-router.post("/logout", function (req, res, next) {
-  req.logout(function (err) {
-    if (err) {
-      return next(err);
-    }
-    res.redirect("/");
-  });
+passport.deserializeUser((user, cb) => {
+  cb(null, user);
 });
 
 export default router;
