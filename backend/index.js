@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import bodyParser from "body-parser";
 import env from "dotenv";
 import courseRouter from "./routes/courses.js";
@@ -18,6 +19,10 @@ env.config();
 // Body Parser Middleware
 
 app.use(bodyParser.json());
+
+// CORS Middleware
+
+app.use(cors());
 
 // Session Middleware
 
