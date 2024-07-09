@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Header from "../components/Header";
 import Searchbar from "../components/Seachbar";
 import SearchResults from "../components/SearchResults";
 
@@ -8,7 +7,6 @@ function Home() {
 
   return (
     <>
-      <Header />
       <div className="home-page">
         <h1 id="home-title">McMaster Course Ratings</h1>
         <h2 id="title-description">

@@ -1,5 +1,4 @@
 * {
-  background-color: #f2f2f2;
   font-family: "Poppins", "sans-serif";
   margin: 0;
   padding: 0;
@@ -9,6 +8,7 @@
 /* Nav Bar Css */
 
 #nav-bar {
+  background-color: #ffc057;
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
@@ -27,10 +27,24 @@
   width: 75px;
 }
 
+.profile-icon {
+  text-decoration: none;
+  font-size: 40px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.profile-icon:hover {
+  color: #000000;
+}
+
 .sign-in-btn {
+  display: inline-flex;
+  justify-content: space-around;
+  text-decoration: none;
   color: white;
   font-size: 16px;
-  background-color: #ffc057;
+  background-color: #7a003c;
   padding: 12px;
   border-radius: 20px;
   border: none;
@@ -38,9 +52,17 @@
 }
 
 .sign-in-btn:hover {
-  background-color: #7a003c;
+  transform: scale(1.05);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sign-in-btn p {
+  margin-right: 5px;
+}
+
+.active .profile-icon {
+  color: black;
 }
 
 .active svg {
@@ -63,7 +85,7 @@ nav .menu {
 nav .menu span {
   height: 0.4rem;
   width: 100%;
-  background-color: #ffc057;
+  background-color: #7a003c;
   border-radius: 0.5rem;
 }
 
@@ -155,11 +177,12 @@ nav .menu span {
 /* Home Page CSS */
 
 .home-page {
+  background-color: #ffc057;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
-  margin-left: 60px;
+  height: 91.5vh;
+  padding-left: 60px;
 }
 
 #home-title {

@@ -4,8 +4,10 @@ import logo from "../assets/m-icon.png";
 import HomeIcon from "./icons/HomeIcon";
 import SearchIcon from "./icons/SearchIcon";
 import RatingIcon from "./icons/RatingIcon";
+import GoogleIcon from "./icons/GoogleIcon";
+import { CgProfile } from "react-icons/cg";
 
-function Header() {
+function Header({ user }) {
   const [homeIconColor, setHomeIconColor] = useState("#808080");
   const [ratingIconColor, setRatingIconColor] = useState("#808080");
   const [searchIconColor, setSearchIconColor] = useState("#808080");
@@ -76,9 +78,18 @@ function Header() {
           </NavLink>
         </li>
         <li>
-          <Link to="/">
-            <button className="sign-in-btn">Sign In</button>
-          </Link>
+          {user ? (
+            <NavLink to="/dashboard">
+              <CgProfile className="profile-icon" />
+            </NavLink>
+          ) : (
+            <Link to="http://localhost:8000/auth/google">
+              <button className="sign-in-btn">
+                <p>Sign in with Google </p>
+                <GoogleIcon color={"#ffffff"} />
+              </button>
+            </Link>
+          )}
         </li>
       </ul>
     </nav>
