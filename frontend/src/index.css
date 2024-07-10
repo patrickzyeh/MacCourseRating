@@ -124,7 +124,7 @@ nav .menu span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 200px;
+  min-width: 350px;
 }
 
 .search-container {
@@ -217,5 +217,73 @@ nav .menu span {
 
 .course-title {
   color: #7a003c;
+  text-align: center;
+}
+
+.course-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.course-stats {
+  margin: 50px;
+  height: 125px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #7a003c;
+  border-radius: 20px;
+  align-items: center;
+  width: 90%;
+}
+
+.number-of-ratings {
+  color: #ffc057;
+  font-size: 20px;
+}
+
+.overall-course-rating p {
+  color: #ffc057;
+  text-align: center;
+  font-size: 20px;
+}
+
+.stars {
+  font-size: 30px;
+  margin: 1px;
+  color: #ffc057;
+}
+
+.create-rating-btn {
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  background-color: #ffc057;
+}
+
+.create-rating-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Search Page CSS */
+
+.search-page-container {
+  background-color: #7a003c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 91.5vh;
+}
+
+.search-page-title {
+  color: #ffc057;
+  margin-bottom: 30px;
+  font-size: 50px;
   text-align: center;
 }

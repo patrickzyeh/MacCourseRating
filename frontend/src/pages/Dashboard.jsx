@@ -1,4 +1,9 @@
-function Dashboard() {
-  return <h1>Dashboard</h1>;
+function Dashboard(props) {
+  return (
+    <>
+      <h2>Dashboard</h2>
+      <p>{props.user.email}</p>
+    </>
+  );
 }
 export default Dashboard;

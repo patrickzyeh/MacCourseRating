@@ -47,7 +47,7 @@ function App() {
         <Route path="/ratings/:id" element={<Course />} />
         <Route
           path="/dashboard"
-          element={user ? <Dashboard /> : <Navigate to="/" />}
+          element={user ? <Dashboard user={user} /> : <Navigate to="/" />}
         />
       </Routes>
     </Router>

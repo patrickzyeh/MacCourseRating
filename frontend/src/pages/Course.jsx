@@ -27,7 +27,24 @@ function Course() {
         <h3 className="course-title">{courseTitle}</h3>
       </div>
       {/* CREATE NEW POSTGRESQL TABLE TO STORE RATINGS */}
-      <div className="course-page"></div>
+      <div className="course-page">
+        <div className="course-stats">
+          <p className="number-of-ratings">Ratings</p>
+          <div className="overall-course-rating">
+            <p>Overall Rating:</p>
+            <div className="stars-container">
+              <span className="stars">&#9733;</span>
+              <span className="stars">&#9733;</span>
+              <span className="stars">&#9733;</span>
+              <span className="stars">&#9733;</span>
+              <span className="stars">&#9733;</span>
+            </div>
+          </div>
+          <button className="create-rating-btn">Write a Rating</button>
+        </div>
+
+        <div className="course-ratings"></div>
+      </div>
     </>
   );
 }
