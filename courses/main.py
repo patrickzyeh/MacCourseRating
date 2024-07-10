@@ -34,13 +34,15 @@ for i in range(1, number_of_pages + 1):
 
 # Storing courses in csv
 
-course_codes = [course[0] for course in courses]
+course_codes = [course[0].strip() for course in courses]
 course_title = [course[1].strip("\"") for course in courses]
 
 course_dict = {
     "course_code": course_codes,
     "course_title": course_title
 }
+
+print(course_dict)
 
 data = pd.DataFrame(course_dict)
 data.to_csv("courses.csv")

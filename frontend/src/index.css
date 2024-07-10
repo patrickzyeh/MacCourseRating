@@ -201,7 +201,7 @@ nav .menu span {
 
 /* Course Page CSS */
 
-.course-title-container {
+.course-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,7 +209,7 @@ nav .menu span {
   height: 300px;
 }
 
-.course-title {
+.course-code {
   color: #7a003c;
   font-size: 5rem;
   text-align: center;

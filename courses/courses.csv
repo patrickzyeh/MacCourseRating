@@ -103,14 +103,14 @@ id,course_code,course_title
 101,ART 3D03,Practical Issues
 102,ART 3EA3,Social Practice and Community-Engaged Art
 103,ART 3FW3,Field Work: On-Site Explorations
-104,ART 3GS6 ,Guided Studio Practice
+104,ART 3GS6,Guided Studio Practice
 105,ART 3ID3,Integrated Media and Materiality: Installation and Performance
 106,ART 3IM3,Transdisciplinary and Hybrid Studio Practices
 107,ART 3PD3,New Directions in Painting and Drawing
 108,ART 3VA3,Video Art and Digital Cinema
 109,ART 4AP3,"Contemporary Art Practices of Intervention, Performance and Conceptual Art"
 110,ART 4AR3,Advanced Research and Presentation Strategies
-111,ART 4AS6 ,Advanced Studio Production and Critical Discourse
+111,ART 4AS6,Advanced Studio Production and Critical Discourse
 112,ART 4CC3,Concentrated Study Ceramics
 113,ART 4CI3,Concentrated Study Intaglio
 114,ART 4CL3,Concentrated Study Lithography
@@ -133,17 +133,17 @@ id,course_code,course_title
 131,ARTHIST 3Z03,Intercultural Arts Along the Silk Road
 132,ARTHIST 4AP3,"Contemporary Art Practices of Intervention, Performance and Conceptual Art"
 133,ARTHIST 4LP3,"The Cultural History of Paris, 1789-1914"
-134,ARTHIST 4O06 ,Thesis
+134,ARTHIST 4O06,Thesis
 135,ARTHIST 4U03,The Severe Style in Greek Art
 136,ARTHIST 4Z03,Gender and the Textile Arts
 137,ARTSSCI 1A03,Practices of Knowledge
 138,ARTSSCI 1AA3,Contemporary Indigenous Studies
 139,ARTSSCI 1B03,Writing
 140,ARTSSCI 1BB3,Argumentation
-141,ARTSSCI 1C06 ,Global Challenges Inquiry
-142,ARTSSCI 1D06 ,Calculus
-143,ARTSSCI 2A06 ,Social and Political Thought
-144,ARTSSCI 2D06 ,Physics
+141,ARTSSCI 1C06,Global Challenges Inquiry
+142,ARTSSCI 1D06,Calculus
+143,ARTSSCI 2A06,Social and Political Thought
+144,ARTSSCI 2D06,Physics
 145,ARTSSCI 2E03,Economics: Principles and Policy
 146,ARTSSCI 2R03,Applied Statistical Inference
 147,ARTSSCI 3B03,Technology and Society I
@@ -158,10 +158,10 @@ id,course_code,course_title
 156,ARTSSCI 3S03,The East Asian Religious Tradition
 157,ARTSSCI 3TR3,Trees and Their Histories
 158,ARTSSCI 3X03,Individual Study
-159,ARTSSCI 4A06 ,Individual Study
-160,ARTSSCI 4A09 ,Individual Study
-161,ARTSSCI 4C06 ,Thesis
-162,ARTSSCI 4C09 ,Thesis
+159,ARTSSCI 4A06,Individual Study
+160,ARTSSCI 4A09,Individual Study
+161,ARTSSCI 4C06,Thesis
+162,ARTSSCI 4C09,Thesis
 163,ARTSSCI 4CB3,Education Inquiry
 164,ARTSSCI 4CD3,Research and Creative Writing
 165,ARTSSCI 4CF3,How Science Speaks to Power
@@ -186,7 +186,7 @@ id,course_code,course_title
 184,ASTRON 3X03,Galaxies and Cosmology
 185,ASTRON 3Y03,Stellar Structure
 186,ASTRON 4X03,Data Analysis Project Course
-187,ASTRON 5X03 ,Graduate Topics in Astrophysics
+187,ASTRON 5X03,Graduate Topics in Astrophysics
 188,AUTOTECH 2AC3,Advanced CAD
 189,AUTOTECH 2AE3,Design of Machine Elements
 190,AUTOTECH 2CD3,Computer Aided Design
@@ -211,7 +211,7 @@ id,course_code,course_title
 209,BIOCHEM 2B03,Nucleic Acid Structure and Function
 210,BIOCHEM 2BB3,Protein Structure and Enzyme Function
 211,BIOCHEM 2EE3,Metabolism and Physiological Chemistry
-212,BIOCHEM 2L06 ,Inquiry in Biochemical Techniques
+212,BIOCHEM 2L06,Inquiry in Biochemical Techniques
 213,BIOCHEM 3A03,Biochemical Research Practice
 214,BIOCHEM 3AB3,Antibiotics are the Cornerstone of Medicine
 215,BIOCHEM 3BP3,Practical Bioinformatics in the Genomics Era
@@ -224,18 +224,18 @@ id,course_code,course_title
 222,BIOCHEM 3LT3,Fundamental and Applied Biochemical Techniques
 223,BIOCHEM 3MI3,Microbial Interactions
 224,BIOCHEM 3R03,Clinical Research Project
-225,BIOCHEM 3R06 ,Research Project
+225,BIOCHEM 3R06,Research Project
 226,BIOCHEM 3Z03,Structural Determination and Analysis of Macromolecules
 227,BIOCHEM 4C03,Inquiry in Biochemistry
 228,BIOCHEM 4E03,Gene Regulation in Stem Cells and Development
-229,BIOCHEM 4F09 ,Senior Thesis
+229,BIOCHEM 4F09,Senior Thesis
 230,BIOCHEM 4H03,Biotechnology and Drug Discovery
 231,BIOCHEM 4J03,Immunological Principles in Practice
 232,BIOCHEM 4M03,Cellular and Integrated Metabolism
 233,BIOCHEM 4N03,Molecular Membrane Biology
 234,BIOCHEM 4Q03,Biochemical Pharmacology
 235,BIOCHEM 4S03,Introduction to Molecular Biophysics
-236,BIOCHEM 4T15 ,Senior Thesis
+236,BIOCHEM 4T15,Senior Thesis
 237,BIOCHEM 4Z03,Senior Project
 238,BIOLOGY 1A03,Cellular and Molecular Biology
 239,BIOLOGY 1M03,"Biodiversity, Evolution and Humanity"
@@ -251,11 +251,11 @@ id,course_code,course_title
 249,BIOLOGY 3B03,Plant Physiology
 250,BIOLOGY 3DD3,Communities and Ecosystems
 251,BIOLOGY 3EI3,Ecological Indicators
-252,BIOLOGY 3EP3 ,Applied Biology Placement
+252,BIOLOGY 3EP3,Applied Biology Placement
 253,BIOLOGY 3ET3,Ecotoxicology
 254,BIOLOGY 3FF3,Evolution
 255,BIOLOGY 3HD3,Human Disasters
-256,BIOLOGY 3IR3 ,Independent Research Project
+256,BIOLOGY 3IR3,Independent Research Project
 257,BIOLOGY 3JJ3,Field Methods In Ecology
 258,BIOLOGY 3MM3,Invertebrate Form and Function
 259,BIOLOGY 3P03,Cell Physiology
@@ -272,8 +272,8 @@ id,course_code,course_title
 270,BIOLOGY 4A03,Advanced Topics in Ecology
 271,BIOLOGY 4AA3,Conservation Biology
 272,BIOLOGY 4AE3,The Ecology and Evolution of Organisms
-273,BIOLOGY 4C12 ,Senior Thesis
-274,BIOLOGY 4F06 ,Senior Project
+273,BIOLOGY 4C12,Senior Thesis
+274,BIOLOGY 4F06,Senior Project
 275,BIOLOGY 4IR3,Advanced Independent Research Project
 276,BIOLOGY 4J03,Field Biology II
 277,BIOLOGY 4JF0,Field Work II
@@ -283,11 +283,11 @@ id,course_code,course_title
 281,BIOMEDDC 2C03,Exploring Careers in Biomedical Sciences
 282,BIOMEDDC 2W03,Write Right for Your Science: Scientific Writing for the Biomedical Sciences
 283,BIOMEDDC 3A03,Ideas to Innovation in Biomedical Sciences
-284,BIOMEDDC 3B06 ,Drug Discovery and Development
+284,BIOMEDDC 3B06,Drug Discovery and Development
 285,BIOMEDDC 3C06,Research Skills Laboratory and Inquiry
-286,BIOMEDDC 3C09 ,Research Skills Laboratory and Inquiry
+286,BIOMEDDC 3C09,Research Skills Laboratory and Inquiry
 287,BIOMEDDC 3WR3,Biochemistry and Biomedical Scientific Writing: Right your Write
-288,BIOMEDDC 4A15 ,Senior Research Thesis
+288,BIOMEDDC 4A15,Senior Research Thesis
 289,BIOMEDDC 4B03,Road to Biomedical Commercialization
 290,BIOPHYS 1S03,Biophysics of Movement and the Senses: From Microbes to Moose
 291,BIOPHYS 2A03,Biophysics of the Cell and Living Organisms
@@ -295,8 +295,8 @@ id,course_code,course_title
 293,BIOPHYS 3D03,Origin of Life
 294,BIOPHYS 3G03,Modelling Life
 295,BIOPHYS 3S03,‘Squishy Physics’: Physics of Soft Matter
-296,BIOPHYS 4L03 ,Literature Review
-297,BIOPHYS 4P06 ,Senior Research Project
+296,BIOPHYS 4L03,Literature Review
+297,BIOPHYS 4P06,Senior Research Project
 298,BIOPHYS 4S03,Introduction to Molecular Biophysics
 299,BIOSAFE 1BS0,Biosafety Training
 300,BIOTECH 2B03,Biotechnology Concepts
@@ -332,19 +332,19 @@ id,course_code,course_title
 330,CHEMBIO 2Q03,Inquiry for Chemical Biology
 331,CHEMBIO 3AA3,Analytical Tools for Chemical Biology
 332,CHEMBIO 3BM3,Implanted Biomaterials
-333,CHEMBIO 3EP3 ,Advanced Chemical Biology Placement
+333,CHEMBIO 3EP3,Advanced Chemical Biology Placement
 334,CHEMBIO 3L03,Chemical Biology Laboratory II
 335,CHEMBIO 3OA3,Organic Mechanistic Tools for Chemical Biology
 336,CHEMBIO 3OB3,Structural Elucidation of Natural Products and Small Molecules
 337,CHEMBIO 3P03,Biomolecular Interactions and Kinetics
 338,CHEMBIO 3RP3,Research Practicum in Chemical Biology
 339,CHEMBIO 4A03,Bio-Analytical Chemistry and Assay Development
-340,CHEMBIO 4G12 ,Senior Thesis in Chemical Biology
+340,CHEMBIO 4G12,Senior Thesis in Chemical Biology
 341,CHEMBIO 4IB3,Bio-Inorganic Chemistry
 342,CHEMBIO 4OA3,Natural Products
 343,CHEMBIO 4OB3,Medicinal Chemistry: Drug Design and Development
 344,CHEMBIO 4Q03,Peer Tutoring in Chemical Biology
-345,CHEMBIO 4RP6 ,Research Project in Chemical Biology
+345,CHEMBIO 4RP6,Research Project in Chemical Biology
 346,CHEMENG 2D04,Chemical Engineering Principles I
 347,CHEMENG 2E04,Numerical Methods and Computing for Chemical Engineers
 348,CHEMENG 2F04,Chemical Engineering Principles II
@@ -371,9 +371,9 @@ id,course_code,course_title
 369,CHEMENG 4M03,Industrial Separation Processes
 370,CHEMENG 4N04,Engineering Economics and Problem Solving
 371,CHEMENG 4T03,Applications of Chemical Engineering in Medicine
-372,CHEMENG 4W06 ,Chemical Plant Design and Capstone Project
+372,CHEMENG 4W06,Chemical Plant Design and Capstone Project
 373,CHEMENG 4X03,Polymer Processing
-374,CHEMENG 4Y04 ,Senior Independent Project
+374,CHEMENG 4Y04,Senior Independent Project
 375,CHEMENG 4Z03,Interfacial Engineering
 376,CHEM 1A03,Introductory Chemistry I
 377,CHEM 1AA3,Introductory Chemistry II
@@ -392,7 +392,7 @@ id,course_code,course_title
 390,CHEM 2Q03,Inquiry for Chemistry
 391,CHEM 2SC3,Sustainable Chemistry - Green Chemistry
 392,CHEM 3AA3,Instrumental Analysis
-393,CHEM 3EP3 ,Advanced Chemistry Placement
+393,CHEM 3EP3,Advanced Chemistry Placement
 394,CHEM 3EQ3,Experiential Sustainable Chemistry
 395,CHEM 3I03,Industrial Chemistry
 396,CHEM 3II3,Introduction to Transition Metal Chemistry
@@ -405,7 +405,7 @@ id,course_code,course_title
 403,CHEM 3SC3,Sustainable Chemistry: Natural Resources and Energy
 404,CHEM 4AA3,Recent Advances in Analytical Chemistry
 405,CHEM 4D03,Organic Structure and Synthesis
-406,CHEM 4G12 ,Senior Thesis
+406,CHEM 4G12,Senior Thesis
 407,CHEM 4IA3,Physical Methods of Inorganic Structure Determination
 408,CHEM 4IB3,Bio-Inorganic Chemistry
 409,CHEM 4IC3,"Solid State Inorganic Materials: Structures, Properties, Characterization and Applications"
@@ -414,10 +414,10 @@ id,course_code,course_title
 412,CHEM 4OB3,Polymers and Organic Materials
 413,CHEM 4PB3,Computational Models for Electronic Structure and Chemical Bonding
 414,CHEM 4Q03,Peer Tutoring in Chemistry
-415,CHEM 4RP6 ,Research Project in Chemistry
+415,CHEM 4RP6,Research Project in Chemistry
 416,CHEM 4SC3,Sustainable Chemistry - Analysis and Regulation
 417,CHEM 4W03,Natural and Synthetic Materials
-418,CHINESE 1Z06 ,Mandarin Chinese for Beginners
+418,CHINESE 1Z06,Mandarin Chinese for Beginners
 419,CIVDEM 3CS3,Campaign School
 420,CIVDEM 3EL3,Election Law and Policy
 421,CIVDEM 3Z03,Canadian Public Sector Management
@@ -469,9 +469,9 @@ id,course_code,course_title
 467,CIVENG 4TA4,Traffic Analysis: Theory and Simulation
 468,CIVENG 4V04,Biological Aspects of Wastewater Treatment
 469,CIVENG 4W04,Design of Low Rise Buildings
-470,CIVENG 4X06 ,Design and Synthesis Project in Civil Engineering
+470,CIVENG 4X06,Design and Synthesis Project in Civil Engineering
 471,CIVENG 4Y04,Bridges and Other Structural Systems
-472,CIVENG 4Z04 ,Independent Study
+472,CIVENG 4Z04,Independent Study
 473,COLLAB 1AS3,Aging and Society
 474,COLLAB 2P03,Epidemiology in Public Health
 475,COLLAB 2R03,Epidemiological Methods
@@ -484,7 +484,7 @@ id,course_code,course_title
 482,COMMERCE 1DA3,Business Data Analytics
 483,COMMERCE 1DE0,Business I Orientation
 484,COMMERCE 1E03,Business Environment and Organization
-485,COMMERCE 1GR0 ,DeGroote Student Experience and Development I
+485,COMMERCE 1GR0,DeGroote Student Experience and Development I
 486,COMMERCE 1MA3,Introduction to Marketing
 487,COMMERCE 1TS0,Orientation for New Transfer Students
 488,COMMERCE 2AB3,Managerial Accounting I
@@ -617,7 +617,7 @@ id,course_code,course_title
 615,CMST 2PR3,Public Relations: Principles and Practices
 616,CMST 2RA3,Application in Communication Theory and Methods
 617,CMST 2TM6,Foundations in Communication Theory and Methods
-618,CMST 3B03 ,Practical Aspects of Media Production
+618,CMST 3B03,Practical Aspects of Media Production
 619,CMST 3CY3,"Children, Youth, and Media"
 620,CMST 3D03,Political Communication
 621,CMST 3DG3,Digital Storytelling
@@ -714,7 +714,7 @@ id,course_code,course_title
 712,COMPSCI 4WW3,Web Systems and Web Computing
 713,COMPSCI 4X03,Scientific Computation
 714,COMPSCI 4Z03,Directed Readings
-715,COMPSCI 4ZP6 ,Capstone Project
+715,COMPSCI 4ZP6,Capstone Project
 716,CHALLENG 2CC3,Critical Challenges for Humanity
 717,DATASCI 2G03,Scientific Computing
 718,DATASCI 3ML3,Introduction to Neural Networks and Machine Learning
@@ -738,7 +738,7 @@ id,course_code,course_title
 736,EARTHSC 4CC3,Stable Isotopes in Earth and Environmental Systems
 737,EARTHSC 4FF3,Topics of Field Research
 738,EARTHSC 4G03,Glacial Sediments and Environments
-739,EARTHSC 4MT6 ,Senior Thesis
+739,EARTHSC 4MT6,Senior Thesis
 740,EARTHSC 4PA3,Paleoenvironmental Analysis
 741,EARTHSC 4T03,Plate Tectonics and Ore Deposits
 742,EARTHSC 4V03,Exploration Geophysics
@@ -784,7 +784,7 @@ id,course_code,course_title
 782,ECON 4F03,Methods of Inquiry in Economics
 783,ECON 4FF3,Research Methods in Economics
 784,ECON 4G03,Econometrics II
-785,ECON 4M06 ,Directed Research I
+785,ECON 4M06,Directed Research I
 786,ECON 4N03,Directed Research II
 787,ECON 4T03,Advanced Economic Theory I
 788,ECON 4TT3,Advanced Economic Theory II
@@ -811,7 +811,7 @@ id,course_code,course_title
 809,ELECENG 4EM4,Photonic Devices and Systems
 810,ELECENG 4FJ4,Devices and Antennas for Wireless Systems
 811,ELECENG 4OH4,Advanced Research Project
-812,ELECENG 4OI6 ,Engineering Design
+812,ELECENG 4OI6,Engineering Design
 813,ELECENG 4OJ4,Research Project
 814,ELECENG 4PK4,Power Electronics
 815,ELECENG 4PM4,Electrical Power Systems
@@ -830,24 +830,24 @@ id,course_code,course_title
 828,ENRTECH 4PP3,Power Protection and Maintenance II
 829,ENRTECH 4RG3,Renewable Generation
 830,ENGINEER 1EE0,Introduction to Career Planning & Employment
-831,ENGINEER 1P13 ,Integrated Cornerstone Design Projects in Engineering
+831,ENGINEER 1P13,Integrated Cornerstone Design Projects in Engineering
 832,ENGINEER 1PA3,Introduction to Engineering Design and Practice
 833,ENGINEER 1PB3,Structure and Properties of Materials
 834,ENGINEER 1PC3,Engineering Computation
 835,ENGINEER 2EC0,Engineering Work Term
 836,ENGINEER 2IW3,Inclusion in the Engineering Workplace
 837,ENGINEER 2PX3,Engineering Communications
-838,ENGINEER 3CX3 ,Experiential Learning in Complementary Studies
+838,ENGINEER 3CX3,Experiential Learning in Complementary Studies
 839,ENGINEER 3IC0,Full-Time Internship for International Students
 840,ENGINEER 3PX3,Engineering Economics
 841,ENGINEER 4A03,"Ethics, Equity and Law in Engineering"
-842,ENGINEER 4EX3 ,Experiential Engineering Design
+842,ENGINEER 4EX3,Experiential Engineering Design
 843,ENGSOCTY 2X03,Inquiry in an Engineering Context I
 844,ENGSOCTY 2Y03,Case Studies in History and Technology
 845,ENGSOCTY 3X03,Inquiry in an Engineering Context II
 846,ENGSOCTY 3Y03,Technology and Society
 847,ENGSOCTY 3Z03,Preventive Engineering: Environmental Perspectives
-848,ENGSOCTY 4X03 ,Inquiry in an Engineering Context III
+848,ENGSOCTY 4X03,Inquiry in an Engineering Context III
 849,ENGSOCTY 4Y03,Society Capstone Design
 850,ENGNMGT 2AA3,Communication Skills
 851,ENGNMGT 4A03,Innovation Driven Project Development and Management
@@ -864,7 +864,7 @@ id,course_code,course_title
 862,ENGPHYS 3D04,Principles of Nuclear Engineering
 863,ENGPHYS 3E04,Fundamentals of Physical Optics
 864,ENGPHYS 3ES3,Introduction to Energy Systems
-865,ENGPHYS 3H04 ,Research Project in Engineering Physics
+865,ENGPHYS 3H04,Research Project in Engineering Physics
 866,ENGPHYS 3L04,Engineering Metrology
 867,ENGPHYS 3NM4,Numerical Methods for Engineering
 868,ENGPHYS 3O04,Introduction to Fluid Mechanics and Heat Transfer
@@ -873,10 +873,10 @@ id,course_code,course_title
 871,ENGPHYS 3SM3,Statistical Mechanics
 872,ENGPHYS 3SP3,Space Systems Engineering
 873,ENGPHYS 3W03,Signals and Systems for Engineering
-874,ENGPHYS 4A06 ,Engineering Physics Design and Synthesis Project
+874,ENGPHYS 4A06,Engineering Physics Design and Synthesis Project
 875,ENGPHYS 4B03,Biosensors - Fundamentals and Applications
 876,ENGPHYS 4D04,Nuclear Reactor Physics
-877,ENGPHYS 4H04 ,Research Project in Engineering Physics
+877,ENGPHYS 4H04,Research Project in Engineering Physics
 878,ENGPHYS 4I03,Introduction to Biophotonics
 879,ENGPHYS 4MD3,Nanoscale Semiconductor Devices
 880,ENGPHYS 4NE3,Advanced Nuclear Engineering
@@ -987,7 +987,7 @@ id,course_code,course_title
 985,ENGLISH 4ST3,Even Stranger Things: The Early Gothic
 986,ENGLISH 4X03,Honours Essay
 987,ENGLISH 4Y03,Experiential Practicum I
-988,ENGLISH 4Y06 ,Research Practicum
+988,ENGLISH 4Y06,Research Practicum
 989,ENGLISH 4YY3,Experiential Practicum II
 990,ENVIRSC 1C03,"Climate, Water and Environment"
 991,ENVIRSC 2B03,Soils and the Environment
@@ -1003,7 +1003,7 @@ id,course_code,course_title
 1001,ENVIRSC 4C03,Advanced Physical Climatology
 1002,ENVIRSC 4EA3,Environmental Assessment
 1003,ENVIRSC 4MI3,Independent Study in Earth and Environmental Sciences
-1004,ENVIRSC 4MT6 ,Senior Thesis
+1004,ENVIRSC 4MT6,Senior Thesis
 1005,ENVIRSC 4N03,Global Biogeochemical Cycles
 1006,ENVIRSC 4W03,Hydrologic Modelling
 1007,ENVSOCTY 1HA3,"Society, Culture and Environment"
@@ -1053,7 +1053,7 @@ id,course_code,course_title
 1051,ENVSOCTY 4LW3,Work and the Environment
 1052,ENVSOCTY 4MF3,Senior Urban Field Camp
 1053,ENVSOCTY 4MS3,Independent Study
-1054,ENVSOCTY 4MT6 ,Senior Thesis
+1054,ENVSOCTY 4MT6,Senior Thesis
 1055,ENVSOCTY 4SR3,Advanced Remote Sensing
 1056,ENVSOCTY 4UD3,Special Topics in Urban Planning
 1057,ENVSOCTY 4UF3,The Geography of Gender
@@ -1063,8 +1063,8 @@ id,course_code,course_title
 1061,EXPLORE 3IS3,Interdisciplinary Science Field Camp
 1062,FARSI 1Z03,Introductory Farsi I
 1063,FARSI 1ZZ3,Introductory Farsi II
-1064,FRENCH 1A06 ,Introduction to French Studies: Intermediate
-1065,FRENCH 1Z06 ,Intensive French I: Beginner
+1064,FRENCH 1A06,Introduction to French Studies: Intermediate
+1065,FRENCH 1Z06,Intensive French I: Beginner
 1066,FRENCH 2AC3,Introduction to Francophone Literatures and Cultures
 1067,FRENCH 2B03,French Language Practice I: Upper Intermediate
 1068,FRENCH 2BB3,French Language Practice II: Upper Intermediate
@@ -1074,8 +1074,8 @@ id,course_code,course_title
 1072,FRENCH 2G03,Elementary Translation from English to French
 1073,FRENCH 2I03,Professional French I
 1074,FRENCH 2L03,Introduction to Literary Analysis
-1075,FRENCH 2M06 ,Introduction to French Studies: Intermediate
-1076,FRENCH 2Z06 ,Intensive French II: Elementary
+1075,FRENCH 2M06,Introduction to French Studies: Intermediate
+1076,FRENCH 2Z06,Intensive French II: Elementary
 1077,FRENCH 3AA3,The Modern French-Canadian Novel
 1078,FRENCH 3AC3,Francophone Writers
 1079,FRENCH 3C03,French Language Practice III: Advanced
@@ -1095,17 +1095,17 @@ id,course_code,course_title
 1093,FRENCH 4I03,French Poetry from the Renaissance to the Present
 1094,FRENCH 4LL3,Topics in Francophone Literatures
 1095,FRENCH 4MM3,"Sex, Violence and Elegance: The 18th-Century Novel"
-1096,FRENCH 4P06 ,French as a Second Language: From Theory to Practice
+1096,FRENCH 4P06,French as a Second Language: From Theory to Practice
 1097,FRENCH 4T03,Independent Study
 1098,FRENCH 4U03,Topics in Literature and Culture of Quebec and Francophone Canada
 1099,FRENCH 4Y03,Topics in 20th-Century French Literature
 1100,SOCWORK 2BB3,Anti-Oppressive Social Work
-1101,SOCWORK 3D06 ,General Social Work I
+1101,SOCWORK 3D06,General Social Work I
 1102,SOCWORK 3E03,Individual Practice Across the Lifespan
 1103,SOCWORK 3S03,"Social Work, Disability and Dis/Ableism"
 1104,SOCWORK 3T03,Poverty and Homelessness
-1105,SOCWORK 4D06 ,General Social Work II
-1106,SOCWORK 4DD6 ,Field Practicum II
+1105,SOCWORK 4D06,General Social Work II
+1106,SOCWORK 4DD6,Field Practicum II
 1107,SOCWORK 4R03,Feminist Approaches to Social Work and Social Justice
 1108,SOCWORK 4SA3,Critical Child Welfare: From Theory to Practice
 1109,GENDRST 1A03,"Gender, Race, Culture, Power"
@@ -1144,7 +1144,7 @@ id,course_code,course_title
 1142,GENTECH 4TE3,Technology Ethics and Sustainability
 1143,GERMAN 1B03,Intermediate German I
 1144,GERMAN 1BB3,Intermediate German II
-1145,GERMAN 1Z06 ,Beginner’s Intensive German
+1145,GERMAN 1Z06,Beginner’s Intensive German
 1146,GERMAN 2CC3,Germany Through the Ages: Culture and Society (Taught in English)
 1147,GERMAN 2FT3,The Fairy Tale (Taught in English)
 1148,GERMAN 2GA3,Berlin/Vienna: The Cultural Life of these Cities (Taught in English)
@@ -1155,7 +1155,7 @@ id,course_code,course_title
 1153,GERMAN 2Z03,Intermediate German I
 1154,GERMAN 2ZZ3,Intermediate German II
 1155,GERMAN 3H03,The New Europe: A New Germany (Taught in English)
-1156,GERMAN 4II3 ,Independent Study
+1156,GERMAN 4II3,Independent Study
 1157,PEACJUST 1A03,"Peace, Justice, Human Rights"
 1158,PEACJUST 1VM3,Pass the Mic: Conversations on Justice
 1159,PEACJUST 2A03,Conflict Transformation: Theory and Practice
@@ -1227,7 +1227,7 @@ id,course_code,course_title
 1225,GKROMST 4H03,Death and Commemoration in the Roman World
 1226,GKROMST 4L03,Athenian Democracy
 1227,GKROMST 4MR3,The Myth and Reality of Troy
-1228,GKROMST 4T03 ,Independent Study
+1228,GKROMST 4T03,Independent Study
 1229,GKROMST 4U03,The Severe Style in Greek Art
 1230,HLTHAGE 1AA3,Introduction to Health and Society
 1231,HLTHAGE 1BB3,Introduction to Aging and Society
@@ -1290,25 +1290,25 @@ id,course_code,course_title
 1288,HLTHAGE 4T03,"Gender, Sex and Health"
 1289,HLTHAGE 4U03,Professions and Occupations in Health and Aging
 1290,HLTHAGE 4W03,Selected Issues in Aging and Society
-1291,HLTHAGE 4Z06 ,"Health, Aging and Society Thesis"
+1291,HLTHAGE 4Z06,"Health, Aging and Society Thesis"
 1292,HTHSCI 1A00,Competencies in Animal Care and Research: Orientation
 1293,HTHSCI 1B00,Competencies in Animal Care and Research: Methodologies
 1294,HTHSCI 1C00,Competencies in Animal Care and Research: Completion of Ethical Research
 1295,HTHSCI 1C03,Social Justice and Healthcare I
 1296,HTHSCI 1CC3,Social Justice and Healthcare II
-1297,HTHSCI 1D06 ,Anatomy and Physiology
+1297,HTHSCI 1D06,Anatomy and Physiology
 1298,HTHSCI 1DT3,Discover Immunology Today
-1299,HTHSCI 1E06 ,Inquiry I: Introduction
+1299,HTHSCI 1E06,Inquiry I: Introduction
 1300,HTHSCI 1G02,Interdisciplinary Questions in Health
-1301,HTHSCI 1I06 ,Cellular and Molecular Biology
+1301,HTHSCI 1I06,Cellular and Molecular Biology
 1302,HTHSCI 1J03,Life Sciences for Clinical Practice
 1303,HTHSCI 1M03,Foundations of Data Science
 1304,HTHSCI 1ML3,Introduction to Medical Laboratory Sciences
-1305,HTHSCI 1X01 ,Praxis Pathways 1
+1305,HTHSCI 1X01,Praxis Pathways 1
 1306,HTHSCI 2AE3,Artistic Explorations of Community Issues
-1307,HTHSCI 2CH3 ,CHS Learning Modules
-1308,HTHSCI 2CH6 ,CHS Inquiry Fundamentals
-1309,HTHSCI 2D06 ,Inquiry II: Introduction and Biochemistry
+1307,HTHSCI 2CH3,CHS Learning Modules
+1308,HTHSCI 2CH6,CHS Inquiry Fundamentals
+1309,HTHSCI 2D06,Inquiry II: Introduction and Biochemistry
 1310,HTHSCI 2DS3,Global Health and the Complexities of Disease
 1311,HTHSCI 2E03,Inquiry II: Biochemistry
 1312,HTHSCI 2F03,Human Physiology and Anatomy I
@@ -1323,15 +1323,15 @@ id,course_code,course_title
 1321,HTHSCI 2M03,Reproductive Physiology
 1322,HTHSCI 2S03,Introduction to Statistics for Nursing
 1323,HTHSCI 2T03,"Sex, Gender, & Health"
-1324,HTHSCI 2X03 ,Praxis Pathways 2
+1324,HTHSCI 2X03,Praxis Pathways 2
 1325,HTHSCI 3AH3,Indigenous Health
 1326,HTHSCI 3BA3,Symptomatology
 1327,HTHSCI 3CC3,Theatre for Development
 1328,HTHSCI 3CH3,CHS Inquiry Intermediate
-1329,HTHSCI 3CH6 ,CHS Research Practicum
-1330,HTHSCI 3CH9 ,CHS Inquiry Intermediate
-1331,HTHSCI 3CV3 ,Child Visual Development and Community Engagement
-1332,HTHSCI 3DD6 ,Engaging the City: An Introduction to Community-Based Research in Hamilton
+1329,HTHSCI 3CH6,CHS Research Practicum
+1330,HTHSCI 3CH9,CHS Inquiry Intermediate
+1331,HTHSCI 3CV3,Child Visual Development and Community Engagement
+1332,HTHSCI 3DD6,Engaging the City: An Introduction to Community-Based Research in Hamilton
 1333,HTHSCI 3DH3,Discourses of Health & Illness
 1334,HTHSCI 3DM3,Demystifying Medicine
 1335,HTHSCI 3DR3,Demystifying Research
@@ -1343,8 +1343,8 @@ id,course_code,course_title
 1341,HTHSCI 3FC3,Science of Fictional Characters
 1342,HTHSCI 3G03,Critical Appraisal of the Health Literature
 1343,HTHSCI 3GG3,Health Systems and Health Policy
-1344,HTHSCI 3H03 ,Inquiry Project
-1345,HTHSCI 3H06 ,Inquiry Project
+1344,HTHSCI 3H03,Inquiry Project
+1345,HTHSCI 3H06,Inquiry Project
 1346,HTHSCI 3HH3,Deceptions in Decision Making
 1347,HTHSCI 3HL3,Health Law: Current and Emerging Issues
 1348,HTHSCI 3HR3,Research Skills
@@ -1355,11 +1355,11 @@ id,course_code,course_title
 1353,HTHSCI 3LT3,Practical Applications in Clinical Laboratory Testing
 1354,HTHSCI 3MB3,Introduction to Bacteriology in Health Sciences
 1355,HTHSCI 3MH3,Critical Examination of Mental Health
-1356,HTHSCI 3MR6 ,Practicum in Medical Research.
+1356,HTHSCI 3MR6,Practicum in Medical Research.
 1357,HTHSCI 3MU3,"Music, Health, & the Community"
 1358,HTHSCI 3N03,Creative Writing in the Health Sciences
 1359,HTHSCI 3NN3,Inquiry in Perinatal & Reproductive Health
-1360,HTHSCI 3PA2 ,Integrated Pathophysiology for Nursing
+1360,HTHSCI 3PA2,Integrated Pathophysiology for Nursing
 1361,HTHSCI 3PH3,The Politics of Help
 1362,HTHSCI 3PP3,Health Ventures
 1363,HTHSCI 3QA3,Qualitative Research Methods in Health
@@ -1372,38 +1372,38 @@ id,course_code,course_title
 1370,HTHSCI 3U03,Medical Genetics
 1371,HTHSCI 3V03,Research and Experimental Design
 1372,HTHSCI 3WT3,What Trauma Teaches: Lessons from Listening
-1373,HTHSCI 3X00 ,Praxis Pathways 3
+1373,HTHSCI 3X00,Praxis Pathways 3
 1374,HTHSCI 3X03,"Pain: Perceptions, Mechanisms and Intervention"
-1375,HTHSCI 4A09 ,Thesis
-1376,HTHSCI 4A12 ,Thesis
-1377,HTHSCI 4A15 ,Thesis
+1375,HTHSCI 4A09,Thesis
+1376,HTHSCI 4A12,Thesis
+1377,HTHSCI 4A15,Thesis
 1378,HTHSCI 4AA3,Group Dynamics and Processes
 1379,HTHSCI 4AC3,Advanced Communication Skills
 1380,HTHSCI 4AL3,Model Systems
-1381,HTHSCI 4B06 ,Senior Projects
+1381,HTHSCI 4B06,Senior Projects
 1382,HTHSCI 4BB3,Neuroimmunology
 1383,HTHSCI 4BL3,Peer Tutoring in Design Thinking
-1384,HTHSCI 4BR6 ,Research Skills and Application
-1385,HTHSCI 4C06 ,Senior Project in Child Health
-1386,HTHSCI 4C09 ,Thesis in Child Health
-1387,HTHSCI 4C12 ,Thesis in Child Health
-1388,HTHSCI 4C15 ,Thesis in Child Health
-1389,HTHSCI 4CH3 ,CHS Education Practicum
-1390,HTHSCI 4CH6 ,CHS Inquiry Advanced
+1384,HTHSCI 4BR6,Research Skills and Application
+1385,HTHSCI 4C06,Senior Project in Child Health
+1386,HTHSCI 4C09,Thesis in Child Health
+1387,HTHSCI 4C12,Thesis in Child Health
+1388,HTHSCI 4C15,Thesis in Child Health
+1389,HTHSCI 4CH3,CHS Education Practicum
+1390,HTHSCI 4CH6,CHS Inquiry Advanced
 1391,HTHSCI 4CU3,Cultural Competency in Health Sciences
 1392,HTHSCI 4D03,Special Topics in Health Sciences
-1393,HTHSCI 4D06 ,Senior Project in Engaging the City
-1394,HTHSCI 4D09 ,Thesis in Engaging the City
-1395,HTHSCI 4D12 ,Thesis in Engaging the City
-1396,HTHSCI 4D15 ,Thesis in Engaging the City
-1397,HTHSCI 4DE3 ,Senior Project in Engaging the City
+1393,HTHSCI 4D06,Senior Project in Engaging the City
+1394,HTHSCI 4D09,Thesis in Engaging the City
+1395,HTHSCI 4D12,Thesis in Engaging the City
+1396,HTHSCI 4D15,Thesis in Engaging the City
+1397,HTHSCI 4DE3,Senior Project in Engaging the City
 1398,HTHSCI 4DN3,Dance in Health and Wellness
-1399,HTHSCI 4EE3 ,Education Practicum in Health Sciences - Inquiry
+1399,HTHSCI 4EE3,Education Practicum in Health Sciences - Inquiry
 1400,HTHSCI 4G03,Pathoanatomy
-1401,HTHSCI 4G06 ,Senior Project in Global Health
-1402,HTHSCI 4G09 ,Thesis in Global Health
-1403,HTHSCI 4G12 ,Thesis in Global Health
-1404,HTHSCI 4G15 ,Thesis in Global Health
+1401,HTHSCI 4G06,Senior Project in Global Health
+1402,HTHSCI 4G09,Thesis in Global Health
+1403,HTHSCI 4G12,Thesis in Global Health
+1404,HTHSCI 4G15,Thesis in Global Health
 1405,HTHSCI 4IC3,Integration of Children’s Physical and Mental Health
 1406,HTHSCI 4ID3,Innovation By Design I
 1407,HTHSCI 4IH3,Indigenous Health Research
@@ -1424,27 +1424,27 @@ id,course_code,course_title
 1422,HTHSCI 4O03,Principles of Virus Pathogenesis
 1423,HTHSCI 4PA3,Global Health Innovation
 1424,HTHSCI 4PF3,Peer Tutoring in Anatomy & Physiology
-1425,HTHSCI 4QQ3 ,Communication Skills Practicum
+1425,HTHSCI 4QQ3,Communication Skills Practicum
 1426,HTHSCI 4SC3,Social Determinants of Child Health
 1427,HTHSCI 4SR3,Global Sexual and Reproductive Health and Rights
-1428,HTHSCI 4SS6 ,Group Process Practicum
+1428,HTHSCI 4SS6,Group Process Practicum
 1429,HTHSCI 4TE3,The Teaching Hospital
-1430,HTHSCI 4TT3 ,Health and Research Ethics Practicum
+1430,HTHSCI 4TT3,Health and Research Ethics Practicum
 1431,HTHSCI 4W03,Special Topics in Health Sciences II
-1432,HTHSCI 4WW3 ,Education Practicum - Community Engagement
-1433,HTHSCI 4XP3 ,Praxis Pathways 4
+1432,HTHSCI 4WW3,Education Practicum - Community Engagement
+1433,HTHSCI 4XP3,Praxis Pathways 4
 1434,HTHSCI 4XX3,Professional Transitions
 1435,HTHSCI 4Y03,"Science, Culture and Identity"
 1436,HTHSCI 4ZZ3,Global Health Advocacy
 1437,HTHSCI 1CC6,Integrated Biological Bases of Nursing Practice I
-1438,HTHSCI 1H06 ,Human Anatomy and Physiology I
+1438,HTHSCI 1H06,Human Anatomy and Physiology I
 1439,HTHSCI 1LL3,Human Biochemistry I
 1440,HTHSCI 1RR3,Introduction to the Social Determinants of Health
 1441,HTHSCI 2C06,Integrated Biological Bases of Nursing Practice II
 1442,HTHSCI 2H03,Introductory Pharmacology
 1443,HTHSCI 2HH3,Introductory Microbiology
-1444,HTHSCI 2LA2 ,Introduction to Integrated Pathophysiology for Nursing for Basic Stream
-1445,HTHSCI 2PF3 ,Introduction to Integrated Pathophysiology for Accelerated Stream
+1444,HTHSCI 2LA2,Introduction to Integrated Pathophysiology for Nursing for Basic Stream
+1445,HTHSCI 2PF3,Introduction to Integrated Pathophysiology for Accelerated Stream
 1446,HTHSCI 3BB3,Human Biochemistry II: Nutrition and Metabolism
 1447,HTHSCI 3BE4,Nursing Concepts in Continence Care
 1448,HTHSCI 3BF3,Nursing Concepts in Continence Care Placement
@@ -1546,39 +1546,39 @@ id,course_code,course_title
 1544,HISTORY 4QQ3,The Soviet Experience
 1545,HISTORY 4QR3,Quantitative Research on Major Topics in History
 1546,HISTORY 4RP3,Independent Research Project
-1547,HISTORY 4RP6 ,Advanced Independent Research
+1547,HISTORY 4RP6,Advanced Independent Research
 1548,HISTORY 4RR3,Truth and Reconciliation After Atrocity
 1549,HISTORY 4S03,The German Reformation
 1550,HISTORY 4SS3,"Early Modern France, 1450-1789"
 1551,HISTORY 4TT3,"Interwar Europe, 1918-1939"
-1552,HUMBEHV 2A06 ,Introduction to Autism Spectrum Disorder (ASD)
+1552,HUMBEHV 2A06,Introduction to Autism Spectrum Disorder (ASD)
 1553,HUMBEHV 2AP3,Introduction to Applied Psychology
-1554,HUMBEHV 2B06 ,Introduction to Applied Behaviour Analysis (ABA) I
+1554,HUMBEHV 2B06,Introduction to Applied Behaviour Analysis (ABA) I
 1555,HUMBEHV 2C03,Specialized Instructional Strategies (SIS) I
-1556,HUMBEHV 2FP6 ,Field Placement I
-1557,HUMBEHV 2FS3 ,Field Placement I Seminar
+1556,HUMBEHV 2FP6,Field Placement I
+1557,HUMBEHV 2FS3,Field Placement I Seminar
 1558,HUMBEHV 2L03,Philosophy and Curriculum Design
 1559,HUMBEHV 2M03,Learning Environment I
 1560,HUMBEHV 2TL3,Responsive Care for Infants and Toddlers
-1561,HUMBEHV 2XP6 ,ECS Practicum I
+1561,HUMBEHV 2XP6,ECS Practicum I
 1562,HUMBEHV 3AP3,Advanced Applied Psychology
 1563,HUMBEHV 3CB3,Treating Challenging Behaviour I
 1564,HUMBEHV 3D03,Applied Behavioural Analysis (ABA) II
-1565,HUMBEHV 3E06 ,Behavioural Skill Building
+1565,HUMBEHV 3E06,Behavioural Skill Building
 1566,HUMBEHV 3F03,Ethics and Professionalism
-1567,HUMBEHV 3FP9 ,Field Placement II
-1568,HUMBEHV 3FS3 ,Field Placement II Seminar
+1567,HUMBEHV 3FP9,Field Placement II
+1568,HUMBEHV 3FS3,Field Placement II Seminar
 1569,HUMBEHV 3G03,Specialized Instructional Strategies (SIS) II
 1570,HUMBEHV 3H03,Working with Families and Teams
-1571,HUMBEHV 3IP3 ,Inquiry Project
+1571,HUMBEHV 3IP3,Inquiry Project
 1572,HUMBEHV 3MD3,Research Methods for Applied Psychology in Human Behaviour
 1573,HUMBEHV 3O03,Curriculum Theory and Approaches
 1574,HUMBEHV 3P03,Learning Environment II
 1575,HUMBEHV 3Q03,"Health, Safety & Nutrition"
 1576,HUMBEHV 3RS3,ABA Research Designs
 1577,HUMBEHV 3ST3,Statistics for Applied Psychology in Human Behaviour
-1578,HUMBEHV 3XP6 ,ECS Practicum II
-1579,HUMBEHV 3XS3 ,Theory to Practice I and II
+1578,HUMBEHV 3XP6,ECS Practicum II
+1579,HUMBEHV 3XS3,Theory to Practice I and II
 1580,HUMBEHV 4CB3,Treating Challenging Behaviour II
 1581,HUMBEHV 4HB3,Seminar in Applied Psychology
 1582,HUMBEHV 4HC3,Seminar in Applied Psychology
@@ -1587,14 +1587,14 @@ id,course_code,course_title
 1585,HUMBEHV 4HF3,Advanced Seminar in Applied Social Psychology
 1586,HUMBEHV 4HG3,Advanced Seminar in Mental Health
 1587,HUMBEHV 4I03,Parent and Staff Training
-1588,HUMBEHV 4IP3 ,Senior Inquiry Project
+1588,HUMBEHV 4IP3,Senior Inquiry Project
 1589,HUMBEHV 4J03,Transition Planning and Implementation
 1590,HUMBEHV 4N03,Principles of Ethical Practice
-1591,HUMBEHV 4RP6 ,Independent Research Project
-1592,HUMBEHV 4SC6 ,Science Communication in the Behavioural Sciences
+1591,HUMBEHV 4RP6,Independent Research Project
+1592,HUMBEHV 4SC6,Science Communication in the Behavioural Sciences
 1593,HUMBEHV 4U03,Inclusion in the ECE Classroom
-1594,HUMBEHV 4V12 ,ECS Practicum III
-1595,HUMBEHV 4VS3 ,Theory to Practice III
+1594,HUMBEHV 4V12,ECS Practicum III
+1595,HUMBEHV 4VS3,Theory to Practice III
 1596,HUMBEHV 4W03,Supervision for Leadership and Quality
 1597,HUMAN 1DL3,Digital Literacy for the Humanities
 1598,HUMAN 1HL3,Humanities for Life: The Value of a Humanities Degree
@@ -1608,18 +1608,18 @@ id,course_code,course_title
 1606,HUMAN 2TC1,Teamwork and Collaboration
 1607,HUMAN 3CL3,Community Leadership at McMaster
 1608,HUMAN 3CM3,Leadership: Cross-Cultural Mentoring Lab
-1609,HUMAN 3IF0 ,Full-time Internship
-1610,HUMAN 3IF1 ,Full-time Internship
-1611,HUMAN 3IP0 ,Part-time Internship
-1612,HUMAN 3IP1 ,Part-time Internship
+1609,HUMAN 3IF0,Full-time Internship
+1610,HUMAN 3IF1,Full-time Internship
+1611,HUMAN 3IP0,Part-time Internship
+1612,HUMAN 3IP1,Part-time Internship
 1613,HUMAN 3LM3,Foundations of Ethical Leadership
-1614,HUMAN 3W03 ,Applied Humanities I
+1614,HUMAN 3W03,Applied Humanities I
 1615,HUMAN 4CM3,Cross-cultural Mentoring and Coaching Practicum
 1616,HUMAN 4LC3,Major Leadership Project: Theory and Practice
 1617,HUMAN 4RM3,Boundaries and Bridges: Relationship Skills for Effective Leaders
 1618,HUMAN 4SI3,Innovation for Social Impact
-1619,HUMAN 4W03 ,Applied Humanities II
-1620,HUMAN 4WL3 ,Wilson Leadership Scholar Capstone
+1619,HUMAN 4W03,Applied Humanities II
+1620,HUMAN 4WL3,Wilson Leadership Scholar Capstone
 1621,IBH 1AA3,Financial Accounting
 1622,IBH 1AB3,Perspectives on Canadian Business
 1623,IBH 1AC3,Introduction to Language and Society
@@ -1639,7 +1639,7 @@ id,course_code,course_title
 1637,IBH 2BB3,Introduction to Finance
 1638,IBH 2BD3,Moral Issues
 1639,IBH 2BF3,History of Capitalism
-1640,IBH 2LD0 ,Leadership Development - Leadership Emergence
+1640,IBH 2LD0,Leadership Development - Leadership Emergence
 1641,IBH 3AA3,Relationship Management
 1642,IBH 3AB3,Applied Marketing Management
 1643,IBH 3AC3,Corporate Finance
@@ -1649,7 +1649,7 @@ id,course_code,course_title
 1647,IBH 3BC3,"Poverty, Privilege and Protest in Canadian History"
 1648,IBH 3BD3,Interpersonal Communication
 1649,IBH 3BE3,Operations Management
-1650,IBH 3LD0 ,Leadership Development - Leadership Effectiveness
+1650,IBH 3LD0,Leadership Development - Leadership Effectiveness
 1651,IBH 4AA3,Critical Seeing
 1652,IBH 4CE3,Community Engagement Capstone
 1653,IBH 4LD3,Leadership Development - Leadership Capstone
@@ -1702,7 +1702,7 @@ id,course_code,course_title
 1700,INDIGST 4L03,Indigenous Community Research Experience
 1701,INDIGST 4LF3,Diné and Dene Literature and Film
 1702,INDIGST 4RI3,Colonialism and Resistance in Representations of Indigenous Womanhood
-1703,INDIGST 4T06 ,Honours Thesis
+1703,INDIGST 4T06,Honours Thesis
 1704,INNOVATE 1X03,The World of Entrepreneurship
 1705,INNOVATE 1Z03,Artificial Intelligence - Innovative Technologies
 1706,INNOVATE 2SI3,Social Innovations
@@ -1712,8 +1712,8 @@ id,course_code,course_title
 1710,INNOVATE 3X03,"Persuasion, Pitching Skills and Marketing"
 1711,INNOVATE 3Z03,From Founder to CEO
 1712,INNOVATE 3ZZ3,Imagining and Navigating the Future
-1713,INNOVATE 4EX6 ,Founders Startup
-1714,INNOVATE 4EX6 ,Founders Startup
+1713,INNOVATE 4EX6,Founders Startup
+1714,INNOVATE 4EX6,Founders Startup
 1715,INSPIRE 1A03,Multidisciplinary Experiential Learning Opportunities
 1716,INSPIRE 1PL3,Personal Leadership Through University Transition
 1717,INSPIRE 2GS3,Global Questions in Sustainability
@@ -1778,20 +1778,20 @@ id,course_code,course_title
 1776,IARTS 3OE3,Field Work: On-Site Explorations
 1777,IARTS 3PE3,"Perspectives E: Key Issues of Equity, Diversity, and Inclusion in the Arts"
 1778,IARTS 3QA3,"Documentary, Politics and Social Change"
-1779,IARTS 3RC6 ,Collaborative Project Development and Production
+1779,IARTS 3RC6,Collaborative Project Development and Production
 1780,IARTS 3RR3,"‘Cripping’ Performance: Deaf, Mad and Disabled Performance in Canada"
 1781,IARTS 3SD3,Scripting Devised Performance
-1782,IARTS 3SP6 ,Stage Design in Action
+1782,IARTS 3SP6,Stage Design in Action
 1783,IARTS 3SR3,Intercultural Arts Along the Silk Road
 1784,IARTS 3TB3,Devised Theatre Production: Research and Development
 1785,IARTS 3VS3,Visual Storytelling
 1786,IARTS 4AD3,Acting as Devising III
 1787,IARTS 4AE3,"Art, Climate, Justice and the Environment"
 1788,IARTS 4AP3,"Contemporary Art Practices of Intervention, Performance, and Conceptual Art"
-1789,IARTS 4C06 ,Thesis Project
-1790,IARTS 4C12 ,Project Capstone Thesis
+1789,IARTS 4C06,Thesis Project
+1790,IARTS 4C12,Project Capstone Thesis
 1791,IARTS 4CE3,Concentrated Study Ceramics
-1792,IARTS 4CS6 ,Critical Curatorial Studies
+1792,IARTS 4CS6,Critical Curatorial Studies
 1793,IARTS 4D03,"Theatre, Society and Early Cinema"
 1794,IARTS 4DM3,Arts and Diasporic Migration
 1795,IARTS 4F03,Concentrated Study Foundry
@@ -1801,9 +1801,9 @@ id,course_code,course_title
 1799,IARTS 4SD3,Scripting Devised Performance
 1800,IARTS 4Z03,Gender and the Textile Arts
 1801,IBEHS 1EE0,Introduction to Career Planning & Employment
-1802,IBEHS 1EP6 ,Entrepreneurship in Biomedical Innovation: From Bench to Market
+1802,IBEHS 1EP6,Entrepreneurship in Biomedical Innovation: From Bench to Market
 1803,IBEHS 1HS0,Health Screening and Clinical Safety Training
-1804,IBEHS 1P10 ,Health Solutions Design Projects I: Introduction to Engineering Fundamentals and Design
+1804,IBEHS 1P10,Health Solutions Design Projects I: Introduction to Engineering Fundamentals and Design
 1805,IBEHS 2E03,Human-Centred Design
 1806,IBEHS 2EC0,IBEHS Work Term
 1807,IBEHS 2EE3,From Idea to Innovation
@@ -1812,15 +1812,15 @@ id,course_code,course_title
 1810,IBEHS 3E03,Fundamentals of Business Strategy
 1811,IBEHS 3EE3,Project Management
 1812,IBEHS 3H03,Research Project
-1813,IBEHS 3I06 ,Research Project
+1813,IBEHS 3I06,Research Project
 1814,IBEHS 3P04,Health Solutions Design Projects III: Analysis and Decision Making
 1815,IBEHS 3S03,Statistical Methods in Biomedical Engineering
-1816,IBEHS 3X03 ,Experiential Placement
+1816,IBEHS 3X03,Experiential Placement
 1817,IBEHS 4A03,Biomedical Control Systems
 1818,IBEHS 4B03,Biomechanics
 1819,IBEHS 4D03,Introduction to Medical Imaging
-1820,IBEHS 4E09 ,"Health, Engineering Science and Entrepreneurship Thesis"
-1821,IBEHS 4EE6 ,Innovators in Scrubs
+1820,IBEHS 4E09,"Health, Engineering Science and Entrepreneurship Thesis"
+1821,IBEHS 4EE6,Innovators in Scrubs
 1822,IBEHS 4F04,Biomedical Instrumentation and Measurement
 1823,IBEHS 4H03,Research Project
 1824,IBEHS 4M03,Biomaterials and Tissue Engineering
@@ -1828,22 +1828,22 @@ id,course_code,course_title
 1826,IBEHS 4QZ3,Modelling of Biological Systems
 1827,IBEHS 4XC3,Experimental and Computational Biomechanics
 1828,IBEHS 4Y03,Applications of Chemical Engineering in Medicine
-1829,IBEHS 5E15 ,"Health, Engineering Science and Entrepreneurship Thesis"
-1830,IBEHS 5P06 ,Biomedical Capstone Design Project
-1831,CHEMBME 5P06 ,Integrated Chemical & Biomedical Engineering Capstone Design Project
-1832,CIVBME 5P06 ,Integrated Civil & Biomedical Engineering Capstone Design Project
-1833,ELECBME 5P06 ,Integrated Electrical & Biomedical Engineering Capstone Design Project
-1834,EPHYSBME 5P06 ,Integrated Engineering Physics & Biomedical Engineering Capstone Design Project
-1835,MATLSBME 5P06 ,Integrated Materials & Biomedical Engineering Capstone Design Project
-1836,MECHBME 5P06 ,Integrated Mechanical & Biomedical Engineering Capstone Design Project
-1837,TRONBME 5P06 ,Integrated Mechatronics & Biomedical Engineering Capstone Design Project
-1838,ISCI 1A24 ,Integrated Science I
-1839,ISCI 2A18 ,Integrated Science II
-1840,ISCI 3A12 ,Integrated Science III
-1841,ISCI 4A12 ,Integrated Science IV
+1829,IBEHS 5E15,"Health, Engineering Science and Entrepreneurship Thesis"
+1830,IBEHS 5P06,Biomedical Capstone Design Project
+1831,CHEMBME 5P06,Integrated Chemical & Biomedical Engineering Capstone Design Project
+1832,CIVBME 5P06,Integrated Civil & Biomedical Engineering Capstone Design Project
+1833,ELECBME 5P06,Integrated Electrical & Biomedical Engineering Capstone Design Project
+1834,EPHYSBME 5P06,Integrated Engineering Physics & Biomedical Engineering Capstone Design Project
+1835,MATLSBME 5P06,Integrated Materials & Biomedical Engineering Capstone Design Project
+1836,MECHBME 5P06,Integrated Mechanical & Biomedical Engineering Capstone Design Project
+1837,TRONBME 5P06,Integrated Mechatronics & Biomedical Engineering Capstone Design Project
+1838,ISCI 1A24,Integrated Science I
+1839,ISCI 2A18,Integrated Science II
+1840,ISCI 3A12,Integrated Science III
+1841,ISCI 4A12,Integrated Science IV
 1842,ISCI 4ZF0,Integrated Science Field Work
-1843,SFWRBME 5P06 ,Integrated Software & Biomedical Engineering Capstone Design Project
-1844,INTENG 2A03 ,International Engagement at Home
+1843,SFWRBME 5P06,Integrated Software & Biomedical Engineering Capstone Design Project
+1844,INTENG 2A03,International Engagement at Home
 1845,INTENG 3A03,International Engagement Capstone
 1846,ENRTECH 3EM3,Transmission Lines and Electromagnetics
 1847,IRH 2CS3,Communication Skills in Rehabilitation and Humanities
@@ -1860,12 +1860,12 @@ id,course_code,course_title
 1858,IRH 4RT6,Research Thesis Project
 1859,ITALIAN 1A03,Intermediate Italian I
 1860,ITALIAN 1AA3,Intermediate Italian II
-1861,ITALIAN 1Z06 ,Beginner’s Intensive Italian
+1861,ITALIAN 1Z06,Beginner’s Intensive Italian
 1862,ITALIAN 2Z03,Intermediate Italian I
 1863,ITALIAN 2ZZ3,Intermediate Italian II
 1864,ITALIAN 3X03,Italy Today Through Film (Taught in English)
-1865,ITALIAN 4II3 ,Independent Study
-1866,JAPANESE 1Z06 ,Beginner’s Intensive Japanese
+1865,ITALIAN 4II3,Independent Study
+1866,JAPANESE 1Z06,Beginner’s Intensive Japanese
 1867,JAPANESE 2X03,Japanese Anime (Taught in English)
 1868,JAPANESE 2Z03,Intermediate Intensive Japanese I
 1869,JAPANESE 2ZZ3,Intermediate Intensive Japanese II
@@ -1914,8 +1914,8 @@ id,course_code,course_title
 1912,KINESIOL 4J03,Functional Anatomy
 1913,KINESIOL 4KK3,Fundamentals of Rehabilitation
 1914,KINESIOL 4Q03,Paediatric Exercise Physiology
-1915,KINESIOL 4RR6 ,Thesis
-1916,KINESIOL 4RR9 ,Thesis
+1915,KINESIOL 4RR6,Thesis
+1916,KINESIOL 4RR9,Thesis
 1917,KINESIOL 4S03,Exercise as Medicine
 1918,KINESIOL 4SS3,Human Aging: Biological and Lifestyle Influences
 1919,KINESIOL 4TT3,Neurorehabilitation and Robotics
@@ -1970,13 +1970,13 @@ id,course_code,course_title
 1968,LIFESCI 3XX3,Peer Mentoring
 1969,LIFESCI 3Z03,Life Sciences Inquiry
 1970,LIFESCI 4A03,Independent Study
-1971,LIFESCI 4B09 ,Independent Project
-1972,LIFESCI 4C12 ,Independent Thesis
+1971,LIFESCI 4B09,Independent Project
+1972,LIFESCI 4C12,Independent Thesis
 1973,LIFESCI 4CM3,Foundations of Disease States Inquiry Lab
-1974,LIFESCI 4D15 ,Independent Thesis
+1974,LIFESCI 4D15,Independent Thesis
 1975,LIFESCI 4DD3,Racism & Health Inequities in Science & Health Care
 1976,LIFESCI 4E03,Science & Storytelling
-1977,LIFESCI 4EP6 ,Life Sciences Advanced Placement
+1977,LIFESCI 4EP6,Life Sciences Advanced Placement
 1978,LIFESCI 4F03,Emerging Paradigms in Environmental Change and Health
 1979,LIFESCI 4H03,Regeneration: What Can We Learn from Animal Models?
 1980,LIFESCI 4I03,Research Seminar
@@ -2008,7 +2008,7 @@ id,course_code,course_title
 2006,LINGUIST 2LL3,Languages of the World and Linguistic Universals
 2007,LINGUIST 2PH3,Phonology
 2008,LINGUIST 2PS3,Psycholinguistics
-2009,LINGUIST 2RP3 ,Individual Practicum in Indigenous Language Revitalization
+2009,LINGUIST 2RP3,Individual Practicum in Indigenous Language Revitalization
 2010,LINGUIST 2S03,Language and Society
 2011,LINGUIST 2SL3,Introduction to American Sign Language
 2012,LINGUIST 2SY3,Syntax
@@ -2024,7 +2024,7 @@ id,course_code,course_title
 2022,LINGUIST 3NL3,Cognitive Neuroscience of Language
 2023,LINGUIST 3P03,Pragmatics
 2024,LINGUIST 3PG3,Introduction to Programming for Linguistics
-2025,LINGUIST 3RP3 ,Individual Research Practicum
+2025,LINGUIST 3RP3,Individual Research Practicum
 2026,LINGUIST 3SL3,Intermediate American Sign Language
 2027,LINGUIST 3TT3,Perspectives on Translation
 2028,LINGUIST 3WC3,Writing about Science
@@ -2034,7 +2034,7 @@ id,course_code,course_title
 2032,LINGUIST 4EL3,Laboratory in Experimental Linguistics
 2033,LINGUIST 4G03,"Language, Sex and Gender"
 2034,LINGUIST 4HL3,Heritage Languages in the Hamilton Diaspora
-2035,LINGUIST 4II3 ,Independent Study
+2035,LINGUIST 4II3,Independent Study
 2036,LINGUIST 4LB3,Advanced Phonetics and Phonology
 2037,LINGUIST 4LC3,Advanced Syntax and its Interfaces
 2038,LINGUIST 4LX3,The Structure of X
@@ -2046,7 +2046,7 @@ id,course_code,course_title
 2044,LINGUIST 4SS3,Seminar in Sociolinguistics
 2045,LINGUIST 4TP3,Teaching Practicum for Linguists
 2046,LINGUIST 4XX3,Topics in Linguistic Theory
-2047,LINGUIST 4Y06 ,Honours Thesis
+2047,LINGUIST 4Y06,Honours Thesis
 2048,STEP 1SP0,Summer Transition English Prep
 2049,MANTECH 3LS3,Quality Control and Assurance Methods
 2050,MANTECH 3MF3,Micro Manufacturing and Fabrication
@@ -2071,12 +2071,12 @@ id,course_code,course_title
 2069,MATLS 4B03,Biomaterials and Tissue Engineering
 2070,MATLS 4C03,Modern Iron and Steelmaking
 2071,MATLS 4D03,Corrosion and its Control
-2072,MATLS 4EX1 ,Engineering Report for Exchange Students
+2072,MATLS 4EX1,Engineering Report for Exchange Students
 2073,MATLS 4FF3,"Synthesis, Applications and Environmental Impact of Nanomaterials"
 2074,MATLS 4G03,Characterization of Nanomaterials
 2075,MATLS 4H03,X-ray Analysis and Functional Properties of Polycrystalline and Thin Film Materials
 2076,MATLS 4I03,Sustainable Manufacturing Processes
-2077,MATLS 4K06 ,Senior Research Project
+2077,MATLS 4K06,Senior Research Project
 2078,MATLS 4LA2,Heat-Treatable Al Alloys
 2079,MATLS 4LB2,Synthesis and Characterization of Biomedical Coatings
 2080,MATLS 4LF2,"Synthesis, Properties and Application of Thin Films"
@@ -2089,7 +2089,7 @@ id,course_code,course_title
 2087,MATLS 4Q03,Materials for Sensors in Big Data and AI Systems
 2088,MATLS 4T03,Properties and Processing of Composites
 2089,MATLS 4Y03,Advanced Biomaterials: Applications and Characterization
-2090,MATLS 4Z06 ,Materials Engineering Capstone
+2090,MATLS 4Z06,Materials Engineering Capstone
 2091,MATH 1A03,Calculus For Science I
 2092,MATH 1AA3,Calculus For Science II
 2093,MATH 1B03,Linear Algebra I
@@ -2122,7 +2122,7 @@ id,course_code,course_title
 2120,MATH 3CY3,Cryptography
 2121,MATH 3D03,Mathematical Physics II
 2122,MATH 3DC3,Discrete Dynamical Systems and Chaos
-2123,MATH 3ET3 ,Mathematics Teaching Placement
+2123,MATH 3ET3,Mathematics Teaching Placement
 2124,MATH 3F03,Ordinary Differential Equations
 2125,MATH 3FF3,Partial Differential Equations
 2126,MATH 3FM3,Mathematics of Finance
@@ -2153,7 +2153,7 @@ id,course_code,course_title
 2151,MATH 4LT3,Topics in Logic
 2152,MATH 4MB3,Mathematical Biology
 2153,MATH 4NA3,Numerical Methods for Differential Equations
-2154,MATH 4P06 ,Senior Research Project
+2154,MATH 4P06,Senior Research Project
 2155,MATH 4TT3,Topics in Topology
 2156,MATH 4W03,Reading in Mathematics
 2157,MATH 4WW3,Reading in Mathematics II
@@ -2181,7 +2181,7 @@ id,course_code,course_title
 2179,MECHENG 3C03,Manufacturing Engineering
 2180,MECHENG 3E03,Mechanical Engineering Design Theory
 2181,MECHENG 3F04,Modelling and Numerical Solutions
-2182,MECHENG 3M03 ,Composite Laboratory I
+2182,MECHENG 3M03,Composite Laboratory I
 2183,MECHENG 3O04,Fluid Mechanics
 2184,MECHENG 3R03,Heat Transfer
 2185,MECHENG 4AA3,Aerodynamics
@@ -2199,10 +2199,10 @@ id,course_code,course_title
 2197,MECHENG 4I03,Noise Analysis and Control
 2198,MECHENG 4J03,Introduction to Computational Fluid Mechanics and Heat Transfer
 2199,MECHENG 4K03,Robotics
-2200,MECHENG 4M06 ,Mechanical Engineering Capstone Design Project
+2200,MECHENG 4M06,Mechanical Engineering Capstone Design Project
 2201,MECHENG 4N03,Nanobio Engineering
 2202,MECHENG 4O04,Sustainable Energy Systems
-2203,MECHENG 4P03 ,Composite Laboratory II
+2203,MECHENG 4P03,Composite Laboratory II
 2204,MECHENG 4Q03,Mechanical Vibrations
 2205,MECHENG 4R03,Control Systems
 2206,MECHENG 4S03,Incompressible Flow
@@ -2211,7 +2211,7 @@ id,course_code,course_title
 2209,MECHENG 4U03,Compressible Flow and Turbomachinery
 2210,MECHENG 4V03,Thermo-Fluids Systems Design and Analysis
 2211,MECHENG 4W03,Air Conditioning and Refrigeration Systems
-2212,MECHENG 4X04 ,Independent Research Project
+2212,MECHENG 4X04,Independent Research Project
 2213,MECHENG 4Y03,Internal Combustion Engines
 2214,MECHENG 4Z03,CAD/CAM/CAE
 2215,MECHTRON 2MD3,Data Structures and Algorithms for Mechatronics
@@ -2224,1052 +2224,1051 @@ id,course_code,course_title
 2222,MECHTRON 3X03,Scientific Computation
 2223,MECHTRON 4AA4,Real-Time Systems and Control Applications
 2224,MECHTRON 4AX3,Predictive and Intelligent Control
-2225,MECHTRON 4TB6 ,Mechatronics Capstone Design Project
+2225,MECHTRON 4TB6,Mechatronics Capstone Design Project
 2226,MEDIAART 1A03,Media Arts
-2227,MEDIAART 2A06,Design & Code
-2228,MEDIAART 2B06,Time-Based Media
-2229,MEDIAART 2DF3,Design Fundamentals
-2230,MEDIAART 2G03,Digital Audio
-2231,MEDIAART 3AN3,Animation
-2232,MEDIAART 3B03,Digital Cultures
-2233,MEDIAART 3BB3,New Media Art Practices
-2234,MEDIAART 3C03,Interactive and Spatial Audio
-2235,MEDIAART 3D03,"Interface, Code, Data"
-2236,MEDIAART 3DS3,Documentary Strategies
-2237,MEDIAART 3EE3,Graphic Design
-2238,MEDIAART 3EW3,Environmental and Wildlife Photography
-2239,MEDIAART 3I03,Narrative Strategies
-2240,MEDIAART 3K03,Game Studies
-2241,MEDIAART 3L03,Game Design
-2242,MEDIAART 3MU3,"Musics, Technologies and Audio Cultures"
-2243,MEDIAART 3PC3,Photographic Collage and Composite Images
-2244,MEDIAART 3S03,Sound and Image
-2245,MEDIAART 3VA3,Video Art and Digital Cinema
-2246,MEDIAART 3Z03,Production and Critique
-2247,MEDIAART 4F03,Topics in Media Arts Production
-2248,MEDIAART 4ST6 ,Senior Thesis Research and Production
-2249,MEDPHYS 1A03,Physics in Medicine and Biology
-2250,MEDPHYS 3C03,Operational Health Physics: Laboratory & Communication
-2251,MEDPHYS 4B03,Radioactivity and Radiation in Medical Physics
-2252,MEDPHYS 4D03,Imaging in Medicine and Biology
-2253,MEDPHYS 4F03,Fundamentals of Health Physics
-2254,MEDPHYS 4I03,Introduction to Biophotonics
-2255,MEDPHYS 4RA3,Radiation and Radioisotope Methodology I
-2256,MEDPHYS 4RB3,Radiation and Radioisotope Methodology II
-2257,MEDPHYS 4T03,Clinical Applications of Physics in Medicine
-2258,MEDPHYS 4U03,Radiation Biology
-2259,MEDPHYS 4Y06 ,Senior Research Project
-2260,MEDRADSC 1B03,Introduction to Pathology
-2261,MEDRADSC 1C03,Introduction to Physics for Medical Radiation Sciences
-2262,MEDRADSC 1E03,Inquiry in Medical Radiation Sciences
-2263,MEDRADSC 1F03,Professions in Medical Radiation Sciences
-2264,MEDRADSC 2A03,Patient Care
-2265,MEDRADSC 2AA3,Imaging Procedures in Health Care
-2266,MEDRADSC 2D03,Relational Anatomy I
-2267,MEDRADSC 2G03,Radiographic Skills I
-2268,MEDRADSC 2H03,Radiographic Skills II
-2269,MEDRADSC 2I03,Pathology and Procedures I
-2270,MEDRADSC 2J15,Radiography Clinical Practicum I
-2271,MEDRADSC 2K03,Applied Sonographic Physics and Instrumentation I
-2272,MEDRADSC 2L03,Abdominal Ultrasonography I
-2273,MEDRADSC 2M03,Obstetrical and Gynecologic Ultrasonography I
-2274,MEDRADSC 2N03,Sonographic Skills I
-2275,MEDRADSC 2O03,Abdominal Ultrasonography II
-2276,MEDRADSC 2P03,Obstetrical and Gynecological Ultrasonography II
-2277,MEDRADSC 2Q03,Sonographic Skills II
-2278,MEDRADSC 2R15,Ultrasonography Clinical Practicum I
-2279,MEDRADSC 2RA3,Relational Anatomy II
-2280,MEDRADSC 2S03,Clinical Oncology I
-2281,MEDRADSC 2T03,Clinical Oncology II
-2282,MEDRADSC 2U03,Radiation Therapy Skills I
-2283,MEDRADSC 2V15,Radiation Therapy Clinical Practicum I
-2284,MEDRADSC 2W03,Physics and Instrumentation for Radiation Therapy
-2285,MEDRADSC 2X03,Radiobiology and Protection
-2286,MEDRADSC 2Y03,Radiographic Imaging and Instrumentation I
-2287,MEDRADSC 2ZZ0,Pre-Clinical Professional Skills Reassessment I
-2288,MEDRADSC 3AA3,Interdisciplinary Health Care
-2289,MEDRADSC 3B03,Quality Management in Medical Radiation Sciences
-2290,MEDRADSC 3DA3,Advanced Studies in Computed Tomography
-2291,MEDRADSC 3DE3,Introduction to Magnetic Resonance Imaging
-2292,MEDRADSC 3DJ3,Pediatric Sonography
-2293,MEDRADSC 3G03,Radiographic Imaging and Instrumentation II
-2294,MEDRADSC 3H03,Quality Control in Radiography
-2295,MEDRADSC 3J03,Pathology and Procedures II
-2296,MEDRADSC 3K03,Computed Tomography
-2297,MEDRADSC 3L03,Radiographic Skills III
-2298,MEDRADSC 3LA3,Radiation Therapy Skills II
-2299,MEDRADSC 3LB3,Radiation Therapy Skills III
-2300,MEDRADSC 3M03,Abdominal Ultrasonography III
-2301,MEDRADSC 3N03,Vascular Ultrasonography
-2302,MEDRADSC 3O03,Sonographic Skills III
-2303,MEDRADSC 3P03,Obstetrical and Gynecologic Ultrasonography III
-2304,MEDRADSC 3Q03,Applied Sonographic Physics and Instrumentation II
-2305,MEDRADSC 3R03,Musculoskeletal Ultrasonography
-2306,MEDRADSC 3S03,Treatment Planning I
-2307,MEDRADSC 3V03,Treatment Planning II
-2308,MEDRADSC 3X03,Research Methods in Medical Radiation Sciences
-2309,MEDRADSC 3Y03,Ethics for Medical Radiation Sciences
-2310,MEDRADSC 3Z06,Research Project
-2311,MEDRADSC 3ZZ0,Clinical Skill Development for Professionals
-2312,MEDRADSC 4A15,Radiography Clinical Practicum II
-2313,MEDRADSC 4B15,Radiography Clinical Practicum III
-2314,MEDRADSC 4C15,Ultrasonography Clinical Practicum II
-2315,MEDRADSC 4D15,Ultrasonography Clinical Practicum III
-2316,MEDRADSC 4E15,Radiation Therapy Clinical Practicum II
-2317,MEDRADSC 4F15,Radiation Therapy Clinical Practicum III
-2318,MEDRADSC 4ZZ0,Pre-Clinical Professional Skills Reassessment II
-2319,MIDWIF 1D03,Midwifery The Profession I
-2320,MIDWIF 1F03,Introduction to Research Methods and Critical Appraisal
-2321,MIDWIF 1G03,Midwifery The Profession II
-2322,MIDWIF 2F03,Pharmacotherapy
-2323,MIDWIF 2G06,Clinical Skills for Midwifery Practice
-2324,MIDWIF 2H15,Normal Childbearing
-2325,MIDWIF 2M15,Fundamentals in Midwifery 1
-2326,MIDWIF 3F03,Midwifery Issues
-2327,MIDWIF 3H15,Complex Care I
-2328,MIDWIF 3M01,Elective Placement
-2329,MIDWIF 3M03 ,Advanced Clinical Skills I & II
-2330,MIDWIF 3M09,Fundamentals in Midwifery 3
-2331,MIDWIF 3N15,Fundamentals in Midwifery 2
-2332,MIDWIF 4A15,Complex Care II
-2333,MIDWIF 4B15,Midwifery Clerkship
-2334,MOLBIOL 2C03,Genetics
-2335,MOLBIOL 3B03,Advanced Cell Biology
-2336,MOLBIOL 3D03,Experimental Approaches in Cell Biology
-2337,MOLBIOL 3I03 ,Independent Research Project
-2338,MOLBIOL 3II3,Molecular Genetics of Eukaryotes
-2339,MOLBIOL 3M03,Fundamental Concepts of Development
-2340,MOLBIOL 3O03,Microbial Genetics
-2341,MOLBIOL 3V03,Techniques in Molecular Genetics
-2342,MOLBIOL 3Y03,Plant Responses to the Environment
-2343,MOLBIOL 4BB3,Plant Metabolism and Molecular Biology
-2344,MOLBIOL 4CT3,Current Topics in Molecular Biology and Genetics
-2345,MOLBIOL 4DD3,Molecular Evolution
-2346,MOLBIOL 4ED3,Evolutionary Developmental Biology
-2347,MOLBIOL 4G12 ,Senior Thesis
-2348,MOLBIOL 4H03,Molecular Biology of Cancer
-2349,MOLBIOL 4K03,Research Advances in Biology of Aging
-2350,MOLBIOL 4P03,Medical Microbiology
-2351,MOLBIOL 4RR3,Human Genetics
-2352,MOHAWK 1Z03,Introduction to Mohawk Language and Culture
-2353,MOHAWK 2Z03,Intermediate Mohawk
-2354,MUSIC 1A03,Introduction to the History of Western Music I
-2355,MUSIC 1AA3,Introduction to the History of Western Music II
-2356,MUSIC 1CB3,Theory and Analysis I
-2357,MUSIC 1CR3,Rudiments of Music
-2358,MUSIC 1DA3,Practical Musicianship I
-2359,MUSIC 1DB3,Practical Musicianship II
-2360,MUSIC 1E06 ,Solo Performance
-2361,MUSIC 1EE6 ,Solo Performance
-2362,MUSIC 1GB3 ,Ensemble Performance: McMaster Concert Band
-2363,MUSIC 1GC3 ,Ensemble Performance: McMaster University Choir
-2364,MUSIC 1GF3 ,Ensemble Performance: David Gerry Flute Ensemble
-2365,MUSIC 1GJ3 ,Ensemble Performance: McMaster Jazz Band
-2366,MUSIC 1GP3 ,Ensemble Performance: McMaster Percussion Ensemble
-2367,MUSIC 1GR3 ,Ensemble Performance: McMaster Symphony Orchestra
-2368,MUSIC 1GW3 ,Ensemble Performance: McMaster Cantemus Vocal Ensemble
-2369,MUSIC 1HB0 ,Ensemble Performance: McMaster Concert Band
-2370,MUSIC 1HC0 ,Ensemble Performance: McMaster University Choir
-2371,MUSIC 1HF0 ,Ensemble Performance: David Gerry Flute Ensemble
-2372,MUSIC 1HJ0 ,Ensemble Performance: McMaster Jazz Band
-2373,MUSIC 1HP0 ,Ensemble Performance: McMaster Percussion Ensemble
-2374,MUSIC 1HR0 ,Ensemble Performance: McMaster Symphony Orchestra
-2375,MUSIC 1HW0 ,Ensemble Performance: McMaster Cantemus Vocal Ensemble
-2376,MUSIC 2CA3,Theory and Analysis II
-2377,MUSIC 2CB3,Theory and Analysis III
-2378,MUSIC 2CU3,Music and Culture
-2379,MUSIC 2DA3,Practical Musicianship III
-2380,MUSIC 2E06 ,Solo Performance
-2381,MUSIC 2EE6 ,Solo Performance
-2382,MUSIC 2F03,Music for Film and Television
-2383,MUSIC 2GB3 ,Ensemble Performance: McMaster Concert Band
-2384,MUSIC 2GC3 ,Ensemble Performance: McMaster University Choir
-2385,MUSIC 2GF3 ,Ensemble Performance: David Gerry Flute Ensemble
-2386,MUSIC 2GJ3 ,Ensemble Performance: McMaster Jazz Band
-2387,MUSIC 2GP3 ,Ensemble Performance: McMaster Percussion Ensemble
-2388,MUSIC 2GR3 ,Ensemble Performance: McMaster Symphony Orchestra
-2389,MUSIC 2GW3 ,Ensemble Performance: McMaster Cantemus Vocal Ensemble
-2390,MUSIC 2II3,Popular Music in North America and the United Kingdom: Post-World War II
-2391,MUSIC 2MC3,Psychology of Music
-2392,MUSIC 2MT3,Introduction to the Practice of Music Therapy
-2393,MUSIC 2MU3,Introduction to Music Therapy Research
-2394,MUSIC 2SI3,Singing
-2395,MUSIC 2TT3,Broadway and the Popular Song
-2396,MUSIC 2WW3,Woodwinds
-2397,MUSIC 3CP3,Constructing Counterpoint
-2398,MUSIC 3E03,Solo Performance
-2399,MUSIC 3E06 ,Solo Performance
-2400,MUSIC 3EE3,Solo Performance
-2401,MUSIC 3EE6 ,Solo Performance
-2402,MUSIC 3GA3 ,Ensemble Performance: Accompanying
-2403,MUSIC 3GB3 ,Ensemble Performance: McMaster Concert Band
-2404,MUSIC 3GC3 ,Ensemble Performance: McMaster University Choir
-2405,MUSIC 3GF3 ,Ensemble Performance: David Gerry Flute Ensemble
-2406,MUSIC 3GJ3 ,Ensemble Performance: McMaster Jazz Band
-2407,MUSIC 3GP3 ,Ensemble Performance: McMaster Percussion Ensemble
-2408,MUSIC 3GR3 ,Ensemble Performance: McMaster Symphony Orchestra
-2409,MUSIC 3GW3 ,Ensemble Performance: McMaster Cantemus Vocal Ensemble
-2410,MUSIC 3J03,Orchestration and Arranging
-2411,MUSIC 3JJ3,Topics in Music History: Music Before c. 1750
-2412,MUSIC 3K03,Brass Methods
-2413,MUSIC 3KK3,Topics in Music History: Music from c. 1750-c. 1900
-2414,MUSIC 3O03,Conducting
-2415,MUSIC 3P03,Percussion Methods
-2416,MUSIC 3SI3,Vocal Pedagogy
-2417,MUSIC 3SS3,Special Studies in Chamber Music or Accompanying I
-2418,MUSIC 3WW3,Woodwind Pedagogy
-2419,MUSIC 3X03,Independent Study
-2420,MUSIC 4C03,Advanced Studies in Harmony and Counterpoint
-2421,MUSIC 4E03,Solo Performance
-2422,MUSIC 4E06 ,Solo Performance
-2423,MUSIC 4E09 ,"Solo Performance, Diploma"
-2424,MUSIC 4EE3,Solo Performance
-2425,MUSIC 4EE6 ,Solo Performance
-2426,MUSIC 4EE9 ,"Solo Performance, Diploma"
-2427,MUSIC 4GA3 ,Ensemble Performance: Accompanying
-2428,MUSIC 4GB3 ,Ensemble Performance: McMaster Concert Band
-2429,MUSIC 4GC3 ,Ensemble Performance: McMaster University Choir
-2430,MUSIC 4GF3 ,Ensemble Performance: David Gerry Flute Ensemble
-2431,MUSIC 4GJ3 ,Ensemble Performance: McMaster Jazz Band
-2432,MUSIC 4GP3 ,Ensemble Performance: McMaster Percussion Ensemble
-2433,MUSIC 4GR3 ,Ensemble Performance: McMaster Symphony Orchestra
-2434,MUSIC 4GW3 ,Ensemble Performance: McMaster Cantemus Vocal Ensemble
-2435,MUSIC 4H03,Investigating Music
-2436,MUSIC 4K03,Brass Methods
-2437,MUSIC 4M03 ,String Methods
-2438,MUSIC 4N03,Choral Methods
-2439,MUSIC 4OI3,Advanced Conducting: Instrumental
-2440,MUSIC 4SS3,Special Studies in Chamber Music or Accompanying II
-2441,MUSIC 4X03,Advanced Independent Study
-2442,MUSIC 4Y03,Topics in Music History: Advanced Musicology Seminar
-2443,MUSIC 4Z03,Composing Music
-2444,MUSIC 4ZZ3,Advanced Composition
-2445,MUSICCOG 2MP3,Introduction to Music Cognition
-2446,MUSICCOG 3QQ3 ,Experimental Laboratory in Music Cognition I
-2447,MUSICCOG 3SP3,The Science of Performance
-2448,MUSICCOG 4D06 ,Thesis in Music Cognition
-2449,MUSICCOG 4MP3,Neuroscience of Music
-2450,MUSICCOG 4QQ3 ,Experimental Laboratory in Music Cognition II
-2451,NEUROSCI 2BB3 ,Research Practicum in Cellular/Molecular Neuroscience
-2452,NEUROSCI 2CC3 ,Research Practicum in Systems/Circuits Neuroscience
-2453,NEUROSCI 2DD3 ,Research Practicum in Behavioural/Cognitive Neuroscience
-2454,NEUROSCI 2XN0 ,Neuroscience Tutorial
-2455,NEUROSCI 3BB3 ,Individual Lab Study in Cellular/Molecular Neuroscience
-2456,NEUROSCI 3BB6 ,Individual Lab Study in Cellular/Molecular Neuroscience
-2457,NEUROSCI 3CC3 ,Individual Lab Study in Systems/Circuits Neuroscience
-2458,NEUROSCI 3CC6 ,Individual Lab Study in Systems/Circuits Neuroscience
-2459,NEUROSCI 3DD3 ,Individual Lab Study in Behavioural/Cognitive Neuroscience
-2460,NEUROSCI 3DD6 ,Individual Lab Study Behavioural/Cognitive Neuroscience
-2461,NEUROSCI 3E03,Neuroscience Lab
-2462,NEUROSCI 3J03,Visual Neuroscience
-2463,NEUROSCI 3MN3,Computational Models in Neuroscience
-2464,NEUROSCI 3SN3,Neural Circuits
-2465,NEUROSCI 4L09 ,Neuroscience Thesis
-2466,NEUROSCI 4L12 ,Neuroscience Senior Thesis
-2467,NEUROSCI 4S03 ,Neuroscience Seminar
-2468,NEXUS 2A03,Impact of Infectious Disease on Individuals and Society
-2469,NEXUS 4A06 ,How to Survive a Pandemic: Capstone Project for Nexus Minor
-2470,NURSING 1F03,Introduction to Nursing and Health I for Basic Stream
-2471,NURSING 1G03,Introduction to Nursing and Health II for Basic Stream
-2472,NURSING 1I02,Introduction to Nursing Practice for Basic Stream
-2473,NURSING 1J02,Professional Nursing Practice I for Basic Stream
-2474,NURSING 1K02,Community Engagement and Citizenship for Basic Stream
-2475,NURSING 1RP0,Reintegration Course
-2476,NURSING 2A04,Introduction to Professional RN Practice I for Post Diploma RPN Stream
-2477,NURSING 2AA3,Professional RN Practice II for Post Diploma RPN Stream
-2478,NURSING 2I04,Introduction to Professional Nursing and Health for Accelerated Stream
-2479,NURSING 2J04,Professional Nursing Practice II for Accelerated Stream
-2480,NURSING 2L03,Professional Nursing Practice II for Basic Stream
-2481,NURSING 2MM3,Nursing Concepts in Health and Illness I for Basic Stream
-2482,NURSING 2NN3,Nursing Concepts in Health and Illness II for Basic Stream
-2483,NURSING 2P03,Professional Nursing Practice III for Basic Stream
-2484,NURSING 2U04,Introduction to Nursing Practice I for Accelerated Stream
-2485,NURSING 2V04,Nursing Concepts in Health & Illness for Accelerated Stream I
-2486,NURSING 3A04,Clinical Reasoning in RN Practice for Post Diploma RPN Stream
-2487,NURSING 3CN3,"Nursing Practice with the Community: Populations, Partnerships, Politics and Power"
-2488,NURSING 3IH3,Introduction to Indigenous Health Policy and Practice
-2489,NURSING 3NI3,Introduction to Concepts in Northern and International Health
-2490,NURSING 3QA3,Professional Community Nursing Practice
-2491,NURSING 3QN3,Nursing Practice in Northern Communities
-2492,NURSING 3RS3,Nursing Concepts in Health and Illness III for Post Diploma RPN Stream
-2493,NURSING 3RT3,Nursing Concepts in Health and Illness IV for Post Diploma RPN Stream
-2494,NURSING 3RY4,Professional Nursing Practice V for Post Diploma RPN Stream
-2495,NURSING 3SS3,Nursing Concepts in Health and Illness III for Basic Stream
-2496,NURSING 3TT3,Nursing Concepts in Health and Illness IV for Basic Stream
-2497,NURSING 3V03,Nursing Concepts in Health & Illness for Accelerated Stream II
-2498,NURSING 3X04,Professional Nursing Practice IV
-2499,NURSING 3Y04,Professional Nursing Practice V
-2500,NURSING 3ZA3,Professional Nursing Practice III for Accelerated Stream
-2501,NURSING 3ZB3,Professional Nursing Practice IV for Accelerated Stream
-2502,NURSING 4H03,Introduction to Concepts in Global Health
-2503,NURSING 4J07,Professional Nursing Practice VI
-2504,NURSING 4K10,Professional Practice and the New Graduate
-2505,NURSING 4P04,Advanced Nursing Concepts I
-2506,NURSING 4Q03,Advanced Nursing Concepts II
-2507,OJIBWE 1Z03,Introduction to Ojibwe Language and Culture
-2508,OJIBWE 2Z03,Intermediate Ojibwe
-2509,PHARMAC 3A06 ,Introduction to Pharmacology
-2510,PHARMAC 3B06 ,Methods in Pharmacology
-2511,PHARMAC 4A03,Receptor-Drug Interactions
-2512,PHARMAC 4AA3,Advanced Topics in Pharmacology
-2513,PHARMAC 4C03,Principles of Toxicology
-2514,PHARMAC 4D03,Drug Design
-2515,PHARMAC 4E03,Social Pharmacology
-2516,PHARMAC 4T15,Senior Thesis
-2517,PHILOS 1A03,Philosophical Texts
-2518,PHILOS 1B03,"Philosophy, Law and Society"
-2519,PHILOS 1E03,Philosophical Questions
-2520,PHILOS 1F03,Meaning in Life
-2521,PHILOS 2B03,Introductory Logic
-2522,PHILOS 2CT3,Critical Thinking
-2523,PHILOS 2D03,Bioethics
-2524,PHILOS 2E03,Classical Chinese Philosophy
-2525,PHILOS 2F03,Philosophical Psychology
-2526,PHILOS 2G03,Social and Political Issues
-2527,PHILOS 2H03,Aesthetics
-2528,PHILOS 2LA3,Latin American Philosophy
-2529,PHILOS 2N03,Business Ethics
-2530,PHILOS 2P03,Ancient Greek Philosophy
-2531,PHILOS 2Q03,"Justice, Political Philosophy, and Law"
-2532,PHILOS 2S03,History of Political Philosophy
-2533,PHILOS 2TT3,Ethical Issues in Communication
-2534,PHILOS 2U03,Philosophy of Health and Medicine
-2535,PHILOS 2X03,Early Modern Philosophy
-2536,PHILOS 2YY3,Ethics
-2537,PHILOS 2ZZ3,Philosophy of Love and Sex
-2538,PHILOS 3B03,European Philosophy from Nietzsche to World War II
-2539,PHILOS 3C03,Advanced Bioethics
-2540,PHILOS 3CC3,Advanced Ethics
-2541,PHILOS 3D03,Philosophy of Science
-2542,PHILOS 3E03,Philosophy of Language
-2543,PHILOS 3EE3,Contemporary Continental Philosophy
-2544,PHILOS 3GH3,Global Health Ethics
-2545,PHILOS 3HH3,Metaphysics
-2546,PHILOS 3I03,Philosophy and Feminism
-2547,PHILOS 3L03,Environmental Philosophy
-2548,PHILOS 3MI3,Philosophy of Mind
-2549,PHILOS 3N03,Political Philosophy
-2550,PHILOS 3NN3,Philosophy of the Enlightenment
-2551,PHILOS 3O03,Theory of Knowledge
-2552,PHILOS 3Q03,Philosophy of Law
-2553,PHILOS 3SR3,Metaphysics of Social Reality
-2554,PHILOS 3T03,Philosophy and Race
-2555,PHILOS 3VV3,Kant
-2556,PHILOS 3W03,Reading Course
-2557,PHILOS 3WP3,Modern Women Philosophers
-2558,PHILOS 3XX3,Plato
-2559,PHILOS 3YY3,Hegel
-2560,PHILOS 3ZZ3,Aristotle
-2561,PHILOS 4A03,Early Modern Philosophy
-2562,PHILOS 4C03,Philosophy of Constitutional Law
-2563,PHILOS 4D03,History of Analytic Philosophy
-2564,PHILOS 4JP3,"Topics in Justice, Political Philosophy, and Law"
-2565,PHILOS 4K03,Seminar in Ancient Philosophy
-2566,PHILOS 4ME3,Topics in Metaphysics and Epistemology
-2567,PHILOS 4S03,Human Rights and Global Justice
-2568,PHILOS 4SE3,Social Epistemology
-2569,PHILOS 4T03,Special Topics in Philosophy
-2570,PHILOS 4V03,Multidisciplinary Workshop in Applied Ethics and Policy
-2571,PHILOS 4W03,Independent Study
-2572,PHILOS 4XP3 ,Law And Community
-2573,PHILOS 4YY3,Topics in Ethics
-2574,PHYSICS 1A03,Introductory Physics
-2575,PHYSICS 1AA3,Introduction To Modern Physics
-2576,PHYSICS 1C03,Physics for the Chemical and Physical Sciences
-2577,PHYSICS 1CC3,Modern Physics for the Chemical and Physical Sciences
-2578,PHYSICS 1D03,Introductory Mechanics
-2579,PHYSICS 1E03,"Waves, Electricity and Magnetic Fields"
-2580,PHYSICS 2B03,Electricity and Magnetism I
-2581,PHYSICS 2BB3,Electricity and Magnetism II
-2582,PHYSICS 2C03,Modern Physics
-2583,PHYSICS 2E03,Mechanics
-2584,PHYSICS 2G03,Scientific Computing
-2585,PHYSICS 2NM3,Media Numeracy: Telling Stories With Numbers
-2586,PHYSICS 2P03,Introductory Laboratory
-2587,PHYSICS 2VG3,Video Game Physics
-2588,PHYSICS 2X00,From Classical Physics Into the Quantum World
-2589,PHYSICS 3A03,"Relativity, Gravity and the Geometry of Spacetime"
-2590,PHYSICS 3C03,Analytical Mechanics
-2591,PHYSICS 3D03,Inquiry in Physics
-2592,PHYSICS 3ET3 ,Physics Teaching Placement
-2593,PHYSICS 3K03,Thermodynamics and Statistical Mechanics
-2594,PHYSICS 3MM3,Quantum Mechanics I
-2595,PHYSICS 3N04,Physical Optics
-2596,PHYSICS 3P03,Advanced Laboratory
-2597,PHYSICS 3QI3,Introduction to Quantum Information
-2598,PHYSICS 4B03,Electromagnetic Theory
-2599,PHYSICS 4E03,Particle and Nuclear Physics
-2600,PHYSICS 4F03,Quantum Mechanics II
-2601,PHYSICS 4G03,Computational Physics
-2602,PHYSICS 4IS3,Independent Study
-2603,PHYSICS 4K03,Physics of Quantum Matter
-2604,PHYSICS 4L03 ,Literature Review
-2605,PHYSICS 4P06 ,Senior Research Project
-2606,PHYSICS 4Q03,Introduction to Quantum Field Theory
-2607,PHYSICS 5GT3,Graduate Topics in Physics
-2608,PNB 2A03,Python for PNB
-2609,PNB 2QQ3 ,Introductory Independent Research
-2610,PNB 2XA3,Human Perception & Cognition
-2611,PNB 2XB3,Neuroanatomy & Neurophysiology
-2612,PNB 2XC3,Animal Behaviour & Evolution
-2613,PNB 2XD3,Integrative PNB Through Scientific Writing
-2614,PNB 2XE3,Descriptive Statistics and Research Methods
-2615,PNB 2XF3,Perspectives in PNB
-2616,PNB 2XT0,PNB Tutorial
-2617,PNB 3A03,Neuroimaging
-2618,PNB 3EE3,Perception Laboratory
-2619,PNB 3EV3,Evolutionary Psychology Lab
-2620,PNB 3HP3,History of Psychology
-2621,PNB 3L03,Neurodevelopment & Plasticity Lab
-2622,PNB 3MM3,Cognitive Neuroscience Lab
-2623,PNB 3Q03 ,Independent Library Study
-2624,PNB 3QM3 ,Independent Research in Mental Health
-2625,PNB 3QQ3 ,Intermediate Independent Research
-2626,PNB 3S03,Animal Behaviour Lab
-2627,PNB 3V03,Human Memory Lab
-2628,PNB 3XD3 ,Integrative Mentor: Learning to Write through Student Editing
-2629,PNB 3XE3,Inferential Statistics and Research Methods
-2630,PNB 4A03,Assessment in Children
-2631,PNB 4D06 ,Senior Thesis
-2632,PNB 4D09 ,Senior Honours Thesis
-2633,PNB 4E03,Topics in Social Diversity
-2634,PNB 4J03,"Inquiry in Psychology, Neuroscience & Behaviour"
-2635,PNB 4Q03 ,Senior Independent Library Study
-2636,PNB 4QQ3 ,Senior Independent Research
-2637,PNB 4QQ6 ,Senior Independent Research
-2638,PNB 4SC6 ,Science Communication in the Behavioural Sciences
-2639,POLSCI 1AA3,"Government, Politics, and Power"
-2640,POLSCI 1AB3,Politics and Power in a Globalizing World
-2641,POLSCI 2C03,"Force and Fear, Crime and Punishment"
-2642,POLSCI 2D03,Canadian Democracy
-2643,POLSCI 2F03,"Politics, Power and Influence in Canada"
-2644,POLSCI 2H03,Globalization and the State
-2645,POLSCI 2I03,Global Politics
-2646,POLSCI 2J03,Global Political Economy
-2647,POLSCI 2K03,Political Economy of the Media
-2648,POLSCI 2LW3,Communication Policy and Law
-2649,POLSCI 2M03,"Governance, Representation, and Participation in Democracies"
-2650,POLSCI 2NN3,Politics by Design
-2651,POLSCI 2O06 ,Political Theory
-2652,POLSCI 2PF3,Politics of Funny
-2653,POLSCI 2PP3,"Law, Politics and Public Policy"
-2654,POLSCI 2U03,Public Policy and Administration
-2655,POLSCI 2US3,US Politics
-2656,POLSCI 2XX3,Politics of the Developing World
-2657,POLSCI 3B03,Honours Issues in International Relations and Global Public Policy
-2658,POLSCI 3BB3,Political Communication: Canada and the World
-2659,POLSCI 3C03,Government and Politics of Indigenous People
-2660,POLSCI 3CC3,Political Authority: 20th-Century Political Theory
-2661,POLSCI 3CL3,Constitutional and Public Law in Canada
-2662,POLSCI 3CS3,Campaign School
-2663,POLSCI 3EE3,International Relations: North-South
-2664,POLSCI 3EL3,Election Law and Policy
-2665,POLSCI 3FG3,Public Service Leadership
-2666,POLSCI 3G03,Ethnicity and Multiculturalism: Theory and Practice
-2667,POLSCI 3GC3,Politics of a Dying Planet
-2668,POLSCI 3GG3,Federalism
-2669,POLSCI 3H03,Honours Issues in Comparative Politics
-2670,POLSCI 3I03,Topics in American Politics
-2671,POLSCI 3IP3,Intellectual Property
-2672,POLSCI 3J03,Honours Issues in Canadian Politics and Canadian Public Policy
-2673,POLSCI 3JJ3,Provincial Politics in Canada
-2674,POLSCI 3JR3,The Rule of Law and Legal and Judicial Reforms in the Developing World
-2675,POLSCI 3K03,"Migration and Citizenship: Canadian, Comparative and Global Perspectives"
-2676,POLSCI 3KA3,Indigenous Human Rights
-2677,POLSCI 3KK3,Genocide: Sociological and Political Perspectives
-2678,POLSCI 3LA3,Religion and Politics
-2679,POLSCI 3LB3,Globalization and the World Order
-2680,POLSCI 3LC3,Southeast Asian Politics
-2681,POLSCI 3LL3,Development and Public Policy
-2682,POLSCI 3LP3,Topics in Law and Policy
-2683,POLSCI 3NN3,Statistical Analysis of Primary Data
-2684,POLSCI 3OP3,Political Psychology
-2685,POLSCI 3PA3,Politics of Pandemics
-2686,POLSCI 3PB3,Politics from Below
-2687,POLSCI 3PG3,Political Geography
-2688,POLSCI 3PR3,Practice of Politics
-2689,POLSCI 3Q03,The Causes of War
-2690,POLSCI 3RF3,The Charter of Rights and Freedoms
-2691,POLSCI 3UU3,Reading Course
-2692,POLSCI 3V03,Gender and Politics
-2693,POLSCI 3VV3,Democratic Theory
-2694,POLSCI 3WP3,Working in Politics
-2695,POLSCI 3Y03,Democratization and Human Rights
-2696,POLSCI 3Z03,Canadian Public Sector Management
-2697,POLSCI 4AA6 ,Contemporary Politics
-2698,POLSCI 4AL3,Pathways: Approaching Life with a Political Science Degree
-2699,POLSCI 4CA3,Issues in Canadian Politics
-2700,POLSCI 4CF3,Canadian Foreign Policy
-2701,POLSCI 4D06 ,International Politics
-2702,POLSCI 4DV3,Death and Violence
-2703,POLSCI 4ED6,Partnered Learning in Elections and Democracy
-2704,POLSCI 4EF3,Political Economy of Finance for Green and Just Transitions
-2705,POLSCI 4EM3,Elections Management
-2706,POLSCI 4FF3,Rights and Justice
-2707,POLSCI 4G06 ,Politics of Public Policy
-2708,POLSCI 4GC3,Advanced Issues in Global Citizenship
-2709,POLSCI 4GG3,Conceptual Issues in Global Politics
-2710,POLSCI 4HH3,Critical Theory
-2711,POLSCI 4HR3,Human Rights
-2712,POLSCI 4JS3,Judicial Studies
-2713,POLSCI 4KB3,Non-Western International Relations
-2714,POLSCI 4KC3,Comparative Democratization
-2715,POLSCI 4LA3,Politics in Latin America
-2716,POLSCI 4LC3,Research on Law and Courts
-2717,POLSCI 4NN3,Studies in Global Political Economy
-2718,POLSCI 4O06 ,Canadian Politics
-2719,POLSCI 4OL3,Origins of Law
-2720,POLSCI 4PA3,Policy Analysis and Implementation
-2721,POLSCI 4PB3,Politics of Borders
-2722,POLSCI 4PE3,Global Political Ecology
-2723,POLSCI 4PO3,Public Opinion
-2724,POLSCI 4Q06 ,Comparative Politics
-2725,POLSCI 4QQ3,Issues in International Politics
-2726,POLSCI 4RR3,Health Policy in the Industrialized World
-2727,POLSCI 4RT3,Radical Political Theory
-2728,POLSCI 4SS3,Public Opinion and Policy
-2729,POLSCI 4ST3,Special Topics in Contemporary Politics
-2730,POLSCI 4UF3,US Foreign Policy
-2731,POLSCI 4UP3,Urban Politics and Governance in the 21st Century: Canadian and Comparative Perspectives
-2732,POLSCI 4WS3,Politics of the Welfare State: Contemporary Challenges in Comparative Perspective
-2733,POLSCI 4Y03,Domination and Decolonization
-2734,POLSCI 4YR3,Child/Youth Rights and Security in Global Political Perspective
-2735,POLSCI 4Z06 ,Honours Essay
-2736,POLSCI 4ZZ3,Experiential Learning in Research
-2737,POLSCI 4ZZ6 ,Experiential Learning in Research
-2738,PROCTECH 2CA3,CAD for Design
-2739,PROCTECH 2CE3,Chemical Engineering I: Mass Balance
-2740,PROCTECH 2EC3,Chemical Engineering II: Energy Balance
-2741,PROCTECH 2EE3,Electricity and Electronics II
-2742,PROCTECH 2IC3,Instrumentation and Control
-2743,PROCTECH 2PL3,PLC Programming
-2744,PROCTECH 2SE3,Systems Engineering Fundamentals
-2745,PROCTECH 3CE3,Chemical Engineering III: Unit and Process Design
-2746,PROCTECH 3CT3,Control Theory I
-2747,PROCTECH 3MC3,Motion Control and Robotics
-2748,PROCTECH 3PL3,Advanced PLC Programming and Control
-2749,PROCTECH 4AS3,Industrial System Components and Integration
-2750,PROCTECH 4CT3,Advanced Control Theory II
-2751,PROCTECH 4IC3,Industrial Networks and Controllers
-2752,PROCTECH 4IT3,Internet Technologies and Databases
-2753,PROCTECH 4MH3,Machine Health and Remote Monitoring
-2754,PROCTECH 4MS3,Manufacturing Technologies
-2755,PROCTECH 4SS3,System Specification and Design
-2756,PROCTECH 4TR1,Capstone Design Project I
-2757,PROCTECH 4TR3,Capstone Design Project II
-2758,PSYCH 1F03,Survey of Psychology
-2759,PSYCH 1FF3,Survey of Biological Basis of Psychology
-2760,PSYCH 1N03,"Introduction to Psychology, Neuroscience & Behaviour"
-2761,PSYCH 1NN3,"Foundations of Psychology, Neuroscience & Behaviour"
-2762,PSYCH 1X03,"Introduction to Psychology, Neuroscience & Behaviour"
-2763,PSYCH 1XX3,"Foundations of Psychology, Neuroscience & Behaviour"
-2764,PSYCH 2AA3,Child Development
-2765,PSYCH 2AP3,Psychological Perspectives on Mental Health
-2766,PSYCH 2B03,Personality
-2767,PSYCH 2C03,Social Psychology
-2768,PSYCH 2E03,Sensory Processes
-2769,PSYCH 2GG3,"Learning, Measuring, and Shaping Behaviour"
-2770,PSYCH 2H03,Human Learning and Cognition
-2771,PSYCH 2MP3,Introduction to Music Cognition
-2772,PSYCH 2NF3,Clinical Neuropsychology
-2773,PSYCH 3A03,Audition
-2774,PSYCH 3AB3,Adolescent Psychology
-2775,PSYCH 3AC3,Human Sexuality
-2776,PSYCH 3AG3,Aging
-2777,PSYCH 3B03,Special Populations
-2778,PSYCH 3BA3,Positive Psychology
-2779,PSYCH 3BN3,Cognitive Neuroscience
-2780,PSYCH 3C03,Child Language Acquisition
-2781,PSYCH 3CB3,Attitudes and Persuasion
-2782,PSYCH 3CC3,Forensic Psychology
-2783,PSYCH 3D03,The Multisensory Mind
-2784,PSYCH 3EV3,Evolution and Mental Health
-2785,PSYCH 3F03,Evolution and Human Behaviour
-2786,PSYCH 3FA3,Neuroscience of Learning and Memory
-2787,PSYCH 3GG3,Essentials of Developmental Psychology
-2788,PSYCH 3JJ3,Socio-Emotional Development
-2789,PSYCH 3M03,Motivation and Emotion
-2790,PSYCH 3MT3,Psychometrics
-2791,PSYCH 3NL3,Cognitive Neuroscience of Language
-2792,PSYCH 3SP3,The Science of Performance
-2793,PSYCH 3T03,Behavioural Ecology
-2794,PSYCH 3TT3,Science of Teaching and Learning
-2795,PSYCH 3VV3,Human Memory
-2796,PSYCH 3WA3,The Mind as a Work of Art
-2797,PSYCH 4KK3,Bayesian Inference
-2798,PSYCH 4MP3,Neuroscience of Music
-2799,PSYCH 4R03,Special Topics in Animal Behaviour
-2800,RUSSIAN 1Z03,Intensive Beginner’s Russian I
-2801,RUSSIAN 1ZZ3,Intensive Beginner’s Russian II
-2802,RUSSIAN 2G03,Masterpieces of Russian Literature in Film and TV Series (Taught in English)
-2803,RUSSIAN 2H03,Soviet Propaganda in Films and Other Mass Media (Taught in English)
-2804,SANSKRIT 2A03,Introduction to Sanskrit I
-2805,SANSKRIT 2B03,Introduction to Sanskrit II
-2806,SANSKRIT 3A03,Readings in Sanskrit
-2807,SANSKRIT 3B03,Advanced Readings in Sanskrit
-2808,SEP 4X03,"Livable Cities, the Built and Natural Environment"
-2809,SCIENCE 1A03,Investigating Science: Opportunities & Experiences
-2810,SCIENCE 2A03,Peer Mentoring in Science
-2811,SCIENCE 2AR3,"Foundations of Science: Equity, Justice and Anti-Racism in Science"
-2812,SCIENCE 2C00,Skills for Career Success in Science
-2813,SCIENCE 2D00,Skills for Career Success in Biochemistry
-2814,SCIENCE 2EP3 ,Applied Placement
-2815,SCIENCE 2P03,Impactful Initiatives in Health
-2816,SCIENCE 2RP3 ,Research Placement
-2817,SCIENCE 3C00,Advanced Job Search Skills For Science Co-op Students
-2818,SCIENCE 3D00,Advanced Job Search Skills For Co-op Students
-2819,SCIENCE 3EP3 ,Applied Science Placement
-2820,SCIENCE 3EX6 ,Applied Science Placement
-2821,SCIENCE 3IE0,Undergraduate Science Internship
-2822,SCIENCE 3IF0,Undergraduate Science Internship
-2823,SCIENCE 3IG0,Undergraduate Science Internship
-2824,SCIENCE 3IH0,Undergraduate Science Internship
-2825,SCIENCE 3RP3 ,Research Practicum
-2826,SCIENCE 3WT0,Science Co-op Work Term
-2827,SCIENCE 3WW0,Science Co-op Work Term
-2828,SCIENCE 4WT0,Science Co-op Work Term
-2829,SCIENCE 4WW0,Science Co-op Work Term
-2830,SCIENCE 5WT0,Science Co-op Work Term
-2831,SCIENCE 5WW0,Science Co-op Work Term
-2832,SCICOMM 2A03,Foundations in Science Communication
-2833,SCICOMM 2M03,Engaging Your World: Science for the Global Citizen
-2834,SCICOMM 2NM3,Media Numeracy: Telling Stories With Numbers
-2835,SCICOMM 3P03,Science Communication in Life Sciences
-2836,SCICOMM 3PP3,Communicating Science for Professional Audiences
-2837,SCICOMM 4A03,Independent Project in Science Communication
-2838,SMRTTECH 3CC3,Cloud Computing and Internet of Things
-2839,SMRTTECH 3DE3,Digital Electronics
-2840,SMRTTECH 4AI3,Artificial Intelligence and Machine Learning
-2841,SMRTTECH 4ES3,Embedded Systems
-2842,SMRTTECH 4HM3,Human Monitoring and Smart Health Systems
-2843,SMRTTECH 4ID3,IoT Devices and Networks
-2844,SMRTTECH 4SC3,Smart Cities and Communities
-2845,SOCPSY 1Z03,An Introduction to Social Psychology
-2846,SOCPSY 2B03,Psychology of Well-Being
-2847,SOCPSY 2C03,Social Psychology of Popular Culture
-2848,SOCPSY 2D03,Making and Breaking Rules
-2849,SOCPSY 2E03,Psychology of Intergroup Relations
-2850,SOCPSY 2F03,Psychology of Close Relationships
-2851,SOCPSY 2K03,Research Methods in Social Psychology
-2852,SOCPSY 2YY3,Theories in Social Psychology
-2853,SOCPSY 3A03,Mental Health
-2854,SOCPSY 3B03,Understanding Lived Experiences
-2855,SOCPSY 3C03,Regimes of Social Control
-2856,SOCPSY 3E03,Big Ideas/Great Thinkers in Social Psychology
-2857,SOCPSY 3F03,Who Am I? Self and Identity
-2858,SOCPSY 3H03,Industrial/Organizational Psychology
-2859,SOCPSY 3K03,Research Experience
-2860,SOCPSY 3L03,Advanced Research Methods
-2861,SOCPSY 3M03,Counselling & Psychotherapy
-2862,SOCPSY 3OP3,Political Psychology
-2863,SOCPSY 3RR3,Imprisonment
-2864,SOCPSY 3Y03,Applied Social Psychology
-2865,SOCPSY 3ZZ3,Small Worlds: Children and Childhood
-2866,SOCPSY 4A03,Advanced Research Experience
-2867,SOCPSY 4B03,Special Topics in Social Psychology
-2868,SOCPSY 4D03,Contemporary Social Issues
-2869,SOCPSY 4E03,Special Topics in Social Psychology
-2870,SOCPSY 4F03,Social Psychology of Crime and the Media
-2871,SOCPSY 4G03,Child Clinical Psychology
-2872,SOCPSY 4H03,Advanced Topics in Close Relationships
-2873,SOCPSY 4IS3,Independent Research
-2874,SOCPSY 4IS6 ,Independent Research
-2875,SOCPSY 4MM3,Public Social Psychology
-2876,SOCPSY 4ZZ6 ,Social Psychology Research Project
-2877,SOCSCI 1HS3,Pathways into the Social Sciences
-2878,SOCSCI 1SS3,Inquiry in the Social Sciences
-2879,SOCSCI 1T03,"Life, the University, and Everything"
-2880,SOCSCI 2AC3,Financial & Managerial Accounting for Social Sciences
-2881,SOCSCI 2BA3,Introduction to Business Analysis for Social Sciences
-2882,SOCSCI 2BR3,Board and Staff Responsibilities for the Not-for-Profit Sector
-2883,SOCSCI 2BU3,Introduction to Business for Social Sciences
-2884,SOCSCI 2CC3,Children and Family in Canada
-2885,SOCSCI 2CP3,Disability Management Capstone Project
-2886,SOCSCI 2FD3,Foundations of Disabilities
-2887,SOCSCI 2HR3,Human Resources Management for Social Sciences
-2888,SOCSCI 2IS3,Intervention Strategies Working with Disabilities
-2889,SOCSCI 2J03,Introduction to Statistics
-2890,SOCSCI 2LI3,Legal Implications and Brain Disorders
-2891,SOCSCI 2MR3,Introduction to Marketing for Social Sciences
-2892,SOCSCI 2O03,Canadian Children
-2893,SOCSCI 2P03,Canadian Adolescents
-2894,SOCSCI 2PN3,Pharmacology for Non-Medical Health Professionals
-2895,SOCSCI 2SS3,Inquiry Thinking and Research Skills
-2896,SOCSCI 2WF3,Working with Families with Disabilities
-2897,SOCSCI 2WT0,Social Sciences Co-Op Work Term
-2898,SOCSCI 3IF0 ,Full-Time Internship
-2899,SOCSCI 3IP0 ,Part-Time Internship
-2900,SOCSCI 3JS1,Co-Op Job Search II
-2901,SOCSCI 3WT0,Social Sciences Co-Op Work Term
-2902,SOCSCI 4JS1,Co-Op Job Search III
-2903,SOCSCI 4SI3,Innovation for Social Impact
-2904,SOCSCI 4WT0,Social Sciences Co-Op Work Term
-2905,SOCWORK 1AA3,So You Think You Can Help? Introduction to Social Work I
-2906,SOCWORK 1BB3,Re-Imagining Help: Introduction to Social Work II
-2907,SOCWORK 2A06 ,"Theory, Process and Communication Skills for Social Work"
-2908,SOCWORK 2CC3,Introduction to Community Practice
-2909,SOCWORK 3C03,Social Aspects of Health and Illness
-2910,SOCWORK 3DD6 ,Field Practicum I
-2911,SOCWORK 3F03,Social Work with Groups
-2912,SOCWORK 3I03,Social Work and Indigenous Peoples
-2913,SOCWORK 3O03,Social Work and Sexualities
-2914,SOCWORK 4C03,"Critical Perspectives on Race, Racialization, Racism and Colonialism in Canadian Society"
-2915,SOCWORK 4G03,Selected Topics
-2916,SOCWORK 4J03,Social Change: Social Movements and Advocacy
-2917,SOCWORK 4QQ3,Indigenizing Social Work Practice Approaches
-2918,SOCWORK 4TI3,Trauma Informed Practice
-2919,SOCWORK 4U03,"Immigration, Settlement and Social Work"
-2920,SOCWORK 4W03,Child Welfare
-2921,SOCWORK 4X03,Social Work with Families
-2922,SOCWORK 4Y03,Critical Issues in Mental Health & Addiction: Mad & Critical Disability Studies Perspectives for SW
-2923,SOCWORK 4ZZ3,Social Welfare: Practice Implications and Advocacy
-2924,SCAR 1B03,What on Earth is Religion?
-2925,SCAR 1GL3,The Good Life
-2926,SCAR 1SC3,"The Big Questions: Introduction to Society, Culture & Religion"
-2927,SCAR 2AA3,Introduction to Modern Standard Arabic
-2928,SCAR 2AB3,Archaeology and the Bible
-2929,SCAR 2AM3,"Abraham in Judaism, Christianity, and Islam"
-2930,SCAR 2AP3,"Apocalypse, Then and Now"
-2931,SCAR 2AR3,Introduction to Modern Standard Arabic II
-2932,SCAR 2BA3,The Bible Then and Now
-2933,SCAR 2BB3,Images of the Divine Feminine
-2934,SCAR 2BE3,Religion and Ecology
-2935,SCAR 2BF3,Buddhism and Film
-2936,SCAR 2BM3,Bible and Magic
-2937,SCAR 2BN3,Sex and the City in Buddhism: The Urban Life of Buddhist Nuns in North India
-2938,SCAR 2CA3,Religion and the Arts
-2939,SCAR 2CH3,What is Christianity?
-2940,SCAR 2EE3,"Prophets, Priests, and Sorcerers"
-2941,SCAR 2ER3,"Religion, the Body, and the Machine"
-2942,SCAR 2F03,Storytelling in Asian Religions
-2943,SCAR 2FF3,"Pirates, Pilgrims, and Enslaved in the Mediterranean, 1450-1750"
-2944,SCAR 2G03,Religious Themes in Modern Culture
-2945,SCAR 2GB3,Great Books in Asian Religions
-2946,SCAR 2GG3,Who was Jesus?
-2947,SCAR 2GR3,Evil
-2948,SCAR 2HA3,Religion and Health in Antiquity
-2949,SCAR 2HB3,Introduction to the Jewish Scriptures/Old Testament
-2950,SCAR 2HC3,Introduction to Biblical Hebrew I
-2951,SCAR 2HD3,Introduction to Biblical Hebrew II
-2952,SCAR 2HI3,Introduction to Hinduism
-2953,SCAR 2HR3,Humour and Religion
-2954,SCAR 2IR3,Bollywood and Indian Religions
-2955,SCAR 2J03,Introduction to Judaism
-2956,SCAR 2K03,What is Buddhism?
-2957,SCAR 2LL3,God and Philosophy
-2958,SCAR 2M03,Death and Dying: Comparative Views
-2959,SCAR 2MT3,Asian Meditation Traditions
-2960,SCAR 2MW3,"Religion, Magic, and Witchcraft"
-2961,SCAR 2N03,Death and Dying: The Western Experience
-2962,SCAR 2NH3,"Gods, Ghosts, and Gandharvas: A Survey of Non-Human Realms in Asian Religions"
-2963,SCAR 2NT3,The New Testament
-2964,SCAR 2Q03,Introduction to Islam
-2965,SCAR 2QQ3,"Cults, Conspiracies and Close Encounters"
-2966,SCAR 2RD3,Religion and Diversity
-2967,SCAR 2RN3,"Science, Religion, and Human Futures"
-2968,SCAR 2RS3,Religion and the Stars
-2969,SCAR 2SA3,Encountering the Sacred
-2970,SCAR 2SB3,Introduction to Sanskrit II
-2971,SCAR 2SG3,"Spirits, Ghosts, and Demons"
-2972,SCAR 2SK3,Introduction to Sanskrit I
-2973,SCAR 2SP3,Sport and/as Religion
-2974,SCAR 2TA3,Islam in North America
-2975,SCAR 2TT3,Religion and Popular Culture in Contemporary Japan
-2976,SCAR 2UD3,"Utopias, Dystopias"
-2977,SCAR 2VV3,The Bible as Literature
-2978,SCAR 2WW3,"Health, Healing and Religion: Western Perspectives"
-2979,SCAR 2WX3,"Health, Healing and Religion: Comparative Views"
-2980,SCAR 2YY3,The Bible and Film
-2981,SCAR 3AA3,Intermediate Modern Standard Arabic
-2982,SCAR 3AR3,Culture and Religion
-2983,SCAR 3BE3,Buddhist Ethics
-2984,SCAR 3BW3,Gender in Ancient Eastern Mediterranean
-2985,SCAR 3C03,Islam in the Modern World
-2986,SCAR 3CC3,Religion and Politics
-2987,SCAR 3DD3,Jews and Jesus
-2988,SCAR 3E03,Japanese Film and Religion
-2989,SCAR 3EE3,Sacred Journeys
-2990,SCAR 3EP3,Jewish Ethics and Politics
-2991,SCAR 3ET3,Anthropology of Ethics
-2992,SCAR 3F03,Approaches to the Study of Religion
-2993,SCAR 3FF3,Gender and Religion
-2994,SCAR 3GH3,Interdisciplinary Global Health Field Course: Maternal and Infant Health in Morocco
-2995,SCAR 3GM3,"Gods and Monsters, Ancient and Modern"
-2996,SCAR 3HC3,Intermediate Hebrew I
-2997,SCAR 3HD3,Intermediate Hebrew II
-2998,SCAR 3I03,"Independent Study in Society, Culture and Religion"
-2999,SCAR 3IL3,Islamic Law
-3000,SCAR 3JJ3,Social Justice
-3001,SCAR 3LL3,Being Human in the Anthropocene
-3002,SCAR 3PA3,The Birth of Christianity
-3003,SCAR 3R03,Death and the Afterlife in Early Judaism and Christianity
-3004,SCAR 3RB3,"Ethnicity, Race, and Religion"
-3005,SCAR 3RC3,"Race, Religion, and Coloniality"
-3006,SCAR 3RL3,Religion and Law
-3007,SCAR 3S03,The East Asian Religious Tradition
-3008,SCAR 3SA3,Advanced Readings in Sanskrit
-3009,SCAR 3SB3,Advanced Readings in Sanskrit
-3010,SCAR 3SM3,Secular Modernity?
-3011,SCAR 3U03,The Buddhist Tradition in India
-3012,SCAR 3US3,Uses and Abuses of the Bible
-3013,SCAR 3UU3,Zen Buddhism
-3014,SCAR 3XI3,Selected Topics in Mysticism
-3015,SCAR 3Y03,Love
-3016,SCAR 3ZZ3,Judaism in the Modern World
-3017,SCAR 4AE3,"Academic Engagement in Society, Culture & Religion"
-3018,SCAR 4Q03,"Advanced Readings in Society, Culture and Religion"
-3019,SCAR 4R06 ,Honours Thesis
-3020,SCAR 4SC3,"Society, Culture & Religion Seminar"
-3021,SOCIOL 1C03,"Canadian Society: Social Problems, Social Policy, and the Law"
-3022,SOCIOL 1Z03,An Introduction to Sociology
-3023,SOCIOL 2BB3,Sociology of Deviance
-3024,SOCIOL 2CC3,Constructing Deviance
-3025,SOCIOL 2DD3,Immigration and the Canadian Mosaic
-3026,SOCIOL 2EE3,Decolonizing Canada: Indigenous-Settler Relations
-3027,SOCIOL 2FF3,The Sociology of ‘Race’ and Ethnicity
-3028,SOCIOL 2GG3,Sociology of Education
-3029,SOCIOL 2HH3,Sociology of Gender
-3030,SOCIOL 2JJ3,"Race, Class, Gender, and Sexuality"
-3031,SOCIOL 2KK3,Introduction to Classical Sociological Theory
-3032,SOCIOL 2LL3,Introduction to Contemporary Sociological Theory
-3033,SOCIOL 2PP3,Sociology of Families
-3034,SOCIOL 2QQ3,Dynamics and Transitions in Intimate Relationships and Families
-3035,SOCIOL 2R03,Perspectives on Social Inequality
-3036,SOCIOL 2RR3,Case Studies of Social Inequality
-3037,SOCIOL 2SS3,Sociology of Work and Occupations
-3038,SOCIOL 2T03,Sociology of Sport
-3039,SOCIOL 2TA3,Islam In North America
-3040,SOCIOL 2UU3,Indigenous Ontologies and Ways of Knowing
-3041,SOCIOL 2VV3,Law and Society
-3042,SOCIOL 2WW3,Media and Power
-3043,SOCIOL 2Z03,Introduction to Sociological Research
-3044,SOCIOL 3A03,Advanced Analysis of Classical Sociological Theory
-3045,SOCIOL 3B03,Selected Topics in the Sociology of Education
-3046,SOCIOL 3D03,Special Topics in the Sociology of the Family
-3047,SOCIOL 3FF3,Introduction to Quantitative Research Methods
-3048,SOCIOL 3G03,Sociology of Health Care
-3049,SOCIOL 3K03,Special Topics in Sociological Analysis
-3050,SOCIOL 3KK3,Genocide: Sociological and Political Perspectives
-3051,SOCIOL 3MH3,Sociology of Stress and Mental Health
-3052,SOCIOL 3MM3,Political Sociology
-3053,SOCIOL 3NN3,Popular Culture and Inequality
-3054,SOCIOL 3O03,Qualitative Research Methods
-3055,SOCIOL 3P03,Advanced Analysis of Contemporary Sociological Theory
-3056,SOCIOL 3QQ3,Employment and Careers after a Sociology Degree
-3057,SOCIOL 3RI3,Racial Politics and Resistance
-3058,SOCIOL 3RR3,Imprisonment
-3059,SOCIOL 3SS3,Sociology of Judgement
-3060,SOCIOL 3U03,Sociology of Sexualities
-3061,SOCIOL 3UU3,"Power, Conflict, and the Law"
-3062,SOCIOL 3VV3,The Indian Act: A Social Problem
-3063,SOCIOL 3W03,Historical Methods in Sociology
-3064,SOCIOL 3YY3,Sociology of Globalization
-3065,SOCIOL 4A03,Ethnic/Racial Tensions
-3066,SOCIOL 4AA3,Selected Topics in the Sociology of the Family
-3067,SOCIOL 4BB3,Selected Topics in the Sociology of Education
-3068,SOCIOL 4CM3,Critical Analysis of Media
-3069,SOCIOL 4DD3,Social Movements and Social Change
-3070,SOCIOL 4E03,Self and Identity
-3071,SOCIOL 4EE3,Selected Topics in the Sociology of Culture
-3072,SOCIOL 4FF3,Applications of Quantitative Methods in the Social Sciences
-3073,SOCIOL 4G03,Advanced Topics in the Sociology of Health and Illness
-3074,SOCIOL 4GG3,Special Topics in the Sociology of Deviance
-3075,SOCIOL 4J03,Selected Topics in Sociology I
-3076,SOCIOL 4KK3,Sociology through Community Engagement and Service
-3077,SOCIOL 4LL3,Selected Topics in the Sociology of Immigration
-3078,SOCIOL 4M03,Directed Research I for Honours Students
-3079,SOCIOL 4MM3,Public Social Psychology
-3080,SOCIOL 4MM6 ,Directed Research for Honours Students
-3081,SOCIOL 4N03,Directed Research II for Honours Students
-3082,SOCIOL 4NN3,Meeting the Challenge of a Changing Climate
-3083,SOCIOL 4QQ3,"Women, Sexuality and the Welfare State"
-3084,SOCIOL 4R03,Individual and Society
-3085,SOCIOL 4RD3,The Sociological Indian: What is reconciliation and decolonization and why does it matter?
-3086,SOCIOL 4RE3,Hands-On Research Experience
-3087,SOCIOL 4RR3,Indigenous Peoples and Canada
-3088,SOCIOL 4SI3,"Social Media, Sex, and Inequality in Intimate Relationships"
-3089,SOCIOL 4SR3,Topics in the Sociology of Religion
-3090,SOCIOL 4SS3,The Sociology of the 1960s
-3091,SOCIOL 4U03,Special Topics in the Sociology of Women
-3092,SOCIOL 4UU3,Global Family and Sexual Politics
-3093,SOCIOL 4V03,"Work in Flux: The Gig Economy, the Corporate Ladder, and Changing Labour Markets"
-3094,SOCIOL 4W03,Social Problems
-3095,SOCIOL 4XX3,Youth in Society: Challenge and Change
-3096,SOCIOL 4YY3,Feminism and Social Policy
-3097,SOCIOL 4ZZ3,Selected Topics in Law and Society
-3098,SFWRENG 2AA4,Software Design I - Introduction to Software Development
-3099,SFWRENG 2C03,Data Structures and Algorithms
-3100,SFWRENG 2DA4,Digital Systems and Interfacing
-3101,SFWRENG 2DM3,Discrete Mathematics with Applications I
-3102,SFWRENG 2FA3,Discrete Mathematics and Applications II
-3103,SFWRENG 2GA3,Computer Architecture
-3104,SFWRENG 2OP3,Object-Oriented Programming
-3105,SFWRENG 2XC3,Software Engineering Practice and Experience: Development Basics
-3106,SFWRENG 3A04,Software Design III - Large System Design
-3107,SFWRENG 3BB4,Software Design II - Concurrent System Design
-3108,SFWRENG 3DB3,Databases
-3109,SFWRENG 3DX4,Dynamic Systems and Control
-3110,SFWRENG 3FP3,Functional Programming
-3111,SFWRENG 3GB3,Game Design
-3112,SFWRENG 3GC3,Computer Graphics
-3113,SFWRENG 3K04,Software Development
-3114,SFWRENG 3MD4,Safe Software-Intensive Medical Devices
-3115,SFWRENG 3MX3,Signals and Systems
-3116,SFWRENG 3O03,Linear Optimization
-3117,SFWRENG 3RA3,Software Requirements and Security Considerations
-3118,SFWRENG 3S03,Software Testing
-3119,SFWRENG 3SH3,Operating Systems
-3120,SFWRENG 3XB3,Software Engineering Practice and Experience: Binding Theory to Practice
-3121,SFWRENG 4AA4,Real-Time Systems and Control Applications
-3122,SFWRENG 4AD3,Advanced Databases
-3123,SFWRENG 4AL3,Applications of Machine Learning
-3124,SFWRENG 4C03,Computer Networks and Security
-3125,SFWRENG 4E03,Performance Analysis of Computer Systems
-3126,SFWRENG 4F03,Parallel Computing
-3127,SFWRENG 4G06 ,Software Design IV - Capstone Design Project
-3128,SFWRENG 4HC3,Human Computer Interfaces
-3129,SFWRENG 4J03,Communications Systems
-3130,SFWRENG 4TB3,Syntax-Based Tools and Compilers
-3131,SFWRENG 4TE3,Continuous Optimization
-3132,SFWRENG 4TH3,Theory of Computation
-3133,SFWRENG 4X03,Scientific Computation
-3134,SFGNTECH 3DM3,"Creativity, Innovation and Technology"
-3135,SFGNTECH 3EE3,Engineering Economics
-3136,SFGNTECH 3FS3,Financial Systems
-3137,SFGNTECH 3MP3,Management Principles
-3138,SFGNTECH 4EM3,Legal and Regulatory Issues
-3139,SFGNTECH 4EN3,Entrepreneurial Thinking and Innovation
-3140,SFGNTECH 4LM3,Lean Thinking and Practices
-3141,SFGNTECH 4MK3,Fundamentals of Marketing
-3142,SFGNTECH 4PM3,Project Management
-3143,SFGNTECH 4SE3,Technology Ethics and Sustainability
-3144,SFGNTECH 4SF3,Strategic Management
-3145,SFGNTECH 4ST3,Contemporary Issues in Management
-3146,SFGNTECH 4TC3,Technical Communications
-3147,SFWRTECH 3CS3,Computer Security
-3148,SFWRTECH 3IT3,Fundamentals of Networking
-3149,SFWRTECH 3MA3,Contemporary Math for Software Development
-3150,SFWRTECH 3OS3,Operating Systems
-3151,SFWRTECH 3PR3,Procedural and Object Oriented Programming Concepts
-3152,SFWRTECH 3RQ3,Software Requirements and Specification
-3153,SFWRTECH 3ST3,Probability and Statistics
-3154,SFWRTECH 4AI3,Artificial Intelligence
-3155,SFWRTECH 4AV3,Augmented and Virtual Reality
-3156,SFWRTECH 4CC3,Parallel Programming
-3157,SFWRTECH 4CG3,Computer Graphics
-3158,SFWRTECH 4CL3,Cloud Computing
-3159,SFWRTECH 4DA3,Data Analytics and Big Data
-3160,SFWRTECH 4DM3,Data Mining
-3161,SFWRTECH 4DS3,Data Structures and Algorithms
-3162,SFWRTECH 4ES3,Real-Time Systems
-3163,SFWRTECH 4MA3,Numerical Linear Algebra and Numerical Optimization
-3164,SFWRTECH 4NN3,Neural Networks and Deep Learning
-3165,SFWRTECH 4NS3,Advanced Network Security
-3166,SFWRTECH 4SA3,Software Architecture
-3167,SFWRTECH 4SS3,Software Security
-3168,SFWRTECH 4VD3,Videogame Development Technology
-3169,SFWRTECH 4VE3,Visual Effects and Technology for Animated Production
-3170,SFWRTECH 4WP3,Advanced Web Programming
-3171,SPANISH 1A03,Intermediate Spanish I
-3172,SPANISH 1AA3,Intermediate Spanish II
-3173,SPANISH 1Z06 ,Beginner’s Intensive Spanish
-3174,SPANISH 2Z03,Intermediate Spanish I
-3175,SPANISH 2ZZ3,Intermediate Spanish II
-3176,STATS 1LL3,Introduction to Probability and Statistics
-3177,STATS 2B03,Statistical Methods for Science
-3178,STATS 2D03,Introduction to Probability
-3179,STATS 2DA3,An Introduction to Data Science Methods
-3180,STATS 2MB3,Statistical Methods and Applications
-3181,STATS 3A03,Applied Regression Analysis with SAS
-3182,STATS 3D03,Mathematical Statistics
-3183,STATS 3DA3,Data Science Methods
-3184,STATS 3DS3,Introduction to Data Science Theory
-3185,STATS 3G03,Actuarial Mathematics I
-3186,STATS 3J04,Probability and Statistics for Civil Engineering
-3187,STATS 3PG3,Probability and Games of Chance
-3188,STATS 3S03,Survey Sampling
-3189,STATS 3ST3,Actuarial Models in Non-Life Insurance
-3190,STATS 3U03,Stochastic Processes
-3191,STATS 3Y03,Probability and Statistics for Engineering
-3192,STATS 4A03,Time Series
-3193,STATS 4C03,Generalized Linear Models
-3194,STATS 4CI3,Computational Methods for Inference
-3195,STATS 4D03,Intermediate Probability Theory
-3196,STATS 4G03,Advanced Topics in Actuarial Science
-3197,STATS 4H03,Actuarial Mathematics II
-3198,STATS 4I03,Inference
-3199,STATS 4M03,Multivariate Analysis
-3200,STATS 4P03,Advanced Applied Statistics
-3201,STATS 4T06 ,Senior Research Project
-3202,STATS 4W03,Reading in Statistics
-3203,STATS 5GT3,Graduate Level Topics in Statistics
-3204,SUSTAIN 1S03,Introduction to Sustainability
-3205,SUSTAIN 2GS3,Global Questions in Sustainability
-3206,SUSTAIN 2IS3,Intersectionality and Sustainable Development
-3207,SUSTAIN 2S03,Evaluating Problems & Sustainable Solutions
-3208,SUSTAIN 2SD3,Exploring the United Nations Sustainable Development Goals
-3209,SUSTAIN 2SS3,Advocating for Sustainability
-3210,SUSTAIN 3HC3,Sustainability and Healthcare
-3211,SUSTAIN 3S03,Implementing Sustainable Change
-3212,SUSTAIN 3SS3,Community Engagement and Prototyping for Sustainability
-3213,SUSTAIN 4S06 ,Leadership in Sustainability
-3214,THTRFLM 2AA3,Acting as Devising I
-3215,THTRFLM 2BB3,Designing for Devised Performance
-3216,THTRFLM 2CC3,"Performance, Art, and Visual Culture in Canada"
-3217,THTRFLM 2DP3,Devised Performance Processes
-3218,THTRFLM 2FA3,Film Analysis
-3219,THTRFLM 2MM3,Movies and Me
-3220,THTRFLM 3AA3,Modernist Theatre and Drama in Europe
-3221,THTRFLM 3FF3,Early Cinema History
-3222,THTRFLM 3L03,Cinema History from WWII
-3223,THTRFLM 3OP6 ,Stage Design in Action
-3224,THTRFLM 3P03,Gender and Visual Culture
-3225,THTRFLM 3PS3,Devised Theatre Production: Research and Development
-3226,THTRFLM 3QA3,"Documentary, Politics, and Social Change"
-3227,THTRFLM 3RR3,"‘Cripping’ Performance: Deaf, Mad and Disabled Performance in Canada"
-3228,THTRFLM 3S06,Devised Theatre Production
-3229,THTRFLM 3SD3,Scripting Devised Performance
-3230,THTRFLM 3VS3,Visual Storytelling
-3231,THTRFLM 4A06 ,Theatre and Society: A Performance Project
-3232,THTRFLM 4C03,Performance and Society
-3233,THTRFLM 4D03,"Theatre, Society and Early Cinema"
-3234,WHMIS 1A00,Introduction to Health and Safety
-3235,WORKLABR 1A03,An Introduction to Work and Labour in Canada
-3236,WORKLABR 1E03,Navigating the World of Work
-3237,WORKLABR 2A03,Unions in Action
-3238,WORKLABR 2G03,Labour and Globalization
-3239,WORKLABR 2H03,"Sports, Work and Labour"
-3240,WORKLABR 2J03,Work and Racism
-3241,WORKLABR 2K03,Will Robots Take All Our Jobs?
-3242,WORKLABR 2M03,"Pop Culture, Media and Work"
-3243,WORKLABR 2P03,Working in Healthcare
-3244,WORKLABR 2W03,Human Rights and Social Justice
-3245,WORKLABR 3A03,Economics of Labour Market Issues
-3246,WORKLABR 3B03,Economics of Trade Unionism and Labour
-3247,WORKLABR 3C03,Labour and Employment Law
-3248,WORKLABR 3D03,Work: Dangerous to your Health?
-3249,WORKLABR 3E03,"Gender, Sexuality and Work"
-3250,WORKLABR 3K03,On the Move: Workers in a Global World
-3251,WORKLABR 3L03,Labour Policy and Advocacy
-3252,WORKLABR 3M03,Theoretical Approaches to Work and Labour Studies
-3253,WORKLABR 3P03,Workers’ Resistance - Past and Present
-3254,WORKLABR 3Q03,Community Engaged Research
-3255,WORKLABR 3T03,Poverty and Homelessness
-3256,WORKLABR 4A06 ,Work and Labour Studies Practicum
-3257,WORKLABR 4C03,Public Sector Collective Bargaining
-3258,WORKLABR 4F03,Work and the Environment
-3259,WORKLABR 4G03,Advanced Topics in Work and Labour Studies
-3260,WORKLABR 4H03,"Working Precariously: Labour Strategies, Labour Renewal"
-3261,WORKLABR 4J03,Independent Study
-3262,SOCSCI 1RM3,How do we Know? Doing Social Sciences Research
-3263,SOCSCI 2EL0,Career Preparation in the Social Sciences
-3264,SOCSCI 2EL3,Career Preparation in the Social Sciences
-3265,SOCSCI 2EN3,Entrepreneurial Training for Social Sciences
-3266,SOCSCI 2JS1,Co-Op Job Search 1
-3267,SOCSCI 2LC3,Leadership and Communications for the Not-For-Profit Sector
-3268,SOCSCI 2OP3,Operational Planning for the Not-For-Profit Sector
-3269,SOCSCI 2RD3,Resource Development for the Not-For-Profit Sector
-3270,SOCSCI 2SP3,Strategic and Long Range Planning for the Not-for-Profit Sector
-3271,SOCSCI 3EL3,Leadership for Social Innovation
-3272,SOCSCI 3EP3,Social Sciences Experiential Project
-3273,VSR 1A00,Visiting Undergraduate Student Research
+2227,MEDIAART 2B06,Time-Based Media
+2228,MEDIAART 2DF3,Design Fundamentals
+2229,MEDIAART 2G03,Digital Audio
+2230,MEDIAART 3AN3,Animation
+2231,MEDIAART 3B03,Digital Cultures
+2232,MEDIAART 3BB3,New Media Art Practices
+2233,MEDIAART 3C03,Interactive and Spatial Audio
+2234,MEDIAART 3D03,"Interface, Code, Data"
+2235,MEDIAART 3DS3,Documentary Strategies
+2236,MEDIAART 3EE3,Graphic Design
+2237,MEDIAART 3EW3,Environmental and Wildlife Photography
+2238,MEDIAART 3I03,Narrative Strategies
+2239,MEDIAART 3K03,Game Studies
+2240,MEDIAART 3L03,Game Design
+2241,MEDIAART 3MU3,"Musics, Technologies and Audio Cultures"
+2242,MEDIAART 3PC3,Photographic Collage and Composite Images
+2243,MEDIAART 3S03,Sound and Image
+2244,MEDIAART 3VA3,Video Art and Digital Cinema
+2245,MEDIAART 3Z03,Production and Critique
+2246,MEDIAART 4F03,Topics in Media Arts Production
+2247,MEDIAART 4ST6,Senior Thesis Research and Production
+2248,MEDPHYS 1A03,Physics in Medicine and Biology
+2249,MEDPHYS 3C03,Operational Health Physics: Laboratory & Communication
+2250,MEDPHYS 4B03,Radioactivity and Radiation in Medical Physics
+2251,MEDPHYS 4D03,Imaging in Medicine and Biology
+2252,MEDPHYS 4F03,Fundamentals of Health Physics
+2253,MEDPHYS 4I03,Introduction to Biophotonics
+2254,MEDPHYS 4RA3,Radiation and Radioisotope Methodology I
+2255,MEDPHYS 4RB3,Radiation and Radioisotope Methodology II
+2256,MEDPHYS 4T03,Clinical Applications of Physics in Medicine
+2257,MEDPHYS 4U03,Radiation Biology
+2258,MEDPHYS 4Y06,Senior Research Project
+2259,MEDRADSC 1B03,Introduction to Pathology
+2260,MEDRADSC 1C03,Introduction to Physics for Medical Radiation Sciences
+2261,MEDRADSC 1E03,Inquiry in Medical Radiation Sciences
+2262,MEDRADSC 1F03,Professions in Medical Radiation Sciences
+2263,MEDRADSC 2A03,Patient Care
+2264,MEDRADSC 2AA3,Imaging Procedures in Health Care
+2265,MEDRADSC 2D03,Relational Anatomy I
+2266,MEDRADSC 2G03,Radiographic Skills I
+2267,MEDRADSC 2H03,Radiographic Skills II
+2268,MEDRADSC 2I03,Pathology and Procedures I
+2269,MEDRADSC 2J15,Radiography Clinical Practicum I
+2270,MEDRADSC 2K03,Applied Sonographic Physics and Instrumentation I
+2271,MEDRADSC 2L03,Abdominal Ultrasonography I
+2272,MEDRADSC 2M03,Obstetrical and Gynecologic Ultrasonography I
+2273,MEDRADSC 2N03,Sonographic Skills I
+2274,MEDRADSC 2O03,Abdominal Ultrasonography II
+2275,MEDRADSC 2P03,Obstetrical and Gynecological Ultrasonography II
+2276,MEDRADSC 2Q03,Sonographic Skills II
+2277,MEDRADSC 2R15,Ultrasonography Clinical Practicum I
+2278,MEDRADSC 2RA3,Relational Anatomy II
+2279,MEDRADSC 2S03,Clinical Oncology I
+2280,MEDRADSC 2T03,Clinical Oncology II
+2281,MEDRADSC 2U03,Radiation Therapy Skills I
+2282,MEDRADSC 2V15,Radiation Therapy Clinical Practicum I
+2283,MEDRADSC 2W03,Physics and Instrumentation for Radiation Therapy
+2284,MEDRADSC 2X03,Radiobiology and Protection
+2285,MEDRADSC 2Y03,Radiographic Imaging and Instrumentation I
+2286,MEDRADSC 2ZZ0,Pre-Clinical Professional Skills Reassessment I
+2287,MEDRADSC 3AA3,Interdisciplinary Health Care
+2288,MEDRADSC 3B03,Quality Management in Medical Radiation Sciences
+2289,MEDRADSC 3DA3,Advanced Studies in Computed Tomography
+2290,MEDRADSC 3DE3,Introduction to Magnetic Resonance Imaging
+2291,MEDRADSC 3DJ3,Pediatric Sonography
+2292,MEDRADSC 3G03,Radiographic Imaging and Instrumentation II
+2293,MEDRADSC 3H03,Quality Control in Radiography
+2294,MEDRADSC 3J03,Pathology and Procedures II
+2295,MEDRADSC 3K03,Computed Tomography
+2296,MEDRADSC 3L03,Radiographic Skills III
+2297,MEDRADSC 3LA3,Radiation Therapy Skills II
+2298,MEDRADSC 3LB3,Radiation Therapy Skills III
+2299,MEDRADSC 3M03,Abdominal Ultrasonography III
+2300,MEDRADSC 3N03,Vascular Ultrasonography
+2301,MEDRADSC 3O03,Sonographic Skills III
+2302,MEDRADSC 3P03,Obstetrical and Gynecologic Ultrasonography III
+2303,MEDRADSC 3Q03,Applied Sonographic Physics and Instrumentation II
+2304,MEDRADSC 3R03,Musculoskeletal Ultrasonography
+2305,MEDRADSC 3S03,Treatment Planning I
+2306,MEDRADSC 3V03,Treatment Planning II
+2307,MEDRADSC 3X03,Research Methods in Medical Radiation Sciences
+2308,MEDRADSC 3Y03,Ethics for Medical Radiation Sciences
+2309,MEDRADSC 3Z06,Research Project
+2310,MEDRADSC 3ZZ0,Clinical Skill Development for Professionals
+2311,MEDRADSC 4A15,Radiography Clinical Practicum II
+2312,MEDRADSC 4B15,Radiography Clinical Practicum III
+2313,MEDRADSC 4C15,Ultrasonography Clinical Practicum II
+2314,MEDRADSC 4D15,Ultrasonography Clinical Practicum III
+2315,MEDRADSC 4E15,Radiation Therapy Clinical Practicum II
+2316,MEDRADSC 4F15,Radiation Therapy Clinical Practicum III
+2317,MEDRADSC 4ZZ0,Pre-Clinical Professional Skills Reassessment II
+2318,MIDWIF 1D03,Midwifery The Profession I
+2319,MIDWIF 1F03,Introduction to Research Methods and Critical Appraisal
+2320,MIDWIF 1G03,Midwifery The Profession II
+2321,MIDWIF 2F03,Pharmacotherapy
+2322,MIDWIF 2G06,Clinical Skills for Midwifery Practice
+2323,MIDWIF 2H15,Normal Childbearing
+2324,MIDWIF 2M15,Fundamentals in Midwifery 1
+2325,MIDWIF 3F03,Midwifery Issues
+2326,MIDWIF 3H15,Complex Care I
+2327,MIDWIF 3M01,Elective Placement
+2328,MIDWIF 3M03,Advanced Clinical Skills I & II
+2329,MIDWIF 3M09,Fundamentals in Midwifery 3
+2330,MIDWIF 3N15,Fundamentals in Midwifery 2
+2331,MIDWIF 4A15,Complex Care II
+2332,MIDWIF 4B15,Midwifery Clerkship
+2333,MOLBIOL 2C03,Genetics
+2334,MOLBIOL 3B03,Advanced Cell Biology
+2335,MOLBIOL 3D03,Experimental Approaches in Cell Biology
+2336,MOLBIOL 3I03,Independent Research Project
+2337,MOLBIOL 3II3,Molecular Genetics of Eukaryotes
+2338,MOLBIOL 3M03,Fundamental Concepts of Development
+2339,MOLBIOL 3O03,Microbial Genetics
+2340,MOLBIOL 3V03,Techniques in Molecular Genetics
+2341,MOLBIOL 3Y03,Plant Responses to the Environment
+2342,MOLBIOL 4BB3,Plant Metabolism and Molecular Biology
+2343,MOLBIOL 4CT3,Current Topics in Molecular Biology and Genetics
+2344,MOLBIOL 4DD3,Molecular Evolution
+2345,MOLBIOL 4ED3,Evolutionary Developmental Biology
+2346,MOLBIOL 4G12,Senior Thesis
+2347,MOLBIOL 4H03,Molecular Biology of Cancer
+2348,MOLBIOL 4K03,Research Advances in Biology of Aging
+2349,MOLBIOL 4P03,Medical Microbiology
+2350,MOLBIOL 4RR3,Human Genetics
+2351,MOHAWK 1Z03,Introduction to Mohawk Language and Culture
+2352,MOHAWK 2Z03,Intermediate Mohawk
+2353,MUSIC 1A03,Introduction to the History of Western Music I
+2354,MUSIC 1AA3,Introduction to the History of Western Music II
+2355,MUSIC 1CB3,Theory and Analysis I
+2356,MUSIC 1CR3,Rudiments of Music
+2357,MUSIC 1DA3,Practical Musicianship I
+2358,MUSIC 1DB3,Practical Musicianship II
+2359,MUSIC 1E06,Solo Performance
+2360,MUSIC 1EE6,Solo Performance
+2361,MUSIC 1GB3,Ensemble Performance: McMaster Concert Band
+2362,MUSIC 1GC3,Ensemble Performance: McMaster University Choir
+2363,MUSIC 1GF3,Ensemble Performance: David Gerry Flute Ensemble
+2364,MUSIC 1GJ3,Ensemble Performance: McMaster Jazz Band
+2365,MUSIC 1GP3,Ensemble Performance: McMaster Percussion Ensemble
+2366,MUSIC 1GR3,Ensemble Performance: McMaster Symphony Orchestra
+2367,MUSIC 1GW3,Ensemble Performance: McMaster Cantemus Vocal Ensemble
+2368,MUSIC 1HB0,Ensemble Performance: McMaster Concert Band
+2369,MUSIC 1HC0,Ensemble Performance: McMaster University Choir
+2370,MUSIC 1HF0,Ensemble Performance: David Gerry Flute Ensemble
+2371,MUSIC 1HJ0,Ensemble Performance: McMaster Jazz Band
+2372,MUSIC 1HP0,Ensemble Performance: McMaster Percussion Ensemble
+2373,MUSIC 1HR0,Ensemble Performance: McMaster Symphony Orchestra
+2374,MUSIC 1HW0,Ensemble Performance: McMaster Cantemus Vocal Ensemble
+2375,MUSIC 2CA3,Theory and Analysis II
+2376,MUSIC 2CB3,Theory and Analysis III
+2377,MUSIC 2CU3,Music and Culture
+2378,MUSIC 2DA3,Practical Musicianship III
+2379,MUSIC 2E06,Solo Performance
+2380,MUSIC 2EE6,Solo Performance
+2381,MUSIC 2F03,Music for Film and Television
+2382,MUSIC 2GB3,Ensemble Performance: McMaster Concert Band
+2383,MUSIC 2GC3,Ensemble Performance: McMaster University Choir
+2384,MUSIC 2GF3,Ensemble Performance: David Gerry Flute Ensemble
+2385,MUSIC 2GJ3,Ensemble Performance: McMaster Jazz Band
+2386,MUSIC 2GP3,Ensemble Performance: McMaster Percussion Ensemble
+2387,MUSIC 2GR3,Ensemble Performance: McMaster Symphony Orchestra
+2388,MUSIC 2GW3,Ensemble Performance: McMaster Cantemus Vocal Ensemble
+2389,MUSIC 2II3,Popular Music in North America and the United Kingdom: Post-World War II
+2390,MUSIC 2MC3,Psychology of Music
+2391,MUSIC 2MT3,Introduction to the Practice of Music Therapy
+2392,MUSIC 2MU3,Introduction to Music Therapy Research
+2393,MUSIC 2SI3,Singing
+2394,MUSIC 2TT3,Broadway and the Popular Song
+2395,MUSIC 2WW3,Woodwinds
+2396,MUSIC 3CP3,Constructing Counterpoint
+2397,MUSIC 3E03,Solo Performance
+2398,MUSIC 3E06,Solo Performance
+2399,MUSIC 3EE3,Solo Performance
+2400,MUSIC 3EE6,Solo Performance
+2401,MUSIC 3GA3,Ensemble Performance: Accompanying
+2402,MUSIC 3GB3,Ensemble Performance: McMaster Concert Band
+2403,MUSIC 3GC3,Ensemble Performance: McMaster University Choir
+2404,MUSIC 3GF3,Ensemble Performance: David Gerry Flute Ensemble
+2405,MUSIC 3GJ3,Ensemble Performance: McMaster Jazz Band
+2406,MUSIC 3GP3,Ensemble Performance: McMaster Percussion Ensemble
+2407,MUSIC 3GR3,Ensemble Performance: McMaster Symphony Orchestra
+2408,MUSIC 3GW3,Ensemble Performance: McMaster Cantemus Vocal Ensemble
+2409,MUSIC 3J03,Orchestration and Arranging
+2410,MUSIC 3JJ3,Topics in Music History: Music Before c. 1750
+2411,MUSIC 3K03,Brass Methods
+2412,MUSIC 3KK3,Topics in Music History: Music from c. 1750-c. 1900
+2413,MUSIC 3O03,Conducting
+2414,MUSIC 3P03,Percussion Methods
+2415,MUSIC 3SI3,Vocal Pedagogy
+2416,MUSIC 3SS3,Special Studies in Chamber Music or Accompanying I
+2417,MUSIC 3WW3,Woodwind Pedagogy
+2418,MUSIC 3X03,Independent Study
+2419,MUSIC 4C03,Advanced Studies in Harmony and Counterpoint
+2420,MUSIC 4E03,Solo Performance
+2421,MUSIC 4E06,Solo Performance
+2422,MUSIC 4E09,"Solo Performance, Diploma"
+2423,MUSIC 4EE3,Solo Performance
+2424,MUSIC 4EE6,Solo Performance
+2425,MUSIC 4EE9,"Solo Performance, Diploma"
+2426,MUSIC 4GA3,Ensemble Performance: Accompanying
+2427,MUSIC 4GB3,Ensemble Performance: McMaster Concert Band
+2428,MUSIC 4GC3,Ensemble Performance: McMaster University Choir
+2429,MUSIC 4GF3,Ensemble Performance: David Gerry Flute Ensemble
+2430,MUSIC 4GJ3,Ensemble Performance: McMaster Jazz Band
+2431,MUSIC 4GP3,Ensemble Performance: McMaster Percussion Ensemble
+2432,MUSIC 4GR3,Ensemble Performance: McMaster Symphony Orchestra
+2433,MUSIC 4GW3,Ensemble Performance: McMaster Cantemus Vocal Ensemble
+2434,MUSIC 4H03,Investigating Music
+2435,MUSIC 4K03,Brass Methods
+2436,MUSIC 4M03,String Methods
+2437,MUSIC 4N03,Choral Methods
+2438,MUSIC 4OI3,Advanced Conducting: Instrumental
+2439,MUSIC 4SS3,Special Studies in Chamber Music or Accompanying II
+2440,MUSIC 4X03,Advanced Independent Study
+2441,MUSIC 4Y03,Topics in Music History: Advanced Musicology Seminar
+2442,MUSIC 4Z03,Composing Music
+2443,MUSIC 4ZZ3,Advanced Composition
+2444,MUSICCOG 2MP3,Introduction to Music Cognition
+2445,MUSICCOG 3QQ3,Experimental Laboratory in Music Cognition I
+2446,MUSICCOG 3SP3,The Science of Performance
+2447,MUSICCOG 4D06,Thesis in Music Cognition
+2448,MUSICCOG 4MP3,Neuroscience of Music
+2449,MUSICCOG 4QQ3,Experimental Laboratory in Music Cognition II
+2450,NEUROSCI 2BB3,Research Practicum in Cellular/Molecular Neuroscience
+2451,NEUROSCI 2CC3,Research Practicum in Systems/Circuits Neuroscience
+2452,NEUROSCI 2DD3,Research Practicum in Behavioural/Cognitive Neuroscience
+2453,NEUROSCI 2XN0,Neuroscience Tutorial
+2454,NEUROSCI 3BB3,Individual Lab Study in Cellular/Molecular Neuroscience
+2455,NEUROSCI 3BB6,Individual Lab Study in Cellular/Molecular Neuroscience
+2456,NEUROSCI 3CC3,Individual Lab Study in Systems/Circuits Neuroscience
+2457,NEUROSCI 3CC6,Individual Lab Study in Systems/Circuits Neuroscience
+2458,NEUROSCI 3DD3,Individual Lab Study in Behavioural/Cognitive Neuroscience
+2459,NEUROSCI 3DD6,Individual Lab Study Behavioural/Cognitive Neuroscience
+2460,NEUROSCI 3E03,Neuroscience Lab
+2461,NEUROSCI 3J03,Visual Neuroscience
+2462,NEUROSCI 3MN3,Computational Models in Neuroscience
+2463,NEUROSCI 3SN3,Neural Circuits
+2464,NEUROSCI 4L09,Neuroscience Thesis
+2465,NEUROSCI 4L12,Neuroscience Senior Thesis
+2466,NEUROSCI 4S03,Neuroscience Seminar
+2467,NEXUS 2A03,Impact of Infectious Disease on Individuals and Society
+2468,NEXUS 4A06,How to Survive a Pandemic: Capstone Project for Nexus Minor
+2469,NURSING 1F03,Introduction to Nursing and Health I for Basic Stream
+2470,NURSING 1G03,Introduction to Nursing and Health II for Basic Stream
+2471,NURSING 1I02,Introduction to Nursing Practice for Basic Stream
+2472,NURSING 1J02,Professional Nursing Practice I for Basic Stream
+2473,NURSING 1K02,Community Engagement and Citizenship for Basic Stream
+2474,NURSING 1RP0,Reintegration Course
+2475,NURSING 2A04,Introduction to Professional RN Practice I for Post Diploma RPN Stream
+2476,NURSING 2AA3,Professional RN Practice II for Post Diploma RPN Stream
+2477,NURSING 2I04,Introduction to Professional Nursing and Health for Accelerated Stream
+2478,NURSING 2J04,Professional Nursing Practice II for Accelerated Stream
+2479,NURSING 2L03,Professional Nursing Practice II for Basic Stream
+2480,NURSING 2MM3,Nursing Concepts in Health and Illness I for Basic Stream
+2481,NURSING 2NN3,Nursing Concepts in Health and Illness II for Basic Stream
+2482,NURSING 2P03,Professional Nursing Practice III for Basic Stream
+2483,NURSING 2U04,Introduction to Nursing Practice I for Accelerated Stream
+2484,NURSING 2V04,Nursing Concepts in Health & Illness for Accelerated Stream I
+2485,NURSING 3A04,Clinical Reasoning in RN Practice for Post Diploma RPN Stream
+2486,NURSING 3CN3,"Nursing Practice with the Community: Populations, Partnerships, Politics and Power"
+2487,NURSING 3IH3,Introduction to Indigenous Health Policy and Practice
+2488,NURSING 3NI3,Introduction to Concepts in Northern and International Health
+2489,NURSING 3QA3,Professional Community Nursing Practice
+2490,NURSING 3QN3,Nursing Practice in Northern Communities
+2491,NURSING 3RS3,Nursing Concepts in Health and Illness III for Post Diploma RPN Stream
+2492,NURSING 3RT3,Nursing Concepts in Health and Illness IV for Post Diploma RPN Stream
+2493,NURSING 3RY4,Professional Nursing Practice V for Post Diploma RPN Stream
+2494,NURSING 3SS3,Nursing Concepts in Health and Illness III for Basic Stream
+2495,NURSING 3TT3,Nursing Concepts in Health and Illness IV for Basic Stream
+2496,NURSING 3V03,Nursing Concepts in Health & Illness for Accelerated Stream II
+2497,NURSING 3X04,Professional Nursing Practice IV
+2498,NURSING 3Y04,Professional Nursing Practice V
+2499,NURSING 3ZA3,Professional Nursing Practice III for Accelerated Stream
+2500,NURSING 3ZB3,Professional Nursing Practice IV for Accelerated Stream
+2501,NURSING 4H03,Introduction to Concepts in Global Health
+2502,NURSING 4J07,Professional Nursing Practice VI
+2503,NURSING 4K10,Professional Practice and the New Graduate
+2504,NURSING 4P04,Advanced Nursing Concepts I
+2505,NURSING 4Q03,Advanced Nursing Concepts II
+2506,OJIBWE 1Z03,Introduction to Ojibwe Language and Culture
+2507,OJIBWE 2Z03,Intermediate Ojibwe
+2508,PHARMAC 3A06,Introduction to Pharmacology
+2509,PHARMAC 3B06,Methods in Pharmacology
+2510,PHARMAC 4A03,Receptor-Drug Interactions
+2511,PHARMAC 4AA3,Advanced Topics in Pharmacology
+2512,PHARMAC 4C03,Principles of Toxicology
+2513,PHARMAC 4D03,Drug Design
+2514,PHARMAC 4E03,Social Pharmacology
+2515,PHARMAC 4T15,Senior Thesis
+2516,PHILOS 1A03,Philosophical Texts
+2517,PHILOS 1B03,"Philosophy, Law and Society"
+2518,PHILOS 1E03,Philosophical Questions
+2519,PHILOS 1F03,Meaning in Life
+2520,PHILOS 2B03,Introductory Logic
+2521,PHILOS 2CT3,Critical Thinking
+2522,PHILOS 2D03,Bioethics
+2523,PHILOS 2E03,Classical Chinese Philosophy
+2524,PHILOS 2F03,Philosophical Psychology
+2525,PHILOS 2G03,Social and Political Issues
+2526,PHILOS 2H03,Aesthetics
+2527,PHILOS 2LA3,Latin American Philosophy
+2528,PHILOS 2N03,Business Ethics
+2529,PHILOS 2P03,Ancient Greek Philosophy
+2530,PHILOS 2Q03,"Justice, Political Philosophy, and Law"
+2531,PHILOS 2S03,History of Political Philosophy
+2532,PHILOS 2TT3,Ethical Issues in Communication
+2533,PHILOS 2U03,Philosophy of Health and Medicine
+2534,PHILOS 2X03,Early Modern Philosophy
+2535,PHILOS 2YY3,Ethics
+2536,PHILOS 2ZZ3,Philosophy of Love and Sex
+2537,PHILOS 3B03,European Philosophy from Nietzsche to World War II
+2538,PHILOS 3C03,Advanced Bioethics
+2539,PHILOS 3CC3,Advanced Ethics
+2540,PHILOS 3D03,Philosophy of Science
+2541,PHILOS 3E03,Philosophy of Language
+2542,PHILOS 3EE3,Contemporary Continental Philosophy
+2543,PHILOS 3GH3,Global Health Ethics
+2544,PHILOS 3HH3,Metaphysics
+2545,PHILOS 3I03,Philosophy and Feminism
+2546,PHILOS 3L03,Environmental Philosophy
+2547,PHILOS 3MI3,Philosophy of Mind
+2548,PHILOS 3N03,Political Philosophy
+2549,PHILOS 3NN3,Philosophy of the Enlightenment
+2550,PHILOS 3O03,Theory of Knowledge
+2551,PHILOS 3Q03,Philosophy of Law
+2552,PHILOS 3SR3,Metaphysics of Social Reality
+2553,PHILOS 3T03,Philosophy and Race
+2554,PHILOS 3VV3,Kant
+2555,PHILOS 3W03,Reading Course
+2556,PHILOS 3WP3,Modern Women Philosophers
+2557,PHILOS 3XX3,Plato
+2558,PHILOS 3YY3,Hegel
+2559,PHILOS 3ZZ3,Aristotle
+2560,PHILOS 4A03,Early Modern Philosophy
+2561,PHILOS 4C03,Philosophy of Constitutional Law
+2562,PHILOS 4D03,History of Analytic Philosophy
+2563,PHILOS 4JP3,"Topics in Justice, Political Philosophy, and Law"
+2564,PHILOS 4K03,Seminar in Ancient Philosophy
+2565,PHILOS 4ME3,Topics in Metaphysics and Epistemology
+2566,PHILOS 4S03,Human Rights and Global Justice
+2567,PHILOS 4SE3,Social Epistemology
+2568,PHILOS 4T03,Special Topics in Philosophy
+2569,PHILOS 4V03,Multidisciplinary Workshop in Applied Ethics and Policy
+2570,PHILOS 4W03,Independent Study
+2571,PHILOS 4XP3,Law And Community
+2572,PHILOS 4YY3,Topics in Ethics
+2573,PHYSICS 1A03,Introductory Physics
+2574,PHYSICS 1AA3,Introduction To Modern Physics
+2575,PHYSICS 1C03,Physics for the Chemical and Physical Sciences
+2576,PHYSICS 1CC3,Modern Physics for the Chemical and Physical Sciences
+2577,PHYSICS 1D03,Introductory Mechanics
+2578,PHYSICS 1E03,"Waves, Electricity and Magnetic Fields"
+2579,PHYSICS 2B03,Electricity and Magnetism I
+2580,PHYSICS 2BB3,Electricity and Magnetism II
+2581,PHYSICS 2C03,Modern Physics
+2582,PHYSICS 2E03,Mechanics
+2583,PHYSICS 2G03,Scientific Computing
+2584,PHYSICS 2NM3,Media Numeracy: Telling Stories With Numbers
+2585,PHYSICS 2P03,Introductory Laboratory
+2586,PHYSICS 2VG3,Video Game Physics
+2587,PHYSICS 2X00,From Classical Physics Into the Quantum World
+2588,PHYSICS 3A03,"Relativity, Gravity and the Geometry of Spacetime"
+2589,PHYSICS 3C03,Analytical Mechanics
+2590,PHYSICS 3D03,Inquiry in Physics
+2591,PHYSICS 3ET3,Physics Teaching Placement
+2592,PHYSICS 3K03,Thermodynamics and Statistical Mechanics
+2593,PHYSICS 3MM3,Quantum Mechanics I
+2594,PHYSICS 3N04,Physical Optics
+2595,PHYSICS 3P03,Advanced Laboratory
+2596,PHYSICS 3QI3,Introduction to Quantum Information
+2597,PHYSICS 4B03,Electromagnetic Theory
+2598,PHYSICS 4E03,Particle and Nuclear Physics
+2599,PHYSICS 4F03,Quantum Mechanics II
+2600,PHYSICS 4G03,Computational Physics
+2601,PHYSICS 4IS3,Independent Study
+2602,PHYSICS 4K03,Physics of Quantum Matter
+2603,PHYSICS 4L03,Literature Review
+2604,PHYSICS 4P06,Senior Research Project
+2605,PHYSICS 4Q03,Introduction to Quantum Field Theory
+2606,PHYSICS 5GT3,Graduate Topics in Physics
+2607,PNB 2A03,Python for PNB
+2608,PNB 2QQ3,Introductory Independent Research
+2609,PNB 2XA3,Human Perception & Cognition
+2610,PNB 2XB3,Neuroanatomy & Neurophysiology
+2611,PNB 2XC3,Animal Behaviour & Evolution
+2612,PNB 2XD3,Integrative PNB Through Scientific Writing
+2613,PNB 2XE3,Descriptive Statistics and Research Methods
+2614,PNB 2XF3,Perspectives in PNB
+2615,PNB 2XT0,PNB Tutorial
+2616,PNB 3A03,Neuroimaging
+2617,PNB 3EE3,Perception Laboratory
+2618,PNB 3EV3,Evolutionary Psychology Lab
+2619,PNB 3HP3,History of Psychology
+2620,PNB 3L03,Neurodevelopment & Plasticity Lab
+2621,PNB 3MM3,Cognitive Neuroscience Lab
+2622,PNB 3Q03,Independent Library Study
+2623,PNB 3QM3,Independent Research in Mental Health
+2624,PNB 3QQ3,Intermediate Independent Research
+2625,PNB 3S03,Animal Behaviour Lab
+2626,PNB 3V03,Human Memory Lab
+2627,PNB 3XD3,Integrative Mentor: Learning to Write through Student Editing
+2628,PNB 3XE3,Inferential Statistics and Research Methods
+2629,PNB 4A03,Assessment in Children
+2630,PNB 4D06,Senior Thesis
+2631,PNB 4D09,Senior Honours Thesis
+2632,PNB 4E03,Topics in Social Diversity
+2633,PNB 4J03,"Inquiry in Psychology, Neuroscience & Behaviour"
+2634,PNB 4Q03,Senior Independent Library Study
+2635,PNB 4QQ3,Senior Independent Research
+2636,PNB 4QQ6,Senior Independent Research
+2637,PNB 4SC6,Science Communication in the Behavioural Sciences
+2638,POLSCI 1AA3,"Government, Politics, and Power"
+2639,POLSCI 1AB3,Politics and Power in a Globalizing World
+2640,POLSCI 2C03,"Force and Fear, Crime and Punishment"
+2641,POLSCI 2D03,Canadian Democracy
+2642,POLSCI 2F03,"Politics, Power and Influence in Canada"
+2643,POLSCI 2H03,Globalization and the State
+2644,POLSCI 2I03,Global Politics
+2645,POLSCI 2J03,Global Political Economy
+2646,POLSCI 2K03,Political Economy of the Media
+2647,POLSCI 2LW3,Communication Policy and Law
+2648,POLSCI 2M03,"Governance, Representation, and Participation in Democracies"
+2649,POLSCI 2NN3,Politics by Design
+2650,POLSCI 2O06,Political Theory
+2651,POLSCI 2PF3,Politics of Funny
+2652,POLSCI 2PP3,"Law, Politics and Public Policy"
+2653,POLSCI 2U03,Public Policy and Administration
+2654,POLSCI 2US3,US Politics
+2655,POLSCI 2XX3,Politics of the Developing World
+2656,POLSCI 3B03,Honours Issues in International Relations and Global Public Policy
+2657,POLSCI 3BB3,Political Communication: Canada and the World
+2658,POLSCI 3C03,Government and Politics of Indigenous People
+2659,POLSCI 3CC3,Political Authority: 20th-Century Political Theory
+2660,POLSCI 3CL3,Constitutional and Public Law in Canada
+2661,POLSCI 3CS3,Campaign School
+2662,POLSCI 3EE3,International Relations: North-South
+2663,POLSCI 3EL3,Election Law and Policy
+2664,POLSCI 3FG3,Public Service Leadership
+2665,POLSCI 3G03,Ethnicity and Multiculturalism: Theory and Practice
+2666,POLSCI 3GC3,Politics of a Dying Planet
+2667,POLSCI 3GG3,Federalism
+2668,POLSCI 3H03,Honours Issues in Comparative Politics
+2669,POLSCI 3I03,Topics in American Politics
+2670,POLSCI 3IP3,Intellectual Property
+2671,POLSCI 3J03,Honours Issues in Canadian Politics and Canadian Public Policy
+2672,POLSCI 3JJ3,Provincial Politics in Canada
+2673,POLSCI 3JR3,The Rule of Law and Legal and Judicial Reforms in the Developing World
+2674,POLSCI 3K03,"Migration and Citizenship: Canadian, Comparative and Global Perspectives"
+2675,POLSCI 3KA3,Indigenous Human Rights
+2676,POLSCI 3KK3,Genocide: Sociological and Political Perspectives
+2677,POLSCI 3LA3,Religion and Politics
+2678,POLSCI 3LB3,Globalization and the World Order
+2679,POLSCI 3LC3,Southeast Asian Politics
+2680,POLSCI 3LL3,Development and Public Policy
+2681,POLSCI 3LP3,Topics in Law and Policy
+2682,POLSCI 3NN3,Statistical Analysis of Primary Data
+2683,POLSCI 3OP3,Political Psychology
+2684,POLSCI 3PA3,Politics of Pandemics
+2685,POLSCI 3PB3,Politics from Below
+2686,POLSCI 3PG3,Political Geography
+2687,POLSCI 3PR3,Practice of Politics
+2688,POLSCI 3Q03,The Causes of War
+2689,POLSCI 3RF3,The Charter of Rights and Freedoms
+2690,POLSCI 3UU3,Reading Course
+2691,POLSCI 3V03,Gender and Politics
+2692,POLSCI 3VV3,Democratic Theory
+2693,POLSCI 3WP3,Working in Politics
+2694,POLSCI 3Y03,Democratization and Human Rights
+2695,POLSCI 3Z03,Canadian Public Sector Management
+2696,POLSCI 4AA6,Contemporary Politics
+2697,POLSCI 4AL3,Pathways: Approaching Life with a Political Science Degree
+2698,POLSCI 4CA3,Issues in Canadian Politics
+2699,POLSCI 4CF3,Canadian Foreign Policy
+2700,POLSCI 4D06,International Politics
+2701,POLSCI 4DV3,Death and Violence
+2702,POLSCI 4ED6,Partnered Learning in Elections and Democracy
+2703,POLSCI 4EF3,Political Economy of Finance for Green and Just Transitions
+2704,POLSCI 4EM3,Elections Management
+2705,POLSCI 4FF3,Rights and Justice
+2706,POLSCI 4G06,Politics of Public Policy
+2707,POLSCI 4GC3,Advanced Issues in Global Citizenship
+2708,POLSCI 4GG3,Conceptual Issues in Global Politics
+2709,POLSCI 4HH3,Critical Theory
+2710,POLSCI 4HR3,Human Rights
+2711,POLSCI 4JS3,Judicial Studies
+2712,POLSCI 4KB3,Non-Western International Relations
+2713,POLSCI 4KC3,Comparative Democratization
+2714,POLSCI 4LA3,Politics in Latin America
+2715,POLSCI 4LC3,Research on Law and Courts
+2716,POLSCI 4NN3,Studies in Global Political Economy
+2717,POLSCI 4O06,Canadian Politics
+2718,POLSCI 4OL3,Origins of Law
+2719,POLSCI 4PA3,Policy Analysis and Implementation
+2720,POLSCI 4PB3,Politics of Borders
+2721,POLSCI 4PE3,Global Political Ecology
+2722,POLSCI 4PO3,Public Opinion
+2723,POLSCI 4Q06,Comparative Politics
+2724,POLSCI 4QQ3,Issues in International Politics
+2725,POLSCI 4RR3,Health Policy in the Industrialized World
+2726,POLSCI 4RT3,Radical Political Theory
+2727,POLSCI 4SS3,Public Opinion and Policy
+2728,POLSCI 4ST3,Special Topics in Contemporary Politics
+2729,POLSCI 4UF3,US Foreign Policy
+2730,POLSCI 4UP3,Urban Politics and Governance in the 21st Century: Canadian and Comparative Perspectives
+2731,POLSCI 4WS3,Politics of the Welfare State: Contemporary Challenges in Comparative Perspective
+2732,POLSCI 4Y03,Domination and Decolonization
+2733,POLSCI 4YR3,Child/Youth Rights and Security in Global Political Perspective
+2734,POLSCI 4Z06,Honours Essay
+2735,POLSCI 4ZZ3,Experiential Learning in Research
+2736,POLSCI 4ZZ6,Experiential Learning in Research
+2737,PROCTECH 2CA3,CAD for Design
+2738,PROCTECH 2CE3,Chemical Engineering I: Mass Balance
+2739,PROCTECH 2EC3,Chemical Engineering II: Energy Balance
+2740,PROCTECH 2EE3,Electricity and Electronics II
+2741,PROCTECH 2IC3,Instrumentation and Control
+2742,PROCTECH 2PL3,PLC Programming
+2743,PROCTECH 2SE3,Systems Engineering Fundamentals
+2744,PROCTECH 3CE3,Chemical Engineering III: Unit and Process Design
+2745,PROCTECH 3CT3,Control Theory I
+2746,PROCTECH 3MC3,Motion Control and Robotics
+2747,PROCTECH 3PL3,Advanced PLC Programming and Control
+2748,PROCTECH 4AS3,Industrial System Components and Integration
+2749,PROCTECH 4CT3,Advanced Control Theory II
+2750,PROCTECH 4IC3,Industrial Networks and Controllers
+2751,PROCTECH 4IT3,Internet Technologies and Databases
+2752,PROCTECH 4MH3,Machine Health and Remote Monitoring
+2753,PROCTECH 4MS3,Manufacturing Technologies
+2754,PROCTECH 4SS3,System Specification and Design
+2755,PROCTECH 4TR1,Capstone Design Project I
+2756,PROCTECH 4TR3,Capstone Design Project II
+2757,PSYCH 1F03,Survey of Psychology
+2758,PSYCH 1FF3,Survey of Biological Basis of Psychology
+2759,PSYCH 1N03,"Introduction to Psychology, Neuroscience & Behaviour"
+2760,PSYCH 1NN3,"Foundations of Psychology, Neuroscience & Behaviour"
+2761,PSYCH 1X03,"Introduction to Psychology, Neuroscience & Behaviour"
+2762,PSYCH 1XX3,"Foundations of Psychology, Neuroscience & Behaviour"
+2763,PSYCH 2AA3,Child Development
+2764,PSYCH 2AP3,Psychological Perspectives on Mental Health
+2765,PSYCH 2B03,Personality
+2766,PSYCH 2C03,Social Psychology
+2767,PSYCH 2E03,Sensory Processes
+2768,PSYCH 2GG3,"Learning, Measuring, and Shaping Behaviour"
+2769,PSYCH 2H03,Human Learning and Cognition
+2770,PSYCH 2MP3,Introduction to Music Cognition
+2771,PSYCH 2NF3,Clinical Neuropsychology
+2772,PSYCH 3A03,Audition
+2773,PSYCH 3AB3,Adolescent Psychology
+2774,PSYCH 3AC3,Human Sexuality
+2775,PSYCH 3AG3,Aging
+2776,PSYCH 3B03,Special Populations
+2777,PSYCH 3BA3,Positive Psychology
+2778,PSYCH 3BN3,Cognitive Neuroscience
+2779,PSYCH 3C03,Child Language Acquisition
+2780,PSYCH 3CB3,Attitudes and Persuasion
+2781,PSYCH 3CC3,Forensic Psychology
+2782,PSYCH 3D03,The Multisensory Mind
+2783,PSYCH 3EV3,Evolution and Mental Health
+2784,PSYCH 3F03,Evolution and Human Behaviour
+2785,PSYCH 3FA3,Neuroscience of Learning and Memory
+2786,PSYCH 3GG3,Essentials of Developmental Psychology
+2787,PSYCH 3JJ3,Socio-Emotional Development
+2788,PSYCH 3M03,Motivation and Emotion
+2789,PSYCH 3MT3,Psychometrics
+2790,PSYCH 3NL3,Cognitive Neuroscience of Language
+2791,PSYCH 3SP3,The Science of Performance
+2792,PSYCH 3T03,Behavioural Ecology
+2793,PSYCH 3TT3,Science of Teaching and Learning
+2794,PSYCH 3VV3,Human Memory
+2795,PSYCH 3WA3,The Mind as a Work of Art
+2796,PSYCH 4KK3,Bayesian Inference
+2797,PSYCH 4MP3,Neuroscience of Music
+2798,PSYCH 4R03,Special Topics in Animal Behaviour
+2799,RUSSIAN 1Z03,Intensive Beginner’s Russian I
+2800,RUSSIAN 1ZZ3,Intensive Beginner’s Russian II
+2801,RUSSIAN 2G03,Masterpieces of Russian Literature in Film and TV Series (Taught in English)
+2802,RUSSIAN 2H03,Soviet Propaganda in Films and Other Mass Media (Taught in English)
+2803,SANSKRIT 2A03,Introduction to Sanskrit I
+2804,SANSKRIT 2B03,Introduction to Sanskrit II
+2805,SANSKRIT 3A03,Readings in Sanskrit
+2806,SANSKRIT 3B03,Advanced Readings in Sanskrit
+2807,SEP 4X03,"Livable Cities, the Built and Natural Environment"
+2808,SCIENCE 1A03,Investigating Science: Opportunities & Experiences
+2809,SCIENCE 2A03,Peer Mentoring in Science
+2810,SCIENCE 2AR3,"Foundations of Science: Equity, Justice and Anti-Racism in Science"
+2811,SCIENCE 2C00,Skills for Career Success in Science
+2812,SCIENCE 2D00,Skills for Career Success in Biochemistry
+2813,SCIENCE 2EP3,Applied Placement
+2814,SCIENCE 2P03,Impactful Initiatives in Health
+2815,SCIENCE 2RP3,Research Placement
+2816,SCIENCE 3C00,Advanced Job Search Skills For Science Co-op Students
+2817,SCIENCE 3D00,Advanced Job Search Skills For Co-op Students
+2818,SCIENCE 3EP3,Applied Science Placement
+2819,SCIENCE 3EX6,Applied Science Placement
+2820,SCIENCE 3IE0,Undergraduate Science Internship
+2821,SCIENCE 3IF0,Undergraduate Science Internship
+2822,SCIENCE 3IG0,Undergraduate Science Internship
+2823,SCIENCE 3IH0,Undergraduate Science Internship
+2824,SCIENCE 3RP3,Research Practicum
+2825,SCIENCE 3WT0,Science Co-op Work Term
+2826,SCIENCE 3WW0,Science Co-op Work Term
+2827,SCIENCE 4WT0,Science Co-op Work Term
+2828,SCIENCE 4WW0,Science Co-op Work Term
+2829,SCIENCE 5WT0,Science Co-op Work Term
+2830,SCIENCE 5WW0,Science Co-op Work Term
+2831,SCICOMM 2A03,Foundations in Science Communication
+2832,SCICOMM 2M03,Engaging Your World: Science for the Global Citizen
+2833,SCICOMM 2NM3,Media Numeracy: Telling Stories With Numbers
+2834,SCICOMM 3P03,Science Communication in Life Sciences
+2835,SCICOMM 3PP3,Communicating Science for Professional Audiences
+2836,SCICOMM 4A03,Independent Project in Science Communication
+2837,SMRTTECH 3CC3,Cloud Computing and Internet of Things
+2838,SMRTTECH 3DE3,Digital Electronics
+2839,SMRTTECH 4AI3,Artificial Intelligence and Machine Learning
+2840,SMRTTECH 4ES3,Embedded Systems
+2841,SMRTTECH 4HM3,Human Monitoring and Smart Health Systems
+2842,SMRTTECH 4ID3,IoT Devices and Networks
+2843,SMRTTECH 4SC3,Smart Cities and Communities
+2844,SOCPSY 1Z03,An Introduction to Social Psychology
+2845,SOCPSY 2B03,Psychology of Well-Being
+2846,SOCPSY 2C03,Social Psychology of Popular Culture
+2847,SOCPSY 2D03,Making and Breaking Rules
+2848,SOCPSY 2E03,Psychology of Intergroup Relations
+2849,SOCPSY 2F03,Psychology of Close Relationships
+2850,SOCPSY 2K03,Research Methods in Social Psychology
+2851,SOCPSY 2YY3,Theories in Social Psychology
+2852,SOCPSY 3A03,Mental Health
+2853,SOCPSY 3B03,Understanding Lived Experiences
+2854,SOCPSY 3C03,Regimes of Social Control
+2855,SOCPSY 3E03,Big Ideas/Great Thinkers in Social Psychology
+2856,SOCPSY 3F03,Who Am I? Self and Identity
+2857,SOCPSY 3H03,Industrial/Organizational Psychology
+2858,SOCPSY 3K03,Research Experience
+2859,SOCPSY 3L03,Advanced Research Methods
+2860,SOCPSY 3M03,Counselling & Psychotherapy
+2861,SOCPSY 3OP3,Political Psychology
+2862,SOCPSY 3RR3,Imprisonment
+2863,SOCPSY 3Y03,Applied Social Psychology
+2864,SOCPSY 3ZZ3,Small Worlds: Children and Childhood
+2865,SOCPSY 4A03,Advanced Research Experience
+2866,SOCPSY 4B03,Special Topics in Social Psychology
+2867,SOCPSY 4D03,Contemporary Social Issues
+2868,SOCPSY 4E03,Special Topics in Social Psychology
+2869,SOCPSY 4F03,Social Psychology of Crime and the Media
+2870,SOCPSY 4G03,Child Clinical Psychology
+2871,SOCPSY 4H03,Advanced Topics in Close Relationships
+2872,SOCPSY 4IS3,Independent Research
+2873,SOCPSY 4IS6,Independent Research
+2874,SOCPSY 4MM3,Public Social Psychology
+2875,SOCPSY 4ZZ6,Social Psychology Research Project
+2876,SOCSCI 1HS3,Pathways into the Social Sciences
+2877,SOCSCI 1SS3,Inquiry in the Social Sciences
+2878,SOCSCI 1T03,"Life, the University, and Everything"
+2879,SOCSCI 2AC3,Financial & Managerial Accounting for Social Sciences
+2880,SOCSCI 2BA3,Introduction to Business Analysis for Social Sciences
+2881,SOCSCI 2BR3,Board and Staff Responsibilities for the Not-for-Profit Sector
+2882,SOCSCI 2BU3,Introduction to Business for Social Sciences
+2883,SOCSCI 2CC3,Children and Family in Canada
+2884,SOCSCI 2CP3,Disability Management Capstone Project
+2885,SOCSCI 2FD3,Foundations of Disabilities
+2886,SOCSCI 2HR3,Human Resources Management for Social Sciences
+2887,SOCSCI 2IS3,Intervention Strategies Working with Disabilities
+2888,SOCSCI 2J03,Introduction to Statistics
+2889,SOCSCI 2LI3,Legal Implications and Brain Disorders
+2890,SOCSCI 2MR3,Introduction to Marketing for Social Sciences
+2891,SOCSCI 2O03,Canadian Children
+2892,SOCSCI 2P03,Canadian Adolescents
+2893,SOCSCI 2PN3,Pharmacology for Non-Medical Health Professionals
+2894,SOCSCI 2SS3,Inquiry Thinking and Research Skills
+2895,SOCSCI 2WF3,Working with Families with Disabilities
+2896,SOCSCI 2WT0,Social Sciences Co-Op Work Term
+2897,SOCSCI 3IF0,Full-Time Internship
+2898,SOCSCI 3IP0,Part-Time Internship
+2899,SOCSCI 3JS1,Co-Op Job Search II
+2900,SOCSCI 3WT0,Social Sciences Co-Op Work Term
+2901,SOCSCI 4JS1,Co-Op Job Search III
+2902,SOCSCI 4SI3,Innovation for Social Impact
+2903,SOCSCI 4WT0,Social Sciences Co-Op Work Term
+2904,SOCWORK 1AA3,So You Think You Can Help? Introduction to Social Work I
+2905,SOCWORK 1BB3,Re-Imagining Help: Introduction to Social Work II
+2906,SOCWORK 2A06,"Theory, Process and Communication Skills for Social Work"
+2907,SOCWORK 2CC3,Introduction to Community Practice
+2908,SOCWORK 3C03,Social Aspects of Health and Illness
+2909,SOCWORK 3DD6,Field Practicum I
+2910,SOCWORK 3F03,Social Work with Groups
+2911,SOCWORK 3I03,Social Work and Indigenous Peoples
+2912,SOCWORK 3O03,Social Work and Sexualities
+2913,SOCWORK 4C03,"Critical Perspectives on Race, Racialization, Racism and Colonialism in Canadian Society"
+2914,SOCWORK 4G03,Selected Topics
+2915,SOCWORK 4J03,Social Change: Social Movements and Advocacy
+2916,SOCWORK 4QQ3,Indigenizing Social Work Practice Approaches
+2917,SOCWORK 4TI3,Trauma Informed Practice
+2918,SOCWORK 4U03,"Immigration, Settlement and Social Work"
+2919,SOCWORK 4W03,Child Welfare
+2920,SOCWORK 4X03,Social Work with Families
+2921,SOCWORK 4Y03,Critical Issues in Mental Health & Addiction: Mad & Critical Disability Studies Perspectives for SW
+2922,SOCWORK 4ZZ3,Social Welfare: Practice Implications and Advocacy
+2923,SCAR 1B03,What on Earth is Religion?
+2924,SCAR 1GL3,The Good Life
+2925,SCAR 1SC3,"The Big Questions: Introduction to Society, Culture & Religion"
+2926,SCAR 2AA3,Introduction to Modern Standard Arabic
+2927,SCAR 2AB3,Archaeology and the Bible
+2928,SCAR 2AM3,"Abraham in Judaism, Christianity, and Islam"
+2929,SCAR 2AP3,"Apocalypse, Then and Now"
+2930,SCAR 2AR3,Introduction to Modern Standard Arabic II
+2931,SCAR 2BA3,The Bible Then and Now
+2932,SCAR 2BB3,Images of the Divine Feminine
+2933,SCAR 2BE3,Religion and Ecology
+2934,SCAR 2BF3,Buddhism and Film
+2935,SCAR 2BM3,Bible and Magic
+2936,SCAR 2BN3,Sex and the City in Buddhism: The Urban Life of Buddhist Nuns in North India
+2937,SCAR 2CA3,Religion and the Arts
+2938,SCAR 2CH3,What is Christianity?
+2939,SCAR 2EE3,"Prophets, Priests, and Sorcerers"
+2940,SCAR 2ER3,"Religion, the Body, and the Machine"
+2941,SCAR 2F03,Storytelling in Asian Religions
+2942,SCAR 2FF3,"Pirates, Pilgrims, and Enslaved in the Mediterranean, 1450-1750"
+2943,SCAR 2G03,Religious Themes in Modern Culture
+2944,SCAR 2GB3,Great Books in Asian Religions
+2945,SCAR 2GG3,Who was Jesus?
+2946,SCAR 2GR3,Evil
+2947,SCAR 2HA3,Religion and Health in Antiquity
+2948,SCAR 2HB3,Introduction to the Jewish Scriptures/Old Testament
+2949,SCAR 2HC3,Introduction to Biblical Hebrew I
+2950,SCAR 2HD3,Introduction to Biblical Hebrew II
+2951,SCAR 2HI3,Introduction to Hinduism
+2952,SCAR 2HR3,Humour and Religion
+2953,SCAR 2IR3,Bollywood and Indian Religions
+2954,SCAR 2J03,Introduction to Judaism
+2955,SCAR 2K03,What is Buddhism?
+2956,SCAR 2LL3,God and Philosophy
+2957,SCAR 2M03,Death and Dying: Comparative Views
+2958,SCAR 2MT3,Asian Meditation Traditions
+2959,SCAR 2MW3,"Religion, Magic, and Witchcraft"
+2960,SCAR 2N03,Death and Dying: The Western Experience
+2961,SCAR 2NH3,"Gods, Ghosts, and Gandharvas: A Survey of Non-Human Realms in Asian Religions"
+2962,SCAR 2NT3,The New Testament
+2963,SCAR 2Q03,Introduction to Islam
+2964,SCAR 2QQ3,"Cults, Conspiracies and Close Encounters"
+2965,SCAR 2RD3,Religion and Diversity
+2966,SCAR 2RN3,"Science, Religion, and Human Futures"
+2967,SCAR 2RS3,Religion and the Stars
+2968,SCAR 2SA3,Encountering the Sacred
+2969,SCAR 2SB3,Introduction to Sanskrit II
+2970,SCAR 2SG3,"Spirits, Ghosts, and Demons"
+2971,SCAR 2SK3,Introduction to Sanskrit I
+2972,SCAR 2SP3,Sport and/as Religion
+2973,SCAR 2TA3,Islam in North America
+2974,SCAR 2TT3,Religion and Popular Culture in Contemporary Japan
+2975,SCAR 2UD3,"Utopias, Dystopias"
+2976,SCAR 2VV3,The Bible as Literature
+2977,SCAR 2WW3,"Health, Healing and Religion: Western Perspectives"
+2978,SCAR 2WX3,"Health, Healing and Religion: Comparative Views"
+2979,SCAR 2YY3,The Bible and Film
+2980,SCAR 3AA3,Intermediate Modern Standard Arabic
+2981,SCAR 3AR3,Culture and Religion
+2982,SCAR 3BE3,Buddhist Ethics
+2983,SCAR 3BW3,Gender in Ancient Eastern Mediterranean
+2984,SCAR 3C03,Islam in the Modern World
+2985,SCAR 3CC3,Religion and Politics
+2986,SCAR 3DD3,Jews and Jesus
+2987,SCAR 3E03,Japanese Film and Religion
+2988,SCAR 3EE3,Sacred Journeys
+2989,SCAR 3EP3,Jewish Ethics and Politics
+2990,SCAR 3ET3,Anthropology of Ethics
+2991,SCAR 3F03,Approaches to the Study of Religion
+2992,SCAR 3FF3,Gender and Religion
+2993,SCAR 3GH3,Interdisciplinary Global Health Field Course: Maternal and Infant Health in Morocco
+2994,SCAR 3GM3,"Gods and Monsters, Ancient and Modern"
+2995,SCAR 3HC3,Intermediate Hebrew I
+2996,SCAR 3HD3,Intermediate Hebrew II
+2997,SCAR 3I03,"Independent Study in Society, Culture and Religion"
+2998,SCAR 3IL3,Islamic Law
+2999,SCAR 3JJ3,Social Justice
+3000,SCAR 3LL3,Being Human in the Anthropocene
+3001,SCAR 3PA3,The Birth of Christianity
+3002,SCAR 3R03,Death and the Afterlife in Early Judaism and Christianity
+3003,SCAR 3RB3,"Ethnicity, Race, and Religion"
+3004,SCAR 3RC3,"Race, Religion, and Coloniality"
+3005,SCAR 3RL3,Religion and Law
+3006,SCAR 3S03,The East Asian Religious Tradition
+3007,SCAR 3SA3,Advanced Readings in Sanskrit
+3008,SCAR 3SB3,Advanced Readings in Sanskrit
+3009,SCAR 3SM3,Secular Modernity?
+3010,SCAR 3U03,The Buddhist Tradition in India
+3011,SCAR 3US3,Uses and Abuses of the Bible
+3012,SCAR 3UU3,Zen Buddhism
+3013,SCAR 3XI3,Selected Topics in Mysticism
+3014,SCAR 3Y03,Love
+3015,SCAR 3ZZ3,Judaism in the Modern World
+3016,SCAR 4AE3,"Academic Engagement in Society, Culture & Religion"
+3017,SCAR 4Q03,"Advanced Readings in Society, Culture and Religion"
+3018,SCAR 4R06,Honours Thesis
+3019,SCAR 4SC3,"Society, Culture & Religion Seminar"
+3020,SOCIOL 1C03,"Canadian Society: Social Problems, Social Policy, and the Law"
+3021,SOCIOL 1Z03,An Introduction to Sociology
+3022,SOCIOL 2BB3,Sociology of Deviance
+3023,SOCIOL 2CC3,Constructing Deviance
+3024,SOCIOL 2DD3,Immigration and the Canadian Mosaic
+3025,SOCIOL 2EE3,Decolonizing Canada: Indigenous-Settler Relations
+3026,SOCIOL 2FF3,The Sociology of ‘Race’ and Ethnicity
+3027,SOCIOL 2GG3,Sociology of Education
+3028,SOCIOL 2HH3,Sociology of Gender
+3029,SOCIOL 2JJ3,"Race, Class, Gender, and Sexuality"
+3030,SOCIOL 2KK3,Introduction to Classical Sociological Theory
+3031,SOCIOL 2LL3,Introduction to Contemporary Sociological Theory
+3032,SOCIOL 2PP3,Sociology of Families
+3033,SOCIOL 2QQ3,Dynamics and Transitions in Intimate Relationships and Families
+3034,SOCIOL 2R03,Perspectives on Social Inequality
+3035,SOCIOL 2RR3,Case Studies of Social Inequality
+3036,SOCIOL 2SS3,Sociology of Work and Occupations
+3037,SOCIOL 2T03,Sociology of Sport
+3038,SOCIOL 2TA3,Islam In North America
+3039,SOCIOL 2UU3,Indigenous Ontologies and Ways of Knowing
+3040,SOCIOL 2VV3,Law and Society
+3041,SOCIOL 2WW3,Media and Power
+3042,SOCIOL 2Z03,Introduction to Sociological Research
+3043,SOCIOL 3A03,Advanced Analysis of Classical Sociological Theory
+3044,SOCIOL 3B03,Selected Topics in the Sociology of Education
+3045,SOCIOL 3D03,Special Topics in the Sociology of the Family
+3046,SOCIOL 3FF3,Introduction to Quantitative Research Methods
+3047,SOCIOL 3G03,Sociology of Health Care
+3048,SOCIOL 3K03,Special Topics in Sociological Analysis
+3049,SOCIOL 3KK3,Genocide: Sociological and Political Perspectives
+3050,SOCIOL 3MH3,Sociology of Stress and Mental Health
+3051,SOCIOL 3MM3,Political Sociology
+3052,SOCIOL 3NN3,Popular Culture and Inequality
+3053,SOCIOL 3O03,Qualitative Research Methods
+3054,SOCIOL 3P03,Advanced Analysis of Contemporary Sociological Theory
+3055,SOCIOL 3QQ3,Employment and Careers after a Sociology Degree
+3056,SOCIOL 3RI3,Racial Politics and Resistance
+3057,SOCIOL 3RR3,Imprisonment
+3058,SOCIOL 3SS3,Sociology of Judgement
+3059,SOCIOL 3U03,Sociology of Sexualities
+3060,SOCIOL 3UU3,"Power, Conflict, and the Law"
+3061,SOCIOL 3VV3,The Indian Act: A Social Problem
+3062,SOCIOL 3W03,Historical Methods in Sociology
+3063,SOCIOL 3YY3,Sociology of Globalization
+3064,SOCIOL 4A03,Ethnic/Racial Tensions
+3065,SOCIOL 4AA3,Selected Topics in the Sociology of the Family
+3066,SOCIOL 4BB3,Selected Topics in the Sociology of Education
+3067,SOCIOL 4CM3,Critical Analysis of Media
+3068,SOCIOL 4DD3,Social Movements and Social Change
+3069,SOCIOL 4E03,Self and Identity
+3070,SOCIOL 4EE3,Selected Topics in the Sociology of Culture
+3071,SOCIOL 4FF3,Applications of Quantitative Methods in the Social Sciences
+3072,SOCIOL 4G03,Advanced Topics in the Sociology of Health and Illness
+3073,SOCIOL 4GG3,Special Topics in the Sociology of Deviance
+3074,SOCIOL 4J03,Selected Topics in Sociology I
+3075,SOCIOL 4KK3,Sociology through Community Engagement and Service
+3076,SOCIOL 4LL3,Selected Topics in the Sociology of Immigration
+3077,SOCIOL 4M03,Directed Research I for Honours Students
+3078,SOCIOL 4MM3,Public Social Psychology
+3079,SOCIOL 4MM6,Directed Research for Honours Students
+3080,SOCIOL 4N03,Directed Research II for Honours Students
+3081,SOCIOL 4NN3,Meeting the Challenge of a Changing Climate
+3082,SOCIOL 4QQ3,"Women, Sexuality and the Welfare State"
+3083,SOCIOL 4R03,Individual and Society
+3084,SOCIOL 4RD3,The Sociological Indian: What is reconciliation and decolonization and why does it matter?
+3085,SOCIOL 4RE3,Hands-On Research Experience
+3086,SOCIOL 4RR3,Indigenous Peoples and Canada
+3087,SOCIOL 4SI3,"Social Media, Sex, and Inequality in Intimate Relationships"
+3088,SOCIOL 4SR3,Topics in the Sociology of Religion
+3089,SOCIOL 4SS3,The Sociology of the 1960s
+3090,SOCIOL 4U03,Special Topics in the Sociology of Women
+3091,SOCIOL 4UU3,Global Family and Sexual Politics
+3092,SOCIOL 4V03,"Work in Flux: The Gig Economy, the Corporate Ladder, and Changing Labour Markets"
+3093,SOCIOL 4W03,Social Problems
+3094,SOCIOL 4XX3,Youth in Society: Challenge and Change
+3095,SOCIOL 4YY3,Feminism and Social Policy
+3096,SOCIOL 4ZZ3,Selected Topics in Law and Society
+3097,SFWRENG 2AA4,Software Design I - Introduction to Software Development
+3098,SFWRENG 2C03,Data Structures and Algorithms
+3099,SFWRENG 2DA4,Digital Systems and Interfacing
+3100,SFWRENG 2DM3,Discrete Mathematics with Applications I
+3101,SFWRENG 2FA3,Discrete Mathematics and Applications II
+3102,SFWRENG 2GA3,Computer Architecture
+3103,SFWRENG 2OP3,Object-Oriented Programming
+3104,SFWRENG 2XC3,Software Engineering Practice and Experience: Development Basics
+3105,SFWRENG 3A04,Software Design III - Large System Design
+3106,SFWRENG 3BB4,Software Design II - Concurrent System Design
+3107,SFWRENG 3DB3,Databases
+3108,SFWRENG 3DX4,Dynamic Systems and Control
+3109,SFWRENG 3FP3,Functional Programming
+3110,SFWRENG 3GB3,Game Design
+3111,SFWRENG 3GC3,Computer Graphics
+3112,SFWRENG 3K04,Software Development
+3113,SFWRENG 3MD4,Safe Software-Intensive Medical Devices
+3114,SFWRENG 3MX3,Signals and Systems
+3115,SFWRENG 3O03,Linear Optimization
+3116,SFWRENG 3RA3,Software Requirements and Security Considerations
+3117,SFWRENG 3S03,Software Testing
+3118,SFWRENG 3SH3,Operating Systems
+3119,SFWRENG 3XB3,Software Engineering Practice and Experience: Binding Theory to Practice
+3120,SFWRENG 4AA4,Real-Time Systems and Control Applications
+3121,SFWRENG 4AD3,Advanced Databases
+3122,SFWRENG 4AL3,Applications of Machine Learning
+3123,SFWRENG 4C03,Computer Networks and Security
+3124,SFWRENG 4E03,Performance Analysis of Computer Systems
+3125,SFWRENG 4F03,Parallel Computing
+3126,SFWRENG 4G06,Software Design IV - Capstone Design Project
+3127,SFWRENG 4HC3,Human Computer Interfaces
+3128,SFWRENG 4J03,Communications Systems
+3129,SFWRENG 4TB3,Syntax-Based Tools and Compilers
+3130,SFWRENG 4TE3,Continuous Optimization
+3131,SFWRENG 4TH3,Theory of Computation
+3132,SFWRENG 4X03,Scientific Computation
+3133,SFGNTECH 3DM3,"Creativity, Innovation and Technology"
+3134,SFGNTECH 3EE3,Engineering Economics
+3135,SFGNTECH 3FS3,Financial Systems
+3136,SFGNTECH 3MP3,Management Principles
+3137,SFGNTECH 4EM3,Legal and Regulatory Issues
+3138,SFGNTECH 4EN3,Entrepreneurial Thinking and Innovation
+3139,SFGNTECH 4LM3,Lean Thinking and Practices
+3140,SFGNTECH 4MK3,Fundamentals of Marketing
+3141,SFGNTECH 4PM3,Project Management
+3142,SFGNTECH 4SE3,Technology Ethics and Sustainability
+3143,SFGNTECH 4SF3,Strategic Management
+3144,SFGNTECH 4ST3,Contemporary Issues in Management
+3145,SFGNTECH 4TC3,Technical Communications
+3146,SFWRTECH 3CS3,Computer Security
+3147,SFWRTECH 3IT3,Fundamentals of Networking
+3148,SFWRTECH 3MA3,Contemporary Math for Software Development
+3149,SFWRTECH 3OS3,Operating Systems
+3150,SFWRTECH 3PR3,Procedural and Object Oriented Programming Concepts
+3151,SFWRTECH 3RQ3,Software Requirements and Specification
+3152,SFWRTECH 3ST3,Probability and Statistics
+3153,SFWRTECH 4AI3,Artificial Intelligence
+3154,SFWRTECH 4AV3,Augmented and Virtual Reality
+3155,SFWRTECH 4CC3,Parallel Programming
+3156,SFWRTECH 4CG3,Computer Graphics
+3157,SFWRTECH 4CL3,Cloud Computing
+3158,SFWRTECH 4DA3,Data Analytics and Big Data
+3159,SFWRTECH 4DM3,Data Mining
+3160,SFWRTECH 4DS3,Data Structures and Algorithms
+3161,SFWRTECH 4ES3,Real-Time Systems
+3162,SFWRTECH 4MA3,Numerical Linear Algebra and Numerical Optimization
+3163,SFWRTECH 4NN3,Neural Networks and Deep Learning
+3164,SFWRTECH 4NS3,Advanced Network Security
+3165,SFWRTECH 4SA3,Software Architecture
+3166,SFWRTECH 4SS3,Software Security
+3167,SFWRTECH 4VD3,Videogame Development Technology
+3168,SFWRTECH 4VE3,Visual Effects and Technology for Animated Production
+3169,SFWRTECH 4WP3,Advanced Web Programming
+3170,SPANISH 1A03,Intermediate Spanish I
+3171,SPANISH 1AA3,Intermediate Spanish II
+3172,SPANISH 1Z06,Beginner’s Intensive Spanish
+3173,SPANISH 2Z03,Intermediate Spanish I
+3174,SPANISH 2ZZ3,Intermediate Spanish II
+3175,STATS 1LL3,Introduction to Probability and Statistics
+3176,STATS 2B03,Statistical Methods for Science
+3177,STATS 2D03,Introduction to Probability
+3178,STATS 2DA3,An Introduction to Data Science Methods
+3179,STATS 2MB3,Statistical Methods and Applications
+3180,STATS 3A03,Applied Regression Analysis with SAS
+3181,STATS 3D03,Mathematical Statistics
+3182,STATS 3DA3,Data Science Methods
+3183,STATS 3DS3,Introduction to Data Science Theory
+3184,STATS 3G03,Actuarial Mathematics I
+3185,STATS 3J04,Probability and Statistics for Civil Engineering
+3186,STATS 3PG3,Probability and Games of Chance
+3187,STATS 3S03,Survey Sampling
+3188,STATS 3ST3,Actuarial Models in Non-Life Insurance
+3189,STATS 3U03,Stochastic Processes
+3190,STATS 3Y03,Probability and Statistics for Engineering
+3191,STATS 4A03,Time Series
+3192,STATS 4C03,Generalized Linear Models
+3193,STATS 4CI3,Computational Methods for Inference
+3194,STATS 4D03,Intermediate Probability Theory
+3195,STATS 4G03,Advanced Topics in Actuarial Science
+3196,STATS 4H03,Actuarial Mathematics II
+3197,STATS 4I03,Inference
+3198,STATS 4M03,Multivariate Analysis
+3199,STATS 4P03,Advanced Applied Statistics
+3200,STATS 4T06,Senior Research Project
+3201,STATS 4W03,Reading in Statistics
+3202,STATS 5GT3,Graduate Level Topics in Statistics
+3203,SUSTAIN 1S03,Introduction to Sustainability
+3204,SUSTAIN 2GS3,Global Questions in Sustainability
+3205,SUSTAIN 2IS3,Intersectionality and Sustainable Development
+3206,SUSTAIN 2S03,Evaluating Problems & Sustainable Solutions
+3207,SUSTAIN 2SD3,Exploring the United Nations Sustainable Development Goals
+3208,SUSTAIN 2SS3,Advocating for Sustainability
+3209,SUSTAIN 3HC3,Sustainability and Healthcare
+3210,SUSTAIN 3S03,Implementing Sustainable Change
+3211,SUSTAIN 3SS3,Community Engagement and Prototyping for Sustainability
+3212,SUSTAIN 4S06,Leadership in Sustainability
+3213,THTRFLM 2AA3,Acting as Devising I
+3214,THTRFLM 2BB3,Designing for Devised Performance
+3215,THTRFLM 2CC3,"Performance, Art, and Visual Culture in Canada"
+3216,THTRFLM 2DP3,Devised Performance Processes
+3217,THTRFLM 2FA3,Film Analysis
+3218,THTRFLM 2MM3,Movies and Me
+3219,THTRFLM 3AA3,Modernist Theatre and Drama in Europe
+3220,THTRFLM 3FF3,Early Cinema History
+3221,THTRFLM 3L03,Cinema History from WWII
+3222,THTRFLM 3OP6,Stage Design in Action
+3223,THTRFLM 3P03,Gender and Visual Culture
+3224,THTRFLM 3PS3,Devised Theatre Production: Research and Development
+3225,THTRFLM 3QA3,"Documentary, Politics, and Social Change"
+3226,THTRFLM 3RR3,"‘Cripping’ Performance: Deaf, Mad and Disabled Performance in Canada"
+3227,THTRFLM 3S06,Devised Theatre Production
+3228,THTRFLM 3SD3,Scripting Devised Performance
+3229,THTRFLM 3VS3,Visual Storytelling
+3230,THTRFLM 4A06,Theatre and Society: A Performance Project
+3231,THTRFLM 4C03,Performance and Society
+3232,THTRFLM 4D03,"Theatre, Society and Early Cinema"
+3233,WHMIS 1A00,Introduction to Health and Safety
+3234,WORKLABR 1A03,An Introduction to Work and Labour in Canada
+3235,WORKLABR 1E03,Navigating the World of Work
+3236,WORKLABR 2A03,Unions in Action
+3237,WORKLABR 2G03,Labour and Globalization
+3238,WORKLABR 2H03,"Sports, Work and Labour"
+3239,WORKLABR 2J03,Work and Racism
+3240,WORKLABR 2K03,Will Robots Take All Our Jobs?
+3241,WORKLABR 2M03,"Pop Culture, Media and Work"
+3242,WORKLABR 2P03,Working in Healthcare
+3243,WORKLABR 2W03,Human Rights and Social Justice
+3244,WORKLABR 3A03,Economics of Labour Market Issues
+3245,WORKLABR 3B03,Economics of Trade Unionism and Labour
+3246,WORKLABR 3C03,Labour and Employment Law
+3247,WORKLABR 3D03,Work: Dangerous to your Health?
+3248,WORKLABR 3E03,"Gender, Sexuality and Work"
+3249,WORKLABR 3K03,On the Move: Workers in a Global World
+3250,WORKLABR 3L03,Labour Policy and Advocacy
+3251,WORKLABR 3M03,Theoretical Approaches to Work and Labour Studies
+3252,WORKLABR 3P03,Workers’ Resistance - Past and Present
+3253,WORKLABR 3Q03,Community Engaged Research
+3254,WORKLABR 3T03,Poverty and Homelessness
+3255,WORKLABR 4A06,Work and Labour Studies Practicum
+3256,WORKLABR 4C03,Public Sector Collective Bargaining
+3257,WORKLABR 4F03,Work and the Environment
+3258,WORKLABR 4G03,Advanced Topics in Work and Labour Studies
+3259,WORKLABR 4H03,"Working Precariously: Labour Strategies, Labour Renewal"
+3260,WORKLABR 4J03,Independent Study
+3261,SOCSCI 1RM3,How do we Know? Doing Social Sciences Research
+3262,SOCSCI 2EL0,Career Preparation in the Social Sciences
+3263,SOCSCI 2EL3,Career Preparation in the Social Sciences
+3264,SOCSCI 2EN3,Entrepreneurial Training for Social Sciences
+3265,SOCSCI 2JS1,Co-Op Job Search 1
+3266,SOCSCI 2LC3,Leadership and Communications for the Not-For-Profit Sector
+3267,SOCSCI 2OP3,Operational Planning for the Not-For-Profit Sector
+3268,SOCSCI 2RD3,Resource Development for the Not-For-Profit Sector
+3269,SOCSCI 2SP3,Strategic and Long Range Planning for the Not-for-Profit Sector
+3270,SOCSCI 3EL3,Leadership for Social Innovation
+3271,SOCSCI 3EP3,Social Sciences Experiential Project
+3272,VSR 1A00,Visiting Undergraduate Student Research

@@ -37,10 +37,13 @@ router.get("/", async (req, res) => {
 
 // GET Specific Course
 
-router.get("/:id", async (req, res) => {
+router.get("/:course_code", async (req, res) => {
   try {
-    const id = req.params.id;
-    const result = await db.query("SELECT * FROM courses WHERE id = $1", [id]);
+    const courseCode = req.params.course_code;
+    const result = await db.query(
+      "SELECT * FROM courses WHERE course_code = $1",
+      [courseCode]
+    );
     if (result.rows.length == "0") {
       res.status(500).json({ error: "CANNOT GET ID" });
     } else {
