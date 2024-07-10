@@ -7,6 +7,7 @@ function SearchResults({ results }) {
         // CHANGE TO THE LINK OF THE RESPECTIVE COURSE PAGE
         return (
           <Link
+            key={result.id}
             className="course-link"
             to={"/ratings/" + result.course_code}
             style={{ textDecoration: "none", color: "black" }}
