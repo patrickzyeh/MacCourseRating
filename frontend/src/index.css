@@ -8,7 +8,7 @@
 /* Nav Bar Css */
 
 #nav-bar {
-  background-color: #ffc057;
+  background-color: #7a003c;
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
@@ -30,12 +30,12 @@
 .profile-icon {
   text-decoration: none;
   font-size: 40px;
-  color: #808080;
+  color: #b2b2b2;
   cursor: pointer;
 }
 
 .profile-icon:hover {
-  color: #000000;
+  color: #ffffff;
 }
 
 .sign-in-btn {
@@ -44,7 +44,7 @@
   text-decoration: none;
   color: white;
   font-size: 16px;
-  background-color: #7a003c;
+  background-color: #ffc057;
   padding: 12px;
   border-radius: 20px;
   border: none;
@@ -62,12 +62,12 @@
 }
 
 .active .profile-icon {
-  color: black;
+  color: white;
 }
 
 .active svg {
-  fill: black;
-  stroke: black;
+  fill: white;
+  stroke: white;
 }
 
 nav .menu {
@@ -85,7 +85,7 @@ nav .menu {
 nav .menu span {
   height: 0.4rem;
   width: 100%;
-  background-color: #7a003c;
+  background-color: #ffc057;
   border-radius: 0.5rem;
 }
 
@@ -174,10 +174,14 @@ nav .menu span {
   background-color: white;
 }
 
+.course-link:hover {
+  background-color: #e5e5e5;
+}
+
 /* Home Page CSS */
 
 .home-page {
-  background-color: #ffc057;
+  background-color: #7a003c;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -186,11 +190,27 @@ nav .menu span {
 }
 
 #home-title {
-  color: #7a003c;
+  color: #ffc057;
   font-size: 80px;
 }
 
 #title-description {
-  color: #7a003c;
+  color: #ffc057;
   margin: 25px 0px 35px 0px;
+}
+
+/* Course Page CSS */
+
+.course-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffc057;
+  height: 300px;
+}
+
+.course-title {
+  color: #7a003c;
+  font-size: 5rem;
+  text-align: center;
 }

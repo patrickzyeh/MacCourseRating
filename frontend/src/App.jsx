@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Ratings from "./pages/Ratings";
 import Search from "./pages/Search";
+import Course from "./pages/Course";
 import Dashboard from "./pages/Dashboard";
 import { useEffect, useState } from "react";
 
@@ -43,7 +44,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/ratings" element={<Ratings />} />
         <Route path="/search" element={<Search />} />
-        // ADD WRITE RATING ROUTE & COMPONENT
+        <Route path="/ratings/:id" element={<Course />} />
         <Route
           path="/dashboard"
           element={user ? <Dashboard /> : <Navigate to="/" />}

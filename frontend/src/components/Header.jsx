@@ -8,32 +8,32 @@ import GoogleIcon from "./icons/GoogleIcon";
 import { CgProfile } from "react-icons/cg";
 
 function Header({ user }) {
-  const [homeIconColor, setHomeIconColor] = useState("#808080");
-  const [ratingIconColor, setRatingIconColor] = useState("#808080");
-  const [searchIconColor, setSearchIconColor] = useState("#808080");
+  const [homeIconColor, setHomeIconColor] = useState("#b2b2b2");
+  const [ratingIconColor, setRatingIconColor] = useState("#b2b2b2");
+  const [searchIconColor, setSearchIconColor] = useState("#b2b2b2");
 
   const [menuOpen, setMenuOpen] = useState(false);
 
   function hoverHomeIcon() {
-    setHomeIconColor("#000000");
+    setHomeIconColor("#ffffff");
   }
 
   function hoverRatingIcon() {
-    setRatingIconColor("#000000");
+    setRatingIconColor("#ffffff");
   }
 
   function hoverSearchIcon() {
-    setSearchIconColor("#000000");
+    setSearchIconColor("#ffffff");
   }
   function outHomeIcon() {
-    setHomeIconColor("#808080");
+    setHomeIconColor("#b2b2b2");
   }
   function outRatingIcon() {
-    setRatingIconColor("#808080");
+    setRatingIconColor("#b2b2b2");
   }
 
   function outSearchIcon() {
-    setSearchIconColor("#808080");
+    setSearchIconColor("#b2b2b2");
   }
 
   return (
