@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import Stars from "../components/Stars";
 import NotFound from "./NotFound";
 import axios from "axios";
 
@@ -11,6 +12,11 @@ function Course() {
   const [courseTitle, setCourseTitle] = useState("");
   const [courseCodes, setCourseCodes] = useState([]);
   const [ratings, setRatings] = useState([]);
+
+  const [averageEase, setAverageEase] = useState(0);
+  const [averagePracticality, setAveragePracticality] = useState(0);
+  const [averageEnjoyability, setAverageEnjoyability] = useState(0);
+  const [averageOverall, setAverageOverall] = useState(0);
 
   useEffect(() => {
     const fetchCourseTitle = async () => {
@@ -39,14 +45,41 @@ function Course() {
       try {
         const response = await axios.get(courseUrl + "ratings/" + courseCode);
         setRatings(response.data);
+
+        // Gets and sets rating averages
+
+        if (response.data.length !== 0) {
+          let totalEase = 0;
+          let totalPracticality = 0;
+          let totalEnjoyability = 0;
+          let totalOverall = 0;
+
+          response.data.forEach((rating) => {
+            totalEase += rating.ease_rating;
+            totalPracticality += rating.practicality_rating;
+            totalEnjoyability += rating.enjoyability_rating;
+            totalOverall += rating.overall_rating;
+          });
+          setAverageEase(Math.round(totalEase / response.data.length));
+          setAveragePracticality(
+            Math.round(totalPracticality / response.data.length)
+          );
+          setAverageEnjoyability(
+            Math.round(totalEnjoyability / response.data.length)
+          );
+          setAverageOverall(Math.round(totalOverall / response.data.length));
+        }
       } catch (err) {
         console.log(err);
       }
     };
+
     fetchCourseTitle();
     fetchCourseCodes();
     fetchRatings();
   }, []);
+
+  // Checks if URL params are valid
 
   if (courseCodes.includes(courseCode)) {
     return (
@@ -63,13 +96,7 @@ function Course() {
             </p>
             <div className="overall-course-rating">
               <p>Overall Rating:</p>
-              <div className="stars-container">
-                <span className="stars">&#9733;</span>
-                <span className="stars">&#9733;</span>
-                <span className="stars">&#9733;</span>
-                <span className="stars">&#9733;</span>
-                <span className="stars">&#9733;</span>
-              </div>
+              <Stars filled={averageOverall} />
             </div>
             <button className="create-rating-btn">Write a Rating</button>
           </div>
