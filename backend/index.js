@@ -5,6 +5,7 @@ import cookieSession from "cookie-session";
 import passport from "passport";
 import authRouter from "./routes/auth.js";
 import courseRouter from "./routes/courses.js";
+import ratingRouter from "./routes/rating.js";
 
 // Initialize Express App
 
@@ -45,6 +46,8 @@ app.use(
 app.use("/api/courses", courseRouter);
 
 app.use("/auth", authRouter);
+
+app.use("/api/ratings", ratingRouter);
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);

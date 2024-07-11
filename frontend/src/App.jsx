@@ -10,6 +10,7 @@ import Ratings from "./pages/Ratings";
 import Search from "./pages/Search";
 import Course from "./pages/Course";
 import Dashboard from "./pages/Dashboard";
+import NotFound from "./pages/NotFound";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -32,10 +33,9 @@ function App() {
           console.log(err);
         });
     };
+
     getUser();
   }, []);
-
-  console.log(user);
 
   return (
     <Router>
@@ -49,6 +49,7 @@ function App() {
           path="/dashboard"
           element={user ? <Dashboard user={user} /> : <Navigate to="/" />}
         />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

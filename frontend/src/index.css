@@ -262,6 +262,7 @@ nav .menu span {
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
   background-color: #ffc057;
+  cursor: pointer;
 }
 
 .create-rating-btn:hover {
@@ -286,4 +287,21 @@ nav .menu span {
   margin-bottom: 30px;
   font-size: 50px;
   text-align: center;
+}
+
+/* Not Found Page CSS */
+
+.not-found-container {
+  background-color: #7a003c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 91.5vh;
+}
+
+.not-found {
+  color: #ffc057;
+  text-align: center;
+  font-size: 80px;
 }
