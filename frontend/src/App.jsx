@@ -10,6 +10,7 @@ import Ratings from "./pages/Ratings";
 import Search from "./pages/Search";
 import Course from "./pages/Course";
 import Dashboard from "./pages/Dashboard";
+import WriteRating from "./pages/WriteRating";
 import NotFound from "./pages/NotFound";
 import { useEffect, useState } from "react";
 
@@ -37,6 +38,8 @@ function App() {
     getUser();
   }, []);
 
+  console.log(user);
+
   return (
     <Router>
       <Header user={user} />
@@ -44,10 +47,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/ratings" element={<Ratings />} />
         <Route path="/search" element={<Search />} />
-        <Route path="/ratings/:id" element={<Course />} />
+        <Route path="/ratings/:id" element={<Course user={user} />} />
         <Route
           path="/dashboard"
           element={user ? <Dashboard user={user} /> : <Navigate to="/" />}
+        />
+        <Route
+          path="/ratings/write/:id"
+          element={user ? <WriteRating user={user} /> : <Navigate to="/" />}
         />
         <Route path="*" element={<NotFound />} />
       </Routes>

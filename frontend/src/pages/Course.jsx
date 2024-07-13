@@ -1,10 +1,13 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { IoIosCreate } from "react-icons/io";
 import Stars from "../components/Stars";
+import { Link } from "react-router-dom";
+import CourseRating from "../components/CourseRating";
 import NotFound from "./NotFound";
 import axios from "axios";
 
-function Course() {
+function Course(props) {
   const params = useParams();
   const courseCode = params.id;
   const courseUrl = "http://localhost:8000/api/";
@@ -79,7 +82,7 @@ function Course() {
     fetchRatings();
   }, []);
 
-  // Checks if URL params are valid
+  // Checks if URL params are valid and return commponent accordingly
 
   if (courseCodes.includes(courseCode)) {
     return (
@@ -88,20 +91,68 @@ function Course() {
           <h2 className="course-code">{courseCode}</h2>
           <h3 className="course-title">{courseTitle}</h3>
         </div>
-        {/* CREATE NEW POSTGRESQL TABLE TO STORE RATINGS */}
         <div className="course-page">
           <div className="course-stats">
             <p className="number-of-ratings">
               {ratings.length} {ratings.length === 1 ? "Rating" : "Ratings"}
             </p>
-            <div className="overall-course-rating">
+            <div className="average-rating">
               <p>Overall Rating:</p>
               <Stars filled={averageOverall} />
             </div>
-            <button className="create-rating-btn">Write a Rating</button>
+
+            <div className="create-rating-btn-container">
+              <Link to={`/ratings/write/${courseCode}`}>
+                <button className="create-rating-btn">
+                  <p>Write a Rating</p>
+                  <IoIosCreate />
+                </button>
+              </Link>
+            </div>
+
+            <div className="average-rating">
+              <p>Ease Rating:</p>
+              <Stars filled={averageEase} />
+            </div>
+            <div className="average-rating">
+              <p>Practicality Rating:</p>
+              <Stars filled={averagePracticality} />
+            </div>
+            <div className="average-rating">
+              <p>Enjoyability Rating:</p>
+              <Stars filled={averageEnjoyability} />
+            </div>
           </div>
 
-          <div className="course-ratings"></div>
+          <div className="course-ratings">
+            {ratings.length === 0 ? (
+              <h3>No Ratings Yet</h3>
+            ) : (
+              <>
+                <h3>
+                  {ratings.length} {ratings.length === 1 ? "Rating" : "Ratings"}
+                </h3>
+                {ratings
+                  .slice()
+                  .reverse()
+                  .map((rating) => {
+                    return (
+                      <CourseRating
+                        key={rating.id}
+                        email={rating.email}
+                        ease={rating.ease_rating}
+                        practicality={rating.practicality_rating}
+                        enjoyability={rating.enjoyability_rating}
+                        overall={rating.overall_rating}
+                        date={rating.date}
+                        review={rating.review}
+                        user={props.user}
+                      />
+                    );
+                  })}
+              </>
+            )}
+          </div>
         </div>
       </>
     );
