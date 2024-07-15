@@ -408,3 +408,44 @@ nav .menu span {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* Write Rating CSS */
+
+.write-title {
+  text-align: center;
+  color: #7a003c;
+}
+
+.rating-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.rating-form-stars {
+  padding-top: 30px;
+  width: 90%;
+}
+
+.star-form-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.selectable-star {
+  font-size: 35px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.rating-title {
+  color: #7a003c;
+  font-size: 25px;
+}
+
+.rating-description {
+  margin: 5px 0px 10px 0px;
+  color: #808080;
+}
