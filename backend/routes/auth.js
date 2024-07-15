@@ -31,6 +31,7 @@ passport.use(
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
       callbackURL: "http://localhost:8000/auth/google/callback",
+      userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
     },
     async (accessToken, refreshToken, profile, cb) => {
       try {
@@ -43,12 +44,12 @@ passport.use(
             "INSERT INTO users (email) VALUES ($1)",
             [profile.email]
           );
-          return cb(null, newUser.rows[0]);
+          cb(null, newUser.rows[0]);
         } else {
-          return cb(null, result.rows[0]);
+          cb(null, result.rows[0]);
         }
       } catch (err) {
-        return cb(err);
+        cb(err);
       }
     }
   )

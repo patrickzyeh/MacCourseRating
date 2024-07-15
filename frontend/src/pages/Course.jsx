@@ -102,12 +102,21 @@ function Course(props) {
             </div>
 
             <div className="create-rating-btn-container">
-              <Link to={`/ratings/write/${courseCode}`}>
-                <button className="create-rating-btn">
-                  <p>Write a Rating</p>
-                  <IoIosCreate />
-                </button>
-              </Link>
+              {props.user ? (
+                <Link to={`/ratings/write/${courseCode}`}>
+                  <button className="create-rating-btn">
+                    <p>Write a Rating</p>
+                    <IoIosCreate />
+                  </button>
+                </Link>
+              ) : (
+                <Link to={"http://localhost:8000/auth/google"}>
+                  <button className="create-rating-btn">
+                    <p>Write a Rating</p>
+                    <IoIosCreate />
+                  </button>
+                </Link>
+              )}
             </div>
 
             <div className="average-rating">
@@ -139,6 +148,7 @@ function Course(props) {
                     return (
                       <CourseRating
                         key={rating.id}
+                        course={courseCode}
                         email={rating.email}
                         ease={rating.ease_rating}
                         practicality={rating.practicality_rating}

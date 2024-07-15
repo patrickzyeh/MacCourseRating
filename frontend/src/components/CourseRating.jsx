@@ -3,6 +3,19 @@ import { MdDelete } from "react-icons/md";
 import { MdOutlineUpdate } from "react-icons/md";
 
 function CourseRating(props) {
+  // Delete Post Function
+
+  const deleteRating = (course, email) => {
+    try {
+      fetch(`http://localhost:8000/api/ratings/delete/${course}/${email}`, {
+        method: "GET",
+        credentials: "include",
+      }).then(window.location.reload());
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <div className="rating-entry">
       <div className="overall">
@@ -33,7 +46,12 @@ function CourseRating(props) {
                   <button className="update-btn edit-btn">
                     <MdOutlineUpdate />
                   </button>
-                  <button className="delete-btn edit-btn">
+                  <button
+                    className="delete-btn edit-btn"
+                    onClick={() => {
+                      deleteRating(props.course, props.email);
+                    }}
+                  >
                     <MdDelete />
                   </button>
                 </div>

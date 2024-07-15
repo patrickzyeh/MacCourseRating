@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import env from "dotenv";
-import cookieSession from "cookie-session";
+import session from "express-session";
 import passport from "passport";
 import authRouter from "./routes/auth.js";
 import courseRouter from "./routes/courses.js";
@@ -23,10 +23,14 @@ app.use(cors());
 // Session Middleware
 
 app.use(
-  cookieSession({
-    name: "session",
-    keys: [process.env.SESSION_SECRET],
-    maxAge: 24 * 60 * 60 * 100,
+  session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: true,
+    cookie: {
+      maxAge: 1000 * 60 * 60 * 24,
+      secure: false,
+    },
   })
 );
 

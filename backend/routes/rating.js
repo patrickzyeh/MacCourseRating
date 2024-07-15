@@ -3,6 +3,7 @@
 import express from "express";
 import pg from "pg";
 import env from "dotenv";
+import checkAuthentication from "../middleware/authorization.js";
 
 // Env Config
 
@@ -39,6 +40,25 @@ router.get("/:course_code", async (req, res) => {
   }
 });
 
-// NEED PUT REQUEST TO ADD RATING
+// DELETE RATING
+
+router.get(
+  "/delete/:course_code/:user",
+  checkAuthentication,
+
+  async (req, res) => {
+    try {
+      const courseCode = req.params.course_code;
+      const email = req.params.user;
+      await db.query(
+        "DELETE FROM ratings WHERE email = $1 and course_code = $2",
+        [email, courseCode]
+      );
+      res.status(200).json({ success: "Rating deleted" });
+    } catch (err) {
+      res.status(500).json({ error: err.message });
+    }
+  }
+);
 
 export default router;
