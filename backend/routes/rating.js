@@ -40,6 +40,20 @@ router.get("/:course_code", async (req, res) => {
   }
 });
 
+// GET a User's Ratings
+
+router.get("/user/:user", async (req, res) => {
+  try {
+    const email = req.params.user;
+    const result = await db.query("SELECT * FROM ratings WHERE email = $1", [
+      email,
+    ]);
+    res.json(result.rows);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // DELETE RATING
 
 router.get(

@@ -25,7 +25,7 @@ function WriteRating({ user }) {
             setFunction={setEaseRating}
           />
           <StarsForm
-            rating={"Pracitcality"}
+            rating={"Practicality"}
             description={"How practical was this course?"}
             setFunction={setPracticalityRating}
           />
@@ -40,6 +40,8 @@ function WriteRating({ user }) {
             setFunction={setOverallRating}
           />
         </div>
+
+        <h3 className="rating-title">Write a Review</h3>
       </div>
     </>
   );
