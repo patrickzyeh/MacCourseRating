@@ -85,18 +85,22 @@ function Dashboard(props) {
                   .reverse()
                   .map((rating) => {
                     return (
-                      <CourseRating
-                        key={rating.id}
-                        course={rating.course_code}
-                        email={rating.email}
-                        ease={rating.ease_rating}
-                        practicality={rating.practicality_rating}
-                        enjoyability={rating.enjoyability_rating}
-                        overall={rating.overall_rating}
-                        date={rating.date}
-                        review={rating.review}
-                        user={props.user}
-                      />
+                      <div key={rating.id}>
+                        <p className="dashboard-course-code">
+                          {rating.course_code}
+                        </p>
+                        <CourseRating
+                          course={rating.course_code}
+                          email={rating.email}
+                          ease={rating.ease_rating}
+                          practicality={rating.practicality_rating}
+                          enjoyability={rating.enjoyability_rating}
+                          overall={rating.overall_rating}
+                          date={rating.date}
+                          review={rating.review}
+                          user={props.user}
+                        />
+                      </div>
                     );
                   })}
               </>

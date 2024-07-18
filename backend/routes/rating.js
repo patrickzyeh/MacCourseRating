@@ -4,6 +4,7 @@ import express from "express";
 import pg from "pg";
 import env from "dotenv";
 import checkAuthentication from "../middleware/authorization.js";
+import bodyParser from "body-parser";
 
 // Env Config
 
@@ -24,6 +25,10 @@ db.connect();
 // Express Routers
 
 const router = express.Router();
+
+// Bodyparser Middleware
+
+router.use(bodyParser.urlencoded({ extended: true }));
 
 // GET Specific Course Ratings
 
@@ -69,7 +74,46 @@ router.get(
         [email, courseCode]
       );
       res.status(200).json({ success: "Rating deleted" });
+      console.log("Rating deleted");
     } catch (err) {
+      res.status(500).json({ error: err.message });
+    }
+  }
+);
+
+// POST RATING
+
+router.post(
+  "/post/:courseCode/:user",
+
+  async (req, res) => {
+    try {
+      const email = req.params.user;
+      const courseCode = req.params.courseCode;
+      const easeRating = req.body.easeRating;
+      const practicalityRating = req.body.practicalityRating;
+      const enjoyabilityRating = req.body.enjoyabilityRating;
+      const overallRating = req.body.overallRating;
+      const comment = req.body.comment;
+      const postDate = req.body.postDate;
+
+      await db.query(
+        "INSERT INTO ratings (email, course_code, ease_rating, practicality_rating, enjoyability_rating, overall_rating, review, date) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
+        [
+          email,
+          courseCode,
+          easeRating,
+          practicalityRating,
+          enjoyabilityRating,
+          overallRating,
+          comment,
+          postDate,
+        ]
+      );
+      res.status(200).json({ success: "Rating posted" });
+      console.log("Rating posted");
+    } catch (err) {
+      console.log(err);
       res.status(500).json({ error: err.message });
     }
   }

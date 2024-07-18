@@ -419,7 +419,7 @@ nav .menu span {
 .rating-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 30px;
   width: 100%;
 }
 
@@ -448,6 +448,29 @@ nav .menu span {
 .rating-description {
   margin: 5px 0px 10px 0px;
   color: #808080;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.comment-prompt {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+#comment {
+  width: 100%;
+  font-size: 15px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+
+.post-button {
 }
 
 /* Dashboard CSS */
@@ -530,4 +553,9 @@ nav .menu span {
 .dashboard-num-rating {
   margin-bottom: 15px;
   color: #737373;
+}
+
+.dashboard-course-code {
+  color: #7a003c;
+  font-size: 20px;
 }

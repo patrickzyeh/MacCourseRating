@@ -103,7 +103,7 @@ function Course(props) {
 
             <div className="create-rating-btn-container">
               {props.user ? (
-                <Link to={`/ratings/write/${courseCode}`}>
+                <Link user={props.user} to={`/ratings/write/${courseCode}`}>
                   <button className="create-rating-btn">
                     <p>Write a Rating</p>
                     <IoIosCreate />

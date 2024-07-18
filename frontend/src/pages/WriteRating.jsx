@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import StarsForm from "../components/StarsForm";
+import toast, { Toaster } from "react-hot-toast";
 
-function WriteRating({ user }) {
+function WriteRating(props) {
   const params = useParams();
   const courseCode = params.id;
 
@@ -11,8 +12,67 @@ function WriteRating({ user }) {
   const [enjoyabilityRating, setEnjoyabilityRating] = useState(null);
   const [overallRating, setOverallRating] = useState(null);
 
+  const [commentInput, setCommentInput] = useState(null);
+
+  const handleChange = (value) => {
+    setCommentInput(value);
+  };
+
+  const postRating = async () => {
+    if (commentInput.length >= 50) {
+      try {
+        await fetch("https://vector.profanity.dev", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: commentInput }),
+        }).then(async (data) => {
+          const json = await data.json();
+          console.log(json.isProfanity);
+
+          if (!json.isProfanity) {
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, "0");
+            var mm = String(today.getMonth() + 1).padStart(2, "0");
+            var yyyy = today.getFullYear().toString();
+
+            const date = mm + "/" + dd + "/" + yyyy.substring(yyyy.length - 2);
+
+            try {
+              await fetch(
+                `http://localhost:8000/api/ratings/post/${courseCode}/${props.user.email}`,
+                {
+                  method: "POST",
+                  body: new URLSearchParams({
+                    easeRating: easeRating,
+                    practicalityRating: practicalityRating,
+                    enjoyabilityRating: enjoyabilityRating,
+                    overallRating: overallRating,
+                    comment: commentInput,
+                    postDate: date,
+                  }),
+                }
+              ).then(() => {
+                toast.success("Rating created!");
+              });
+            } catch (error) {
+              toast.error("Couldn't create post.");
+            }
+          } else {
+            toast.error("Comment includes profanity.");
+          }
+        });
+      } catch (error) {
+        console.log(error);
+        toast.error("Couldn't create post.");
+      }
+    } else {
+      toast.error("Minimum of 50 characters required.");
+    }
+  };
+
   return (
     <>
+      <Toaster position="bottom-right" />
       <div className="course-container">
         <h2 className="write-title">Write a Rating for</h2>
         <h2 className="course-code">{courseCode}</h2>
@@ -41,7 +101,33 @@ function WriteRating({ user }) {
           />
         </div>
 
-        <h3 className="rating-title">Write a Review</h3>
+        <div className="comment-container">
+          <h3 className="rating-title comment-prompt">Write a Comment</h3>
+          <textarea
+            id="comment"
+            name="comment"
+            maxLength="500"
+            placeholder="What would you like others to know about this course? (min 50 characters, max 500 characters)"
+            rows={5}
+            onChange={(e) => handleChange(e.target.value)}
+          ></textarea>
+        </div>
+
+        <button
+          className="post-button"
+          disabled={
+            easeRating &&
+            practicalityRating &&
+            enjoyabilityRating &&
+            overallRating &&
+            commentInput
+              ? false
+              : true
+          }
+          onMouseDown={postRating}
+        >
+          Post Rating
+        </button>
       </div>
     </>
   );
