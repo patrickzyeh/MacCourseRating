@@ -471,6 +471,23 @@ nav .menu span {
 }
 
 .post-button {
+  color: white;
+  margin: 20px 0px 20px 0px;
+  width: 125px;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+}
+
+.button-enabled {
+  cursor: pointer;
+  background-color: #7a003c;
+}
+
+.button-disabled {
+  cursor: not-allowed;
+  background-color: #b2b2b2;
 }
 
 /* Dashboard CSS */

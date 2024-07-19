@@ -19,7 +19,7 @@ function WriteRating(props) {
   };
 
   const postRating = async () => {
-    if (commentInput.length >= 50) {
+    if (commentInput.length >= 30) {
       try {
         await fetch("https://vector.profanity.dev", {
           method: "POST",
@@ -38,7 +38,7 @@ function WriteRating(props) {
             const date = mm + "/" + dd + "/" + yyyy.substring(yyyy.length - 2);
 
             try {
-              await fetch(
+              const response = await fetch(
                 `http://localhost:8000/api/ratings/post/${courseCode}/${props.user.email}`,
                 {
                   method: "POST",
@@ -51,9 +51,12 @@ function WriteRating(props) {
                     postDate: date,
                   }),
                 }
-              ).then(() => {
+              );
+              if (response.ok) {
                 toast.success("Rating created!");
-              });
+              } else {
+                toast.error("Users are limited to 1 rating per course.");
+              }
             } catch (error) {
               toast.error("Couldn't create post.");
             }
@@ -66,7 +69,7 @@ function WriteRating(props) {
         toast.error("Couldn't create post.");
       }
     } else {
-      toast.error("Minimum of 50 characters required.");
+      toast.error("Minimum of 30 characters required.");
     }
   };
 
@@ -107,14 +110,22 @@ function WriteRating(props) {
             id="comment"
             name="comment"
             maxLength="500"
-            placeholder="What would you like others to know about this course? (min 50 characters, max 500 characters)"
+            placeholder="What would you like others to know about this course? (min 30 characters, max 500 characters)"
             rows={5}
             onChange={(e) => handleChange(e.target.value)}
           ></textarea>
         </div>
 
         <button
-          className="post-button"
+          className={`post-button ${
+            easeRating &&
+            practicalityRating &&
+            enjoyabilityRating &&
+            overallRating &&
+            commentInput
+              ? "button-enabled"
+              : "button-disabled"
+          }`}
           disabled={
             easeRating &&
             practicalityRating &&

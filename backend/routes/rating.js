@@ -69,6 +69,7 @@ router.get(
     try {
       const courseCode = req.params.course_code;
       const email = req.params.user;
+
       await db.query(
         "DELETE FROM ratings WHERE email = $1 and course_code = $2",
         [email, courseCode]
@@ -83,20 +84,23 @@ router.get(
 
 // POST RATING
 
-router.post(
-  "/post/:courseCode/:user",
+router.post("/post/:courseCode/:user", async (req, res) => {
+  try {
+    const email = req.params.user;
+    const courseCode = req.params.courseCode;
+    const easeRating = req.body.easeRating;
+    const practicalityRating = req.body.practicalityRating;
+    const enjoyabilityRating = req.body.enjoyabilityRating;
+    const overallRating = req.body.overallRating;
+    const comment = req.body.comment;
+    const postDate = req.body.postDate;
 
-  async (req, res) => {
-    try {
-      const email = req.params.user;
-      const courseCode = req.params.courseCode;
-      const easeRating = req.body.easeRating;
-      const practicalityRating = req.body.practicalityRating;
-      const enjoyabilityRating = req.body.enjoyabilityRating;
-      const overallRating = req.body.overallRating;
-      const comment = req.body.comment;
-      const postDate = req.body.postDate;
+    const result = await db.query(
+      "SELECT * FROM ratings WHERE email = $1 and course_code = $2",
+      [email, courseCode]
+    );
 
+    if (result.rowCount === 0) {
       await db.query(
         "INSERT INTO ratings (email, course_code, ease_rating, practicality_rating, enjoyability_rating, overall_rating, review, date) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
         [
@@ -112,11 +116,13 @@ router.post(
       );
       res.status(200).json({ success: "Rating posted" });
       console.log("Rating posted");
-    } catch (err) {
-      console.log(err);
-      res.status(500).json({ error: err.message });
+    } else {
+      res.status(500).json({ error: "Users are limited to 1 post per course" });
     }
+  } catch (err) {
+    console.log(err);
+    res.status(500).json({ error: err.message });
   }
-);
+});
 
 export default router;
