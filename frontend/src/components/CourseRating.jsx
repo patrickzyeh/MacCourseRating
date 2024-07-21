@@ -1,6 +1,7 @@
 import Stars from "./Stars";
 import { MdDelete } from "react-icons/md";
 import { MdOutlineUpdate } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function CourseRating(props) {
   // Delete Post Function
@@ -43,9 +44,14 @@ function CourseRating(props) {
             if (props.user.email === props.email) {
               return (
                 <div className="edit-btn-container">
-                  <button className="update-btn edit-btn">
-                    <MdOutlineUpdate />
-                  </button>
+                  <Link
+                    user={props.user}
+                    to={`/ratings/update/${props.course}`}
+                  >
+                    <button className="update-btn edit-btn">
+                      <MdOutlineUpdate />
+                    </button>
+                  </Link>
                   <button
                     className="delete-btn edit-btn"
                     onClick={() => {

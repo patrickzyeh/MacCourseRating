@@ -485,6 +485,12 @@ nav .menu span {
   background-color: #7a003c;
 }
 
+.button-enabled:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
 .button-disabled {
   cursor: not-allowed;
   background-color: #b2b2b2;

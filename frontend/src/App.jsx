@@ -54,6 +54,16 @@ function App() {
           path="/ratings/write/:id"
           element={user ? <WriteRating user={user} /> : <Navigate to="/" />}
         />
+        <Route
+          path="/ratings/update/:id"
+          element={
+            user ? (
+              <WriteRating user={user} update={true} />
+            ) : (
+              <Navigate to="/" />
+            )
+          }
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

@@ -1,11 +1,18 @@
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
+import { useEffect } from "react";
 
 function StarsForm(props) {
   const stars = Array(5).fill(0);
 
   const [currentValue, setCurrentValue] = useState(0);
   const [hoverValue, setHoverValue] = useState(null);
+
+  useEffect(() => {
+    if (props.update) {
+      handleClick(props.update);
+    }
+  });
 
   const handleClick = (value) => {
     setCurrentValue(value);

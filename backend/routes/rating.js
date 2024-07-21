@@ -45,6 +45,22 @@ router.get("/:course_code", async (req, res) => {
   }
 });
 
+// GET Specific User Course Rating
+
+router.get("/specific/:course_code/:user", async (req, res) => {
+  try {
+    const courseCode = req.params.course_code;
+    const user = req.params.user;
+    const result = await db.query(
+      "SELECT * FROM ratings WHERE course_code = $1 and email = $2",
+      [courseCode, user]
+    );
+    res.json(result.rows);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // GET a User's Ratings
 
 router.get("/user/:user", async (req, res) => {
@@ -116,6 +132,47 @@ router.post("/post/:courseCode/:user", async (req, res) => {
       );
       res.status(200).json({ success: "Rating posted" });
       console.log("Rating posted");
+    } else {
+      res.status(500).json({ error: "Users are limited to 1 post per course" });
+    }
+  } catch (err) {
+    console.log(err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// PATCH RATING
+
+router.patch("/update/:courseCode/:user", async (req, res) => {
+  try {
+    const email = req.params.user;
+    const courseCode = req.params.courseCode;
+    const easeRating = req.body.easeRating;
+    const practicalityRating = req.body.practicalityRating;
+    const enjoyabilityRating = req.body.enjoyabilityRating;
+    const overallRating = req.body.overallRating;
+    const comment = req.body.comment;
+
+    const result = await db.query(
+      "SELECT * FROM ratings WHERE email = $1 and course_code = $2",
+      [email, courseCode]
+    );
+
+    if (result.rowCount === 1) {
+      await db.query(
+        "UPDATE ratings SET ease_rating = $3, practicality_rating = $4, enjoyability_rating = $5, overall_rating = $6, review = $7 WHERE email = $1 and course_code = $2",
+        [
+          email,
+          courseCode,
+          easeRating,
+          practicalityRating,
+          enjoyabilityRating,
+          overallRating,
+          comment,
+        ]
+      );
+      res.status(200).json({ success: "Rating posted" });
+      console.log("Rating updated");
     } else {
       res.status(500).json({ error: "Users are limited to 1 post per course" });
     }
