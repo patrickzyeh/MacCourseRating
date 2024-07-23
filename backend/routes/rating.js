@@ -32,7 +32,7 @@ router.use(bodyParser.urlencoded({ extended: true }));
 
 // GET Specific Course Ratings
 
-router.get("/:course_code", async (req, res) => {
+router.get("/specific/:course_code", async (req, res) => {
   try {
     const courseCode = req.params.course_code;
     const result = await db.query(
@@ -69,6 +69,32 @@ router.get("/user/:user", async (req, res) => {
     const result = await db.query("SELECT * FROM ratings WHERE email = $1", [
       email,
     ]);
+    res.json(result.rows);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// GET Courses with the most Ratings
+
+router.get("/top", async (req, res) => {
+  try {
+    const result = await db.query(
+      "SELECT course_code, COUNT(course_code) as counted FROM ratings GROUP BY course_code ORDER BY counted DESC LIMIT 5"
+    );
+    res.json(result.rows);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// GET Most recent Ratingbs
+
+router.get("/recent", async (req, res) => {
+  try {
+    const result = await db.query(
+      "SELECT id,course_code FROM ratings WHERE id IN (SELECT MIN(id) FROM ratings GROUP BY course_code) ORDER BY id DESC LIMIT 5"
+    );
     res.json(result.rows);
   } catch (err) {
     res.status(500).json({ error: err.message });

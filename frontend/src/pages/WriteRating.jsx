@@ -27,7 +27,6 @@ function WriteRating(props) {
           setPracticalityRating(response.data[0].practicality_rating);
           setEnjoyabilityRating(response.data[0].enjoyability_rating);
           setOverallRating(response.data[0].overall_rating);
-          setCommentInput(response.data[0].review);
         }
       } catch (error) {
         console.error(error);
@@ -149,7 +148,9 @@ function WriteRating(props) {
     <>
       <Toaster position="bottom-right" />
       <div className="course-container">
-        <h2 className="write-title">Write a Rating for</h2>
+        <h2 className="write-title">
+          {props.update ? "Update Your Rating for" : "Write a Rating for"}
+        </h2>
         <h2 className="course-code">{courseCode}</h2>
       </div>
       <div className="rating-page">

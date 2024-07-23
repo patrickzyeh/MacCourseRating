@@ -46,7 +46,9 @@ function Course(props) {
 
     const fetchRatings = async () => {
       try {
-        const response = await axios.get(courseUrl + "ratings/" + courseCode);
+        const response = await axios.get(
+          courseUrl + "ratings/specific/" + courseCode
+        );
         setRatings(response.data);
 
         // Gets and sets rating averages

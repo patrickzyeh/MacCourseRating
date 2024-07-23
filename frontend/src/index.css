@@ -582,3 +582,44 @@ nav .menu span {
   color: #7a003c;
   font-size: 20px;
 }
+
+/* Rating Block CSS */
+
+.rating-block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #7a003c;
+  padding: 20%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.rating-block-container:hover {
+  transform: scale(1.05);
+}
+
+/* Most Rating Page CSS */
+
+.main-rating-page-container {
+  height: 91.5vh;
+  background-color: #ffc057;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-rating-page-container h2 {
+  color: #7a003c;
+  font-size: 40px;
+}
+
+.most-rating-container {
+  margin: 50px 0px 50px 0px;
+  display: grid;
+  width: 95%;
+  gap: 10%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
