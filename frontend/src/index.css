@@ -155,6 +155,20 @@ nav .menu span {
   outline: none;
 }
 
+@media (max-width: 500px) {
+  .search-bar-container {
+    min-width: 300px;
+  }
+
+  .search-container {
+    height: 2rem;
+  }
+
+  .search-container input {
+    font-size: 18px;
+  }
+}
+
 /* Search Result CSS */
 
 .search-results {
@@ -197,6 +211,18 @@ nav .menu span {
 #title-description {
   color: #ffc057;
   margin: 25px 0px 35px 0px;
+}
+
+@media (max-width: 500px) {
+  .home-page {
+    padding-left: 20px;
+  }
+  #home-title {
+    font-size: 40px;
+  }
+  #title-description {
+    font-size: 20px;
+  }
 }
 
 /* Course Page CSS */
@@ -255,6 +281,8 @@ nav .menu span {
 .create-rating-btn-container {
   display: flex;
   justify-content: center;
+  grid-row-start: 1;
+  grid-column-start: 3;
 }
 
 .create-rating-btn {
@@ -301,6 +329,17 @@ nav .menu span {
   }
 }
 
+@media (max-width: 500px) {
+  .course-code {
+    font-size: 60px;
+  }
+  .course-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
 /* Search Page CSS */
 
 .search-page-container {
@@ -317,6 +356,12 @@ nav .menu span {
   margin-bottom: 30px;
   font-size: 50px;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .search-page-title {
+    font-size: 35px;
+  }
 }
 
 /* Not Found Page CSS */
@@ -336,6 +381,14 @@ nav .menu span {
   font-size: 80px;
 }
 
+@media (max-width: 500px) {
+  .not-found {
+    color: #ffc057;
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
 /* Stars CSS */
 
 .stars {
@@ -344,12 +397,21 @@ nav .menu span {
   margin: 1px;
 }
 
+@media (max-width: 550px) {
+  .stars {
+    font-size: 20px;
+    color: #ffc057;
+    margin: 1px;
+  }
+}
+
 /* Rating-entries */
 
 .rating-entry {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
   border-top: 2px solid #e5e5e5;
   padding: 20px 0px 20px 5px;
 }
@@ -371,6 +433,10 @@ nav .menu span {
 }
 
 .review {
+  max-width: 300px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
   grid-area: 2 / 2 / 5 / 3;
 }
 
@@ -407,6 +473,19 @@ nav .menu span {
   transform: scale(1.05);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 650px) {
+  .rating-entry div {
+    font-size: 10px;
+  }
+
+  .edit-btn {
+    margin: 10px;
+    font-size: 20px;
+    padding: 2.5px;
+    border-radius: 2.5px;
+  }
 }
 
 /* Write Rating CSS */
@@ -583,6 +662,18 @@ nav .menu span {
   font-size: 20px;
 }
 
+@media (max-width: 500px) {
+  .dashboard-container {
+    grid-template-columns: 1fr;
+  }
+
+  .left-panel {
+    height: 250px;
+    border-right: none;
+    border-bottom: solid #f2f2f2;
+  }
+}
+
 /* Rating Block CSS */
 
 .rating-block-container {
@@ -600,26 +691,44 @@ nav .menu span {
   transform: scale(1.05);
 }
 
+@media (max-width: 900px) {
+  .rating-block-container h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 540px) {
+  .rating-block-container h3 {
+    font-size: 10px;
+  }
+}
+
 /* Most Rating Page CSS */
 
 .main-rating-page-container {
-  height: 91.5vh;
-  background-color: #ffc057;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 91.5vh;
+  background-color: #ffc057;
   align-items: center;
 }
 
 .main-rating-page-container h2 {
   color: #7a003c;
   font-size: 40px;
+  margin: 50px 0px 50px 0px;
 }
 
 .most-rating-container {
-  margin: 50px 0px 50px 0px;
+  margin: 0px 0px 0px 0px;
   display: grid;
   width: 95%;
   gap: 10%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 500px) {
+  .main-rating-page-container h2 {
+    font-size: 25px;
+  }
 }

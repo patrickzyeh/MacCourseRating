@@ -103,6 +103,19 @@ function Course(props) {
               <Stars filled={averageOverall} />
             </div>
 
+            <div className="average-rating">
+              <p>Ease Rating:</p>
+              <Stars filled={averageEase} />
+            </div>
+            <div className="average-rating">
+              <p>Practicality Rating:</p>
+              <Stars filled={averagePracticality} />
+            </div>
+            <div className="average-rating">
+              <p>Enjoyability Rating:</p>
+              <Stars filled={averageEnjoyability} />
+            </div>
+
             <div className="create-rating-btn-container">
               {props.user ? (
                 <Link user={props.user} to={`/ratings/write/${courseCode}`}>
@@ -119,19 +132,6 @@ function Course(props) {
                   </button>
                 </Link>
               )}
-            </div>
-
-            <div className="average-rating">
-              <p>Ease Rating:</p>
-              <Stars filled={averageEase} />
-            </div>
-            <div className="average-rating">
-              <p>Practicality Rating:</p>
-              <Stars filled={averagePracticality} />
-            </div>
-            <div className="average-rating">
-              <p>Enjoyability Rating:</p>
-              <Stars filled={averageEnjoyability} />
             </div>
           </div>
 

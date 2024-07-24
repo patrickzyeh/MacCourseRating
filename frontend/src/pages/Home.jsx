@@ -10,7 +10,7 @@ function Home() {
       <div className="home-page">
         <h1 id="home-title">McMaster Course Ratings</h1>
         <h2 id="title-description">
-          Course Ratings to Pave Your McMaster Experience
+          Course Ratings to Elevate Your McMaster Experience
         </h2>
         <div className="search-bar-container">
           <Searchbar setResults={setResults} />
