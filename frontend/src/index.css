@@ -684,6 +684,7 @@ nav .menu span {
   padding: 20%;
   border-radius: 10px;
   font-size: 20px;
+  height: 100%;
 }
 
 .rating-block-container:hover {
