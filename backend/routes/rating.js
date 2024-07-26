@@ -75,7 +75,7 @@ router.get("/user/:user", async (req, res) => {
   }
 });
 
-// GET Courses with the most Ratings
+// GET Courses with the Most Ratings
 
 router.get("/top", async (req, res) => {
   try {
