@@ -87,7 +87,12 @@ function Dashboard(props) {
                     return (
                       <div key={rating.id}>
                         <p className="dashboard-course-code">
-                          {rating.course_code}
+                          <Link
+                            style={{ textDecoration: "none", color: "#7a003c" }}
+                            to={"/ratings/" + rating.course_code}
+                          >
+                            {rating.course_code}
+                          </Link>
                         </p>
                         <CourseRating
                           course={rating.course_code}

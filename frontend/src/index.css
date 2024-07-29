@@ -181,10 +181,10 @@ nav .menu span {
   margin-top: 1rem;
   max-height: 215px;
   overflow-y: scroll;
+  padding-left: 7px;
 }
 
 .search-results div {
-  margin-left: 5px;
   background-color: white;
 }
 
