@@ -55,6 +55,31 @@ passport.use(
   )
 );
 
+// passport.use(
+//   "google",
+//   new GoogleStrategy(
+//     {
+//       clientID: process.env.GOOGLE_CLIENT_ID,
+//       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+//       callbackURL: "http://localhost:8000/auth/google/callback",
+//       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
+//     },
+//     async (accessToken, refreshToken, profile, cb) => {
+//       const { data, error } = await supabase
+//         .from(users)
+//         .select()
+//         .where("email", profile.email);
+
+//       if (error) {
+//         res.status(500).json({ error: error });
+//       }
+//       if (data) {
+//         res.json(data);
+//       }
+//     }
+//   )
+// );
+
 passport.serializeUser((user, cb) => {
   cb(null, user);
 });

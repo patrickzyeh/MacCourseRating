@@ -1,26 +1,14 @@
 // Router for rating CRUD operations
 
 import express from "express";
-import pg from "pg";
 import env from "dotenv";
 import checkAuthentication from "../middleware/authorization.js";
 import bodyParser from "body-parser";
+import supabase from "../db.js";
 
 // Env Config
 
 env.config();
-
-// Connect to Postgres Database
-
-const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: process.env.DATABASE_NAME,
-  password: process.env.DATABASE_ACCESS,
-  port: 5432,
-});
-
-db.connect();
 
 // Express Routers
 
@@ -33,93 +21,98 @@ router.use(bodyParser.urlencoded({ extended: true }));
 // GET Specific Course Ratings
 
 router.get("/specific/:course_code", async (req, res) => {
-  try {
-    const courseCode = req.params.course_code;
-    const result = await db.query(
-      "SELECT * FROM ratings WHERE course_code = $1",
-      [courseCode]
-    );
-    res.json(result.rows);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+  const courseCode = req.params.course_code;
+  const { data, error } = await supabase
+    .from("ratings")
+    .select()
+    .eq("course_code", courseCode);
+  if (error) {
+    res.status(500).json({ error: error });
+  }
+  if (data) {
+    res.json(data);
   }
 });
 
 // GET Specific User Course Rating
 
 router.get("/specific/:course_code/:user", async (req, res) => {
-  try {
-    const courseCode = req.params.course_code;
-    const user = req.params.user;
-    const result = await db.query(
-      "SELECT * FROM ratings WHERE course_code = $1 and email = $2",
-      [courseCode, user]
-    );
-    res.json(result.rows);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+  const courseCode = req.params.course_code;
+  const user = req.params.user;
+  const { data, error } = await supabase
+    .from("ratings")
+    .select()
+    .eq("course_code", courseCode)
+    .eq("email", user);
+  if (error) {
+    res.status(500).json({ error: error });
+  }
+  if (data) {
+    res.json(data);
   }
 });
 
 // GET a User's Ratings
 
 router.get("/user/:user", async (req, res) => {
-  try {
-    const email = req.params.user;
-    const result = await db.query("SELECT * FROM ratings WHERE email = $1", [
-      email,
-    ]);
-    res.json(result.rows);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+  const email = req.params.user;
+  const { data, error } = await supabase
+    .from("ratings")
+    .select()
+    .eq("email", email);
+  if (error) {
+    res.status(500).json({ error: error });
+  }
+  if (data) {
+    res.json(data);
   }
 });
 
 // GET Courses with the most Ratings
 
 router.get("/top", async (req, res) => {
-  try {
-    const result = await db.query(
-      "SELECT course_code, COUNT(course_code) as counted FROM ratings GROUP BY course_code ORDER BY counted DESC LIMIT 5"
-    );
-    res.json(result.rows);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+  const { data, error } = await supabase.rpc("get_top_courses");
+  if (error) {
+    res.status(500).json({ error: error });
+  }
+  if (data) {
+    res.json(data);
   }
 });
 
 // GET Most recent Ratingbs
 
 router.get("/recent", async (req, res) => {
-  try {
-    const result = await db.query(
-      "SELECT id,course_code FROM ratings WHERE id IN (SELECT MIN(id) FROM ratings GROUP BY course_code) ORDER BY id DESC LIMIT 5"
-    );
-    res.json(result.rows);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+  const { data, error } = await supabase.rpc("get_min_id_by_course");
+  if (error) {
+    res.status(500).json({ error: error });
+  }
+  if (data) {
+    res.json(data);
   }
 });
 
-// DELETE RATING
+// DELETE RATIN
 
 router.get(
   "/delete/:course_code/:user",
   checkAuthentication,
 
   async (req, res) => {
-    try {
-      const courseCode = req.params.course_code;
-      const email = req.params.user;
-
-      await db.query(
-        "DELETE FROM ratings WHERE email = $1 and course_code = $2",
-        [email, courseCode]
-      );
+    const courseCode = req.params.course_code;
+    const email = req.params.user;
+    const { data, error } = await supabase
+      .from("ratings")
+      .delete()
+      .eq("email", email)
+      .eq("course_code", courseCode)
+      .select();
+    if (error) {
+      res.status(500).json({ error: error });
+    }
+    if (data) {
       res.status(200).json({ success: "Rating deleted" });
       console.log("Rating deleted");
-    } catch (err) {
-      res.status(500).json({ error: err.message });
     }
   }
 );
@@ -127,84 +120,88 @@ router.get(
 // POST RATING
 
 router.post("/post/:courseCode/:user", async (req, res) => {
-  try {
-    const email = req.params.user;
-    const courseCode = req.params.courseCode;
-    const easeRating = req.body.easeRating;
-    const practicalityRating = req.body.practicalityRating;
-    const enjoyabilityRating = req.body.enjoyabilityRating;
-    const overallRating = req.body.overallRating;
-    const comment = req.body.comment;
-    const postDate = req.body.postDate;
+  const email = req.params.user;
+  const courseCode = req.params.courseCode;
+  const easeRating = req.body.easeRating;
+  const practicalityRating = req.body.practicalityRating;
+  const enjoyabilityRating = req.body.enjoyabilityRating;
+  const overallRating = req.body.overallRating;
+  const comment = req.body.comment;
+  const postDate = req.body.postDate;
 
-    const result = await db.query(
-      "SELECT * FROM ratings WHERE email = $1 and course_code = $2",
-      [email, courseCode]
-    );
+  const { data, error } = await supabase
+    .from("ratings")
+    .select()
+    .eq("email", email)
+    .eq("course_code", courseCode);
 
-    if (result.rowCount === 0) {
-      await db.query(
-        "INSERT INTO ratings (email, course_code, ease_rating, practicality_rating, enjoyability_rating, overall_rating, review, date) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
-        [
-          email,
-          courseCode,
-          easeRating,
-          practicalityRating,
-          enjoyabilityRating,
-          overallRating,
-          comment,
-          postDate,
-        ]
-      );
-      res.status(200).json({ success: "Rating posted" });
-      console.log("Rating posted");
+  if (error) {
+    res.status(500).json({ error: error });
+  } else {
+    if (data.length === 0) {
+      const { error } = await supabase.from("ratings").insert({
+        email: email,
+        course_code: courseCode,
+        ease_rating: easeRating,
+        practicality_rating: practicalityRating,
+        enjoyability_rating: enjoyabilityRating,
+        overall_rating: overallRating,
+        review: comment,
+        date: postDate,
+      });
+      if (error) {
+        res.status(500).json({ error: error });
+      } else {
+        res.status(200).json({ success: "Rating posted" });
+        console.log("Rating posted");
+      }
     } else {
       res.status(500).json({ error: "Users are limited to 1 post per course" });
     }
-  } catch (err) {
-    console.log(err);
-    res.status(500).json({ error: err.message });
   }
 });
 
 // PATCH RATING
 
 router.patch("/update/:courseCode/:user", async (req, res) => {
-  try {
-    const email = req.params.user;
-    const courseCode = req.params.courseCode;
-    const easeRating = req.body.easeRating;
-    const practicalityRating = req.body.practicalityRating;
-    const enjoyabilityRating = req.body.enjoyabilityRating;
-    const overallRating = req.body.overallRating;
-    const comment = req.body.comment;
+  const email = req.params.user;
+  const courseCode = req.params.courseCode;
+  const easeRating = req.body.easeRating;
+  const practicalityRating = req.body.practicalityRating;
+  const enjoyabilityRating = req.body.enjoyabilityRating;
+  const overallRating = req.body.overallRating;
+  const comment = req.body.comment;
 
-    const result = await db.query(
-      "SELECT * FROM ratings WHERE email = $1 and course_code = $2",
-      [email, courseCode]
-    );
+  const { data, error } = await supabase
+    .from("ratings")
+    .select()
+    .eq("email", email)
+    .eq("course_code", courseCode);
+  if (error) {
+    res.status(500).json({ error: error });
+  } else {
+    if (data.length === 1) {
+      const { error } = await supabase
+        .from("ratings")
+        .update({
+          ease_rating: easeRating,
+          practicality_rating: practicalityRating,
+          enjoyability_rating: enjoyabilityRating,
+          overall_rating: overallRating,
+          review: comment,
+        })
+        .eq("email", email)
+        .eq("course_code", courseCode);
 
-    if (result.rowCount === 1) {
-      await db.query(
-        "UPDATE ratings SET ease_rating = $3, practicality_rating = $4, enjoyability_rating = $5, overall_rating = $6, review = $7 WHERE email = $1 and course_code = $2",
-        [
-          email,
-          courseCode,
-          easeRating,
-          practicalityRating,
-          enjoyabilityRating,
-          overallRating,
-          comment,
-        ]
-      );
-      res.status(200).json({ success: "Rating posted" });
-      console.log("Rating updated");
+      if (error) {
+        res.status(500).json({ error: error });
+      } else {
+        res.status(200).json({ success: "Rating posted" });
+        console.log("Rating updated");
+      }
     } else {
       res.status(500).json({ error: "Users are limited to 1 post per course" });
     }
-  } catch (err) {
-    console.log(err);
-    res.status(500).json({ error: err.message });
   }
 });
 
