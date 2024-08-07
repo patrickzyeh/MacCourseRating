@@ -2,25 +2,13 @@
 
 import express from "express";
 import env from "dotenv";
-import pg from "pg";
 import passport from "passport";
 import GoogleStrategy from "passport-google-oauth2";
+import supabase from "../db.js";
 
 // Env Config
 
 env.config();
-
-// Connect to Postgres Database
-
-const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: process.env.DATABASE_NAME,
-  password: process.env.DATABASE_ACCESS,
-  port: 5432,
-});
-
-db.connect();
 
 // Google OAUTH
 
@@ -34,51 +22,30 @@ passport.use(
       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
     },
     async (accessToken, refreshToken, profile, cb) => {
-      try {
-        console.log(profile);
-        const result = await db.query("SELECT * FROM users WHERE email = $1", [
-          profile.email,
+      const { data, error } = await supabase
+        .from("users")
+        .select()
+        .eq("email", profile.email);
+      if (error) {
+        cb(error);
+      }
+      if (data.length === 0) {
+        console.log("Creating new user");
+        const { newUserData, error } = await supabase.from("users").insert([
+          {
+            email: profile.email,
+          },
         ]);
-        if (result.rows.length === 0) {
-          const newUser = await db.query(
-            "INSERT INTO users (email) VALUES ($1)",
-            [profile.email]
-          );
-          cb(null, newUser.rows[0]);
-        } else {
-          cb(null, result.rows[0]);
+        if (error) {
+          cb(error);
         }
-      } catch (err) {
-        cb(err);
+        cb(null, newUserData);
+      } else {
+        cb(null, data[0]);
       }
     }
   )
 );
-
-// passport.use(
-//   "google",
-//   new GoogleStrategy(
-//     {
-//       clientID: process.env.GOOGLE_CLIENT_ID,
-//       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-//       callbackURL: "http://localhost:8000/auth/google/callback",
-//       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
-//     },
-//     async (accessToken, refreshToken, profile, cb) => {
-//       const { data, error } = await supabase
-//         .from(users)
-//         .select()
-//         .where("email", profile.email);
-
-//       if (error) {
-//         res.status(500).json({ error: error });
-//       }
-//       if (data) {
-//         res.json(data);
-//       }
-//     }
-//   )
-// );
 
 passport.serializeUser((user, cb) => {
   cb(null, user);
