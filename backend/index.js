@@ -10,7 +10,7 @@ import ratingRouter from "./routes/rating.js";
 // Initialize Express App
 
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 // Env Config
 

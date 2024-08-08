@@ -5,7 +5,8 @@ import axios from "axios";
 function Searchbar({ setResults }) {
   const [searchInput, setSearchInput] = useState("");
 
-  const courseUrl = "http://localhost:8000/api/courses";
+  const courseUrl =
+    "https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/courses";
 
   // IMPLEMENT FETCHING RESULTS
   const fetchCourses = async (value) => {
