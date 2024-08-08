@@ -10,7 +10,8 @@ import axios from "axios";
 function Course(props) {
   const params = useParams();
   const courseCode = params.id;
-  const courseUrl = "http://localhost:8000/api/";
+  const courseUrl =
+    "https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/";
 
   const [courseTitle, setCourseTitle] = useState("");
   const [courseCodes, setCourseCodes] = useState([]);
@@ -125,7 +126,11 @@ function Course(props) {
                   </button>
                 </Link>
               ) : (
-                <Link to={"http://localhost:8000/auth/google"}>
+                <Link
+                  to={
+                    "https://course-ratings-backend-4cc685a03b26.herokuapp.com/auth/google"
+                  }
+                >
                   <button className="create-rating-btn">
                     <p>Write a Rating</p>
                     <IoIosCreate />

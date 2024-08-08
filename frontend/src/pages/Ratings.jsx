@@ -11,7 +11,7 @@ function Ratings() {
     const fetchMostRatings = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/api/ratings/top"
+          "https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/ratings/top"
         );
         setMostRatings(response.data);
       } catch (err) {
@@ -22,7 +22,7 @@ function Ratings() {
     const fetchRecentRatings = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/api/ratings/recent"
+          "https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/ratings/recent"
         );
         setRecentRatings(response.data);
       } catch (err) {

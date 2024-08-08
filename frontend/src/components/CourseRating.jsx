@@ -8,10 +8,13 @@ function CourseRating(props) {
 
   const deleteRating = (course, email) => {
     try {
-      fetch(`http://localhost:8000/api/ratings/delete/${course}/${email}`, {
-        method: "GET",
-        credentials: "include",
-      }).then(window.location.reload());
+      fetch(
+        `https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/ratings/delete/${course}/${email}`,
+        {
+          method: "GET",
+          credentials: "include",
+        }
+      ).then(window.location.reload());
     } catch (err) {
       console.log(err);
     }

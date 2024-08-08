@@ -19,10 +19,13 @@ function App() {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("http://localhost:8000/auth/login/success", {
-        method: "GET",
-        credentials: "include",
-      })
+      fetch(
+        "https://course-ratings-backend-4cc685a03b26.herokuapp.com/auth/login/success",
+        {
+          method: "GET",
+          credentials: "include",
+        }
+      )
         .then((response) => {
           if (response.status === 200) return response.json();
           throw new Error("Failed Authentication");

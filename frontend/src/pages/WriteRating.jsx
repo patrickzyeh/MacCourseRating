@@ -20,7 +20,7 @@ function WriteRating(props) {
     const getPreviousRating = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8000/api/ratings/specific/${courseCode}/${props.user.email}`
+          `https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/ratings/specific/${courseCode}/${props.user.email}`
         );
         if (response.data.length === 1) {
           setEaseRating(response.data[0].ease_rating);
@@ -63,7 +63,7 @@ function WriteRating(props) {
 
             try {
               const response = await fetch(
-                `http://localhost:8000/api/ratings/post/${courseCode}/${props.user.email}`,
+                `https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/ratings/post/${courseCode}/${props.user.email}`,
                 {
                   method: "POST",
                   body: new URLSearchParams({
@@ -111,7 +111,7 @@ function WriteRating(props) {
           if (!json.isProfanity) {
             try {
               const response = await fetch(
-                `http://localhost:8000/api/ratings/update/${courseCode}/${props.user.email}`,
+                `https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/ratings/update/${courseCode}/${props.user.email}`,
                 {
                   method: "PATCH",
                   body: new URLSearchParams({

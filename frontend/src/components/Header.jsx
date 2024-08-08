@@ -83,7 +83,7 @@ function Header({ user }) {
               <CgProfile className="profile-icon" />
             </NavLink>
           ) : (
-            <Link to="http://localhost:8000/auth/google">
+            <Link to="https://course-ratings-backend-4cc685a03b26.herokuapp.com/auth/google">
               <button className="sign-in-btn">
                 <p>Sign in with Google </p>
                 <GoogleIcon color={"#ffffff"} />

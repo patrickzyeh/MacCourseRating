@@ -20,7 +20,7 @@ function Dashboard(props) {
     const fetchRatings = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8000/api/ratings/user/${props.user.email}`
+          `https://course-ratings-backend-4cc685a03b26.herokuapp.com/api/ratings/user/${props.user.email}`
         );
         setRatings(response.data);
       } catch (err) {
@@ -65,7 +65,9 @@ function Dashboard(props) {
             <p className="dashboard-email">Signed in with {props.user.email}</p>{" "}
             <Link
               className={"logout-btn-container"}
-              to={"http://localhost:8000/auth/logout"}
+              to={
+                "https://course-ratings-backend-4cc685a03b26.herokuapp.com/auth/logout"
+              }
             >
               <button className="logout-btn">Sign Out</button>
             </Link>
