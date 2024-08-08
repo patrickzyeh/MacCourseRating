@@ -18,7 +18,8 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://localhost:8000/auth/google/callback",
+      callbackURL:
+        "https://course-ratings-backend-4cc685a03b26.herokuapp.com/auth/google/callback",
       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
     },
     async (accessToken, refreshToken, profile, cb) => {
@@ -69,7 +70,7 @@ router.get("/login/success", (req, res) => {
 
 router.get("/logout", (req, res) => {
   req.logout();
-  res.redirect("http://localhost:3000/");
+  res.redirect("https://maccourseratings.vercel.app");
 });
 
 router.get(
@@ -82,8 +83,8 @@ router.get(
 router.get(
   "/google/callback",
   passport.authenticate("google", {
-    successRedirect: "http://localhost:3000/",
-    failureRedirect: "http://localhost:3000/",
+    successRedirect: "https://maccourseratings.vercel.app",
+    failureRedirect: "https://maccourseratings.vercel.app",
   })
 );
 

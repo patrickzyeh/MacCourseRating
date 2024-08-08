@@ -32,6 +32,7 @@ function App() {
         })
         .then((resObject) => {
           setUser(resObject.user);
+          console.log(resObject.user);
         })
         .catch((err) => {
           console.log(err);
