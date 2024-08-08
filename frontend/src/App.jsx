@@ -12,8 +12,6 @@ import Course from "./pages/Course";
 import Dashboard from "./pages/Dashboard";
 import WriteRating from "./pages/WriteRating";
 import NotFound from "./pages/NotFound";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
 import { useEffect, useState } from "react";
 
 function App() {
