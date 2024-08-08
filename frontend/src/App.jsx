@@ -12,6 +12,8 @@ import Course from "./pages/Course";
 import Dashboard from "./pages/Dashboard";
 import WriteRating from "./pages/WriteRating";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -32,7 +34,7 @@ function App() {
         })
         .then((resObject) => {
           setUser(resObject.user);
-          console.log(resObject.user);
+          console.log(resObject);
         })
         .catch((err) => {
           console.log(err);
@@ -68,6 +70,8 @@ function App() {
             )
           }
         />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
