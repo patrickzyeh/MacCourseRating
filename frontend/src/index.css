@@ -687,10 +687,6 @@ nav .menu span {
   height: 100%;
 }
 
-.rating-block-container:hover {
-  transform: scale(1.05);
-}
-
 @media (max-width: 900px) {
   .rating-block-container h3 {
     font-size: 15px;
