@@ -60,7 +60,7 @@ function Dashboard(props) {
                 {option === "account" ? (
                     <>
                         <h1>Account</h1> <p className="dashboard-email">Signed in with {props.user.email}</p>{" "}
-                        <Link className={"logout-btn-container"} to={"https://course-ratings-backend-4cc685a03b26.herokuapp.com/auth/logout"}>
+                        <Link className={"logout-btn-container"} to={"https://courseratingbackend.vercel.app/auth/logout"}>
                             <button className="logout-btn">Sign Out</button>
                         </Link>
                     </>
