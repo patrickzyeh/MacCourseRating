@@ -20,7 +20,7 @@ env.config();
 
 app.use(cors());
 
-// Session Middleware
+// Session Middlewares
 
 app.use(
   session({
