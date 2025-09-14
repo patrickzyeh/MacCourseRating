@@ -20,7 +20,7 @@ passport.use(
             clientSecret: process.env.GOOGLE_CLIENT_SECRET,
             callbackURL:
                 // might need to change this
-                "https://course-ratings-backend-4cc685a03b26.herokuapp.com/auth/google/callback",
+                "https://courseratingbackend.vercel.app/auth/google/callback",
             userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
         },
         async (accessToken, refreshToken, profile, cb) => {

@@ -119,7 +119,7 @@ function Course(props) {
                                     </button>
                                 </Link>
                             ) : (
-                                <Link to={"https://course-ratings-backend-4cc685a03b26.herokuapp.com/auth/google"}>
+                                <Link to={"https://courseratingbackend.vercel.app/auth/google"}>
                                     <button className="create-rating-btn">
                                         <p>Write a Rating</p>
                                         <IoIosCreate />
